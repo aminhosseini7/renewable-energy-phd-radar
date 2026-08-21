@@ -1,7 +1,0 @@
-requests
-beautifulsoup4
-pandas
-pyyaml
-streamlit
-python-dateutil
-schedule
