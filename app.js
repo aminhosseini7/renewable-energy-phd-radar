@@ -1,11 +1,16 @@
-fetch('reports/opportunities.csv')
-.then(r=>r.text())
-.then(t=>{
- const rows=t.split('\n').slice(1);
- const table=document.getElementById('table');
- rows.filter(x=>x.trim()).forEach(r=>{
-   let c=r.split(',');
-   table.innerHTML += `<tr><td>${c[0]||''}</td><td>${c[1]||''}</td><td>${c[2]||''}</td></tr>`;
- });
-})
-.catch(e=>console.log(e));
+let data=[];
+fetch('reports/opportunities.json')
+.then(r=>r.json())
+.then(x=>{data=x;show(x);});
+
+function show(arr){
+let t=document.getElementById('rows');
+t.innerHTML='';
+arr.forEach(o=>{
+t.innerHTML+=`<tr><td>${o.title}</td><td>${o.university}</td><td>${o.country}</td><td>${o.score}</td></tr>`;
+});
+}
+document.getElementById('search').onkeyup=e=>{
+let q=e.target.value.toLowerCase();
+show(data.filter(x=>JSON.stringify(x).toLowerCase().includes(q)));
+}

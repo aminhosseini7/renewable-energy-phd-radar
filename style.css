@@ -1,26 +1,5 @@
-body{
-font-family:Arial,sans-serif;
-background:#f4f7fb;
-margin:0;
-}
-.container{
-max-width:1100px;
-margin:40px auto;
-}
-h1{
-color:#123;
-}
-.card{
-background:white;
-padding:25px;
-border-radius:12px;
-box-shadow:0 2px 10px #ccc;
-}
-table{
-width:100%;
-border-collapse:collapse;
-}
-td,th{
-padding:10px;
-border-bottom:1px solid #ddd;
-}
+body{font-family:Arial;background:#f4f7fb}
+.box{margin:40px auto;background:white;padding:30px;max-width:1100px}
+table{width:100%;border-collapse:collapse}
+td,th{padding:10px;border-bottom:1px solid #ddd}
+input{width:100%;padding:10px}
