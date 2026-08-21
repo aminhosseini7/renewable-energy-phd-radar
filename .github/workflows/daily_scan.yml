@@ -1,9 +1,12 @@
-name: Daily PhD Radar v11
+name: Daily PhD Radar v12
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   scan:
@@ -14,16 +17,16 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - run: pip install -r requirements.txt
 
       - run: python worker.py
 
-            - name: Save reports
+      - name: Save reports
         run: |
           git config user.name "PhD Radar Bot"
           git config user.email "actions@github.com"
           git add reports data
-          git commit -m "Update PhD opportunities report" || exit 0
+          git commit -m "Update radar results" || exit 0
           git push
