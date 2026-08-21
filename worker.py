@@ -1,39 +1,42 @@
-from crawler.sources import collect
-from crawler.extractor import find_deadline, funding_level
-from crawler.vacancy_parser import extract_title, extract_supervisor
-from scoring import score
-import pandas as pd
-from pathlib import Path
+from crawler.base import fetch
+from crawler.extractor import funding,deadline
+from engine.matcher import score
+from database.db import init,exists
+import yaml,pandas as pd
 from datetime import datetime
+from pathlib import Path
 
-Path("reports").mkdir(exist_ok=True)
+init()
+Path('reports').mkdir(exist_ok=True)
+
+with open('config/sources.yaml',encoding='utf8') as f:
+    sources=yaml.safe_load(f)['sources']
 
 rows=[]
 
-for item in collect():
+for s in sources:
 
-    s, matches=score(item["text"])
+    text=fetch(s['url'])
+    fit,hits=score(text)
 
     rows.append({
-        "date":datetime.now().isoformat(),
-        "source":item["source"],
-        "country":item["country"],
-        "title":extract_title(item["text"]),
-        "supervisor":extract_supervisor(item["text"]),
-        "research_score":s,
-        "funding":funding_level(item["text"]),
-        "deadline":find_deadline(item["text"]),
-        "matched":",".join(matches),
-        "url":item["url"]
+        'date':datetime.now().isoformat(),
+        'source':s['name'],
+        'country':s['country'],
+        'score':fit,
+        'funding':funding(text),
+        'deadline':deadline(text),
+        'matches':', '.join(hits),
+        'url':s['url']
     })
 
 
 pd.DataFrame(rows).sort_values(
-    ["research_score"],
+    'score',
     ascending=False
 ).to_csv(
-    "reports/opportunities.csv",
+    'reports/opportunities.csv',
     index=False
 )
 
-print("v7 completed")
+print('v11 completed')

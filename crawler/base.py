@@ -6,8 +6,11 @@ def fetch(url):
         r=requests.get(
             url,
             timeout=20,
-            headers={"User-Agent":"Renewable Energy PhD Radar"}
+            headers={'User-Agent':'PhD Radar Bot'}
         )
-        return BeautifulSoup(r.text,"html.parser").get_text(" ")
-    except Exception:
-        return ""
+        return BeautifulSoup(
+            r.text,
+            'html.parser'
+        ).get_text(' ')
+    except:
+        return ''

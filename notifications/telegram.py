@@ -1,2 +1,2 @@
-# Telegram notification placeholder.
-# Add bot token and chat id later.
+# Telegram integration module.
+# Will be activated in future version.

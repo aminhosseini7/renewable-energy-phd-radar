@@ -1,0 +1,25 @@
+profile:
+  research:
+    - sustainable aviation fuel
+    - SAF
+    - HEFA
+    - biomass
+    - bioenergy
+    - supply chain
+    - network design
+    - MILP
+    - stochastic programming
+    - robust optimization
+    - biorefinery
+    - circular economy
+
+  methods:
+    - mixed integer linear programming
+    - epsilon constraint
+    - Pareto
+    - uncertainty
+
+  countries:
+    - Australia
+    - Netherlands
+    - Canada

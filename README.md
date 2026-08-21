@@ -1,19 +1,18 @@
-# Renewable Energy PhD Radar v7
+# Renewable Energy PhD Radar v11
 
-A free PhD opportunity discovery assistant focused on:
+PhD application assistant focused on:
 
-- Biomass / bioenergy / biofuel supply chains
-- Renewable energy supply chain network design
-- Sustainable optimization
-- Robust and stochastic optimization
+- Sustainable Aviation Fuel (SAF)
+- HEFA pathways
+- Biomass and bioenergy supply chains
+- Renewable energy optimization
+- MILP and stochastic optimization
 
-v7 features:
-- Dedicated PhD vacancy extraction framework
-- Academic portal support structure
-- Supervisor matching
-- Fully-funded detection
-- Deadline extraction
-- Email preparation data
-- Daily GitHub Actions scan
-
-No paid API required.
+v11 features:
+- Opportunity database
+- Source adapters
+- New opportunity detection
+- Supervisor matching framework
+- Deadline tracking
+- Funding confidence scoring
+- Email draft preparation
