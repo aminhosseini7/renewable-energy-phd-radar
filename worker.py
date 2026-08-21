@@ -1,8 +1,7 @@
-from crawler.fetcher import fetch
-from crawler.discovery import find_vacancy_links
-from crawler.extractor import deadline,funding,title
-from engine.ranking import rank
-from database.storage import init
+from radar.fetch import fetch
+from radar.ranking import score
+from radar.extract import funding,deadline,title
+from database.history import init
 import yaml,pandas as pd
 from pathlib import Path
 
@@ -16,26 +15,18 @@ rows=[]
 
 for s in sources:
     text=fetch(s["url"])
-    score,matches=rank(text)
-
+    sc,hits=score(text)
     rows.append({
         "source":s["name"],
         "country":s["country"],
         "title":title(text),
-        "score":score,
+        "score":sc,
         "funding":funding(text),
         "deadline":deadline(text),
-        "vacancy_signals":str(find_vacancy_links(text)[:5]),
-        "matches":", ".join(matches),
+        "matches":", ".join(hits),
         "url":s["url"]
     })
 
-pd.DataFrame(rows).sort_values(
-    "score",
-    ascending=False
-).to_csv(
-    "reports/opportunities.csv",
-    index=False
-)
+pd.DataFrame(rows).sort_values("score",ascending=False).to_csv("reports/opportunities.csv",index=False)
 
-print("Radar v12 completed")
+print("PRO RADAR COMPLETE")

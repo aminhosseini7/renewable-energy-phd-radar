@@ -1,4 +1,4 @@
-profile:
+candidate:
   keywords:
     - sustainable aviation fuel
     - SAF
@@ -10,14 +10,8 @@ profile:
     - supply chain
     - network design
     - MILP
-    - mixed integer linear programming
     - stochastic programming
     - robust optimization
     - uncertainty
     - circular economy
     - lifecycle emissions
-
-  countries:
-    - Australia
-    - Netherlands
-    - Canada

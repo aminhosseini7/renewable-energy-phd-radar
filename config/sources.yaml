@@ -1,5 +1,4 @@
 sources:
-
   - name: AcademicTransfer
     country: Netherlands
     url: https://www.academictransfer.com
@@ -16,7 +15,7 @@ sources:
     country: Australia
     url: https://www.uts.edu.au
 
-  - name: Wageningen University
+  - name: Wageningen
     country: Netherlands
     url: https://www.wur.nl
 

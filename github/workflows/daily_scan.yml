@@ -1,4 +1,4 @@
-name: Daily PhD Radar v12
+name: Daily PhD Radar PRO
 
 on:
   workflow_dispatch:
@@ -11,22 +11,14 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - run: pip install -r requirements.txt
-
       - run: python worker.py
-
-      - name: Save reports
-        run: |
-          git config user.name "PhD Radar Bot"
-          git config user.email "actions@github.com"
+      - run: |
           git add reports data
-          git commit -m "Update radar results" || exit 0
+          git commit -m "Update radar" || exit 0
           git push
