@@ -1,0 +1,35 @@
+sources:
+  - name: University of Sydney
+    country: Australia
+    type: university
+    url: https://www.sydney.edu.au
+
+  - name: UTS
+    country: Australia
+    type: university
+    url: https://www.uts.edu.au
+
+  - name: UNSW
+    country: Australia
+    type: university
+    url: https://www.unsw.edu.au
+
+  - name: RMIT
+    country: Australia
+    type: university
+    url: https://www.rmit.edu.au
+
+  - name: Wageningen
+    country: Netherlands
+    type: university
+    url: https://www.wur.nl
+
+  - name: AcademicTransfer
+    country: Netherlands
+    type: phd_portal
+    url: https://www.academictransfer.com
+
+  - name: UBC
+    country: Canada
+    type: university
+    url: https://www.ubc.ca

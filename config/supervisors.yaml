@@ -1,0 +1,20 @@
+supervisors:
+
+  - name: Taraneh Sowlati
+    university: UBC
+    keywords:
+      - biomass
+      - bioenergy
+      - supply chain
+
+  - name: Kaveh Khalilpour
+    university: UTS
+    keywords:
+      - renewable energy
+      - optimization
+
+  - name: Seyed Mojib Zahraee
+    university: RMIT
+    keywords:
+      - renewable energy
+      - supply chain
