@@ -1,18 +1,17 @@
 import yaml
 
-def research_score(text):
+def score(text):
 
     with open("config/keywords.yaml",encoding="utf8") as f:
         cfg=yaml.safe_load(f)
 
-    score=0
-    matches=[]
-
     text=text.lower()
+    total=0
+    matches=[]
 
     for k,v in cfg["research"].items():
         if k in text:
-            score+=v
+            total+=v
             matches.append(k)
 
-    return min(score,100),matches
+    return min(total,100), matches

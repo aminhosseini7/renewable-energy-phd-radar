@@ -1,19 +1,27 @@
 research:
-  biomass: 10
-  bioenergy: 10
-  biofuel: 10
+  biomass: 12
+  bioenergy: 12
+  biofuel: 12
+  biorefinery: 12
   renewable energy: 10
-  supply chain: 10
+  supply chain: 12
+  network design: 10
   optimization: 10
-  robust optimization: 10
-  stochastic optimization: 10
+  robust optimization: 12
+  stochastic optimization: 12
   sustainability: 8
   circular economy: 8
 
 funding:
-  funded: 15
-  scholarship: 12
-  stipend: 15
-  salary: 15
-  studentship: 12
-  phd position: 15
+  funded: 20
+  fully funded: 25
+  stipend: 20
+  salary: 20
+  scholarship: 15
+  studentship: 15
+  phd position: 20
+
+email:
+  supervisor: 5
+  contact: 5
+  interested students: 10

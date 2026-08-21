@@ -1,21 +1,19 @@
-# Renewable Energy PhD Radar v6
+# Renewable Energy PhD Radar v7
 
-Free PhD opportunity monitoring system.
+A free PhD opportunity discovery assistant focused on:
 
-Focus:
-- Biomass supply chains
-- Bioenergy / biofuel
-- Renewable energy systems
-- Sustainable supply chain optimization
-- Robust optimization
+- Biomass / bioenergy / biofuel supply chains
+- Renewable energy supply chain network design
+- Sustainable optimization
+- Robust and stochastic optimization
 
-v6 improvements:
-- Dedicated source adapters
-- Opportunity extraction framework
-- Supervisor monitoring framework
-- Funding confidence scoring
+v7 features:
+- Dedicated PhD vacancy extraction framework
+- Academic portal support structure
+- Supervisor matching
+- Fully-funded detection
 - Deadline extraction
-- Telegram-ready notification module
-- Better reports
+- Email preparation data
+- Daily GitHub Actions scan
 
 No paid API required.

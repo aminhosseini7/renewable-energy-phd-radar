@@ -1,9 +1,10 @@
 from crawler.sources import collect
-from crawler.extractor import funding_score, deadline
-from scoring import research_score
+from crawler.extractor import find_deadline, funding_level
+from crawler.vacancy_parser import extract_title, extract_supervisor
+from scoring import score
 import pandas as pd
-from datetime import datetime
 from pathlib import Path
+from datetime import datetime
 
 Path("reports").mkdir(exist_ok=True)
 
@@ -11,27 +12,28 @@ rows=[]
 
 for item in collect():
 
-    r,matched=research_score(item["text"])
-    f,fwords=funding_score(item["text"])
+    s, matches=score(item["text"])
 
     rows.append({
         "date":datetime.now().isoformat(),
         "source":item["source"],
         "country":item["country"],
-        "research_score":r,
-        "funding_score":f,
-        "funding_terms":",".join(fwords),
-        "deadline":deadline(item["text"]),
-        "matched":",".join(matched),
+        "title":extract_title(item["text"]),
+        "supervisor":extract_supervisor(item["text"]),
+        "research_score":s,
+        "funding":funding_level(item["text"]),
+        "deadline":find_deadline(item["text"]),
+        "matched":",".join(matches),
         "url":item["url"]
     })
 
+
 pd.DataFrame(rows).sort_values(
-    ["funding_score","research_score"],
+    ["research_score"],
     ascending=False
 ).to_csv(
     "reports/opportunities.csv",
     index=False
 )
 
-print("Radar v6 finished")
+print("v7 completed")

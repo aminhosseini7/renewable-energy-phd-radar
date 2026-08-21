@@ -1,4 +1,10 @@
 sources:
+
+  - name: AcademicTransfer
+    country: Netherlands
+    type: phd_portal
+    url: https://www.academictransfer.com
+
   - name: University of Sydney
     country: Australia
     type: university
@@ -19,15 +25,10 @@ sources:
     type: university
     url: https://www.rmit.edu.au
 
-  - name: Wageningen
+  - name: Wageningen University
     country: Netherlands
     type: university
     url: https://www.wur.nl
-
-  - name: AcademicTransfer
-    country: Netherlands
-    type: phd_portal
-    url: https://www.academictransfer.com
 
   - name: UBC
     country: Canada
