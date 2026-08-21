@@ -19,3 +19,11 @@ jobs:
       - run: pip install -r requirements.txt
 
       - run: python worker.py
+
+            - name: Save reports
+        run: |
+          git config user.name "PhD Radar Bot"
+          git config user.email "actions@github.com"
+          git add reports data
+          git commit -m "Update PhD opportunities report" || exit 0
+          git push
