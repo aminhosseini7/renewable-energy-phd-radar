@@ -1,23 +1,21 @@
 profile:
-  research:
+  keywords:
     - sustainable aviation fuel
     - SAF
     - HEFA
     - biomass
     - bioenergy
+    - biofuel
+    - biorefinery
     - supply chain
     - network design
     - MILP
+    - mixed integer linear programming
     - stochastic programming
     - robust optimization
-    - biorefinery
-    - circular economy
-
-  methods:
-    - mixed integer linear programming
-    - epsilon constraint
-    - Pareto
     - uncertainty
+    - circular economy
+    - lifecycle emissions
 
   countries:
     - Australia

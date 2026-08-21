@@ -2,25 +2,28 @@ sources:
 
   - name: AcademicTransfer
     country: Netherlands
-    type: portal
     url: https://www.academictransfer.com
 
   - name: University of Sydney
     country: Australia
-    type: university
     url: https://www.sydney.edu.au
+
+  - name: UNSW
+    country: Australia
+    url: https://www.unsw.edu.au
 
   - name: UTS
     country: Australia
-    type: university
     url: https://www.uts.edu.au
 
-  - name: Wageningen
+  - name: Wageningen University
     country: Netherlands
-    type: university
     url: https://www.wur.nl
+
+  - name: TU Delft
+    country: Netherlands
+    url: https://www.tudelft.nl
 
   - name: UBC
     country: Canada
-    type: university
     url: https://www.ubc.ca

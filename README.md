@@ -1,18 +1,22 @@
-# Renewable Energy PhD Radar v11
+# Renewable Energy PhD Radar v12
 
-PhD application assistant focused on:
+Personal PhD opportunity intelligence system.
 
+Research focus:
 - Sustainable Aviation Fuel (SAF)
 - HEFA pathways
 - Biomass and bioenergy supply chains
-- Renewable energy optimization
-- MILP and stochastic optimization
+- Renewable energy network design
+- MILP
+- Robust and stochastic optimization
 
-v11 features:
-- Opportunity database
-- Source adapters
-- New opportunity detection
-- Supervisor matching framework
-- Deadline tracking
-- Funding confidence scoring
+v12 improvements:
+- Deep crawling framework
+- Vacancy page discovery
+- Opportunity extraction
+- Duplicate detection
+- Persistent database
+- Research fit ranking
+- Funding detection
+- Deadline detection
 - Email draft preparation
