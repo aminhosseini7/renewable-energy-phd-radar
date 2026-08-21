@@ -9,16 +9,46 @@ permissions:
   contents: write
 
 jobs:
+
   scan:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -r requirements.txt
-      - run: python worker.py
-      - run: |
-          git add reports data
-          git commit -m "Update radar" || exit 0
-          git push
+
+      - name: Install packages
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run radar
+        run: |
+          python worker.py
+
+      - name: Check generated files
+        run: |
+          ls -la
+          ls -la reports || true
+          ls -la data || true
+
+      - name: Save results
+        run: |
+          git config user.name "PhD Radar Bot"
+          git config user.email "actions@github.com"
+
+          git add -A
+
+          git status
+
+          git commit -m "Automatic radar update" || echo "No changes"
+
+          git push origin HEAD:main
