@@ -9,8 +9,7 @@ jobs:
 
     steps:
       - name: Test workflow
-        run: |
-          echo "Workflow is alive"
+        run: echo "Workflow started"
 
       - name: Checkout repository
         uses: actions/checkout@v4
