@@ -1,20 +1,21 @@
-# Renewable Energy PhD Radar PRO
+# Renewable Energy PhD Radar FULL
 
-Production version for PhD opportunity monitoring.
+Complete free PhD opportunity monitoring system.
 
-Focus:
+Research focus:
 - Sustainable Aviation Fuel (SAF)
 - HEFA
 - Biomass/Bioenergy supply chains
 - Renewable energy optimization
+- Supply chain network design
 - MILP
-- Stochastic and robust optimization
+- Robust and stochastic optimization
 
-Features:
-- Daily GitHub Actions scan
-- Research-fit ranking
+Includes:
+- Daily GitHub Actions scanner
+- Research fit ranking
 - Funding detection
 - Deadline extraction
-- Reports
-- Database storage
-- Email draft framework
+- Database
+- CSV reports
+- GitHub Pages dashboard

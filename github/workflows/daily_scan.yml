@@ -1,0 +1,31 @@
+name: Daily PhD Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - run: python worker.py
+
+      - run: |
+          git config user.name "PhD Radar Bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Update radar results" || echo "No changes"
+          git push

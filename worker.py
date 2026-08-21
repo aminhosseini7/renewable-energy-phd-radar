@@ -27,6 +27,7 @@ for s in sources:
         "url":s["url"]
     })
 
-pd.DataFrame(rows).sort_values("score",ascending=False).to_csv("reports/opportunities.csv",index=False)
+pd.DataFrame(rows).sort_values("score",ascending=False).to_csv(
+    "reports/opportunities.csv",index=False)
 
-print("PRO RADAR COMPLETE")
+print("RADAR COMPLETE")
