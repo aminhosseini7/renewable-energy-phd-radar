@@ -1,0 +1,76 @@
+name: Daily PhD Radar + Deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: read
+
+concurrency:
+  group: phd-radar
+  cancel-in-progress: false
+
+jobs:
+  scan-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python tests/test_scoring.py
+
+      - name: Scan official sources
+        run: python worker.py
+
+      - name: Commit radar data
+        run: |
+          git config user.name "PhD Radar Bot"
+          git config user.email "actions@github.com"
+          git add reports data
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatic PhD radar update"
+            git push origin HEAD:main
+          else
+            echo "No report changes to commit"
+          fi
+
+      - name: Build static site
+        run: |
+          rm -rf site
+          mkdir -p site/reports
+          cp index.html style.css app.js site/
+          cp reports/*.json reports/*.csv site/reports/
+          touch site/.nojekyll
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

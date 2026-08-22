@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Renewable Energy PhD Radar — Research DNA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="kicker">PHD RADAR · RESEARCH-DNA EDITION</div>
+    <h1>Renewable Energy PhD Radar</h1>
+    <p>Built around two academic pillars: agricultural bioenergy supply-chain design under uncertainty + HEFA-SAF strategic planning.</p>
+    <div id="lastScan" class="last-scan">Waiting for first scan…</div>
+  </div>
+</header>
+<main>
+  <section id="stats" class="stats"></section>
+  <nav class="tabs">
+    <button class="tab active" data-tab="opps">Opportunities</button>
+    <button class="tab" data-tab="supervisors">Supervisors</button>
+    <button class="tab" data-tab="funding">Funding routes</button>
+    <button class="tab" data-tab="dna">Research DNA</button>
+    <button class="tab" data-tab="status">Scan status</button>
+  </nav>
+
+  <section id="opps" class="panel active">
+    <div class="toolbar">
+      <input id="search" placeholder="Search SAF, HEFA, biomass, robust optimisation, university…">
+      <select id="country"><option value="">All countries</option></select>
+      <select id="fundingFilter"><option value="">All funding</option><option>Confirmed</option><option>Competitive</option><option>Unknown</option></select>
+      <select id="themeFilter"><option value="">Both papers / all themes</option><option value="paper1">Paper 1: agricultural bioenergy</option><option value="paper2">Paper 2: HEFA-SAF</option><option value="bridge">Strong across both</option></select>
+      <select id="statusFilter"><option value="active">Active / unknown deadline</option><option value="open">Open deadline only</option><option value="">Include expired</option></select>
+      <label class="range">Min fit <input id="minFit" type="range" min="0" max="100" value="30"><b id="minFitV">30</b></label>
+    </div>
+    <div id="oppSummary" class="small-note"></div>
+    <div id="oppList" class="cards"></div>
+  </section>
+
+  <section id="supervisors" class="panel">
+    <div class="section-head"><div><h2>Supervisor radar</h2><p>Live profiles are rescored against both papers every scan.</p></div></div>
+    <div id="supervisorList" class="cards"></div>
+  </section>
+
+  <section id="funding" class="panel">
+    <div class="section-head"><div><h2>Funding routes</h2><p>Scholarship and PhD funding pages are tracked separately so generic scholarships do not distort research-fit scores.</p></div></div>
+    <div id="fundingList" class="cards"></div>
+  </section>
+
+  <section id="dna" class="panel">
+    <div class="dna-grid">
+      <article class="dna-card p1"><div class="pill">PAPER 1</div><h2>Agricultural bioenergy SCND</h2><p>Multi-period / multi-product agricultural supply-chain network design; biomass and biofuel from agricultural residues; cost–energy trade-off; uncertainty.</p><h3>Core methods</h3><div class="chips"><span>MILP</span><span>Scenario-based robust optimisation</span><span>Augmented ε-constraint</span><span>Lagrangian relaxation</span><span>Pareto solutions</span></div></article>
+      <article class="dna-card p2"><div class="pill">PAPER 2</div><h2>HEFA-SAF strategic planning</h2><p>Spatial, multi-period oilseed HEFA-SAF supply chains; feedstock allocation, biorefinery investment, airport delivery, lifecycle emissions and demand uncertainty.</p><h3>Core methods</h3><div class="chips"><span>MILP</span><span>Two-stage stochastic programming</span><span>ε-constraint frontier</span><span>Lifecycle emissions</span><span>Investment timing</span></div></article>
+    </div>
+    <article class="trajectory"><h2>Academic trajectory inferred from both papers</h2><p><strong>Design and optimisation of agricultural/renewable-fuel supply-chain networks under uncertainty</strong>, with a strong operations-research core and a sustainability/decarbonisation application layer.</p><div class="trajectory-flow"><span>Agriculture / biomass / oilseeds</span><b>→</b><span>Renewable fuels / bioenergy / SAF</span><b>→</b><span>Spatial supply-chain networks</span><b>→</b><span>MILP + robust/stochastic methods</span><b>→</b><span>Cost / energy / emissions / investment</span></div></article>
+  </section>
+
+  <section id="status" class="panel"><div id="statusBody"></div></section>
+</main>
+<footer>Static GitHub Pages dashboard · Daily GitHub Actions scan · No paid API required</footer>
+<script src="app.js"></script>
+</body>
+</html>

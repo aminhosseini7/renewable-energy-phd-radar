@@ -1,0 +1,305 @@
+version: 3
+identity: "Agricultural/renewable-fuel supply-chain network design under uncertainty"
+
+papers:
+  paper1:
+    label: "Agricultural bioenergy SCND"
+    title: "Energy-Aware Dual-Channel agricultural supply chain network design under uncertainty"
+    summary: >-
+      Multi-period, multi-product agricultural supply-chain network design linking corn products
+      and biofuel from corn residues; cost and energy-consumption objectives; scenario-based robust
+      optimization; augmented epsilon-constraint and Lagrangian relaxation.
+    dimensions:
+      domain:
+        max: 34
+        terms:
+          agricultural supply chain: 13
+          agricultural supply chains: 13
+          agri-food supply chain: 10
+          agrifood supply chain: 10
+          biomass: 9
+          agricultural residue: 13
+          agricultural residues: 13
+          crop residue: 11
+          corn residue: 14
+          corn stover: 11
+          biofuel: 12
+          biofuels: 12
+          bioethanol: 13
+          bioenergy: 11
+          biobased: 8
+          bio-based: 8
+          renewable fuel: 10
+      network:
+        max: 24
+        terms:
+          supply chain network design: 18
+          supply-chain network design: 18
+          supply chain design: 14
+          supply-chain design: 14
+          network design: 10
+          logistics network: 9
+          facility location: 10
+          location-allocation: 10
+          multi-echelon: 8
+          multi-period: 8
+          multi-product: 7
+          strategic planning: 6
+          tactical planning: 5
+          operational planning: 5
+      optimization:
+        max: 19
+        terms:
+          mixed-integer linear programming: 14
+          mixed integer linear programming: 14
+          MILP: 14
+          mathematical optimization: 10
+          mathematical optimisation: 10
+          operations research: 8
+          optimization model: 8
+          optimisation model: 8
+      uncertainty:
+        max: 14
+        terms:
+          robust optimization: 14
+          robust optimisation: 14
+          scenario-based robust: 14
+          uncertainty: 7
+          uncertainties: 7
+          demand uncertainty: 8
+          stochastic: 7
+          risk: 5
+      solution_methods:
+        max: 9
+        terms:
+          Lagrangian relaxation: 9
+          augmented epsilon-constraint: 9
+          augmented epsilon constraint: 9
+          epsilon-constraint: 6
+          epsilon constraint: 6
+          Pareto: 4
+          decomposition: 5
+          matheuristic: 4
+    synergy:
+      - requires: [domain, network, optimization]
+        bonus: 7
+      - requires: [network, uncertainty]
+        bonus: 4
+
+  paper2:
+    label: "HEFA-SAF strategic planning"
+    title: "Planning Australia’s oilseed-based HEFA-SAF supply chain: Cost–emission trade-offs and two-stage stochastic investment planning"
+    summary: >-
+      Spatial multi-period MILP for Australia's oilseed HEFA-SAF network; Carinata, Camelina and
+      constrained Canola; agricultural nodes, candidate biorefineries and airport demand; deterministic
+      cost-emission Pareto analysis via epsilon-constraint; two-stage stochastic refinery investment
+      under low/base/high demand; lifecycle emissions, land use, logistics and investment timing.
+    dimensions:
+      domain:
+        max: 37
+        terms:
+          sustainable aviation fuel: 20
+          SAF: 16
+          HEFA: 20
+          hydroprocessed esters and fatty acids: 20
+          renewable jet fuel: 15
+          aviation fuel: 12
+          Carinata: 15
+          Camelina: 15
+          Canola: 11
+          oilseed: 13
+          oilseeds: 13
+          lipid feedstock: 10
+          biorefinery: 12
+          bio-refinery: 12
+          renewable fuel: 9
+      network:
+        max: 22
+        terms:
+          supply chain network design: 16
+          supply-chain network design: 16
+          supply chain design: 12
+          spatial optimization: 10
+          spatial optimisation: 10
+          facility location: 11
+          refinery location: 12
+          biorefinery location: 12
+          airport: 7
+          airport demand: 9
+          logistics: 7
+          transport network: 7
+          infrastructure planning: 9
+      investment_methods:
+        max: 20
+        terms:
+          mixed-integer linear programming: 12
+          mixed integer linear programming: 12
+          MILP: 12
+          multi-period: 8
+          investment planning: 11
+          investment timing: 11
+          capacity planning: 8
+          two-stage stochastic: 15
+          stochastic programming: 13
+          stochastic optimization: 12
+          stochastic optimisation: 12
+          demand uncertainty: 10
+          scenario-independent investment: 12
+          first-stage: 6
+          recourse: 6
+      sustainability:
+        max: 13
+        terms:
+          lifecycle emissions: 11
+          life-cycle emissions: 11
+          life cycle assessment: 10
+          lifecycle assessment: 10
+          LCA: 8
+          carbon intensity: 10
+          greenhouse gas: 7
+          GHG: 6
+          emissions: 5
+          land use: 6
+          decarbonization: 6
+          decarbonisation: 6
+      multiobjective:
+        max: 8
+        terms:
+          multi-objective optimization: 8
+          multi-objective optimisation: 8
+          bi-objective: 7
+          epsilon-constraint: 7
+          epsilon constraint: 7
+          Pareto frontier: 7
+          cost-emission: 7
+          cost–emission: 7
+    synergy:
+      - requires: [domain, network, investment_methods]
+        bonus: 7
+      - requires: [domain, sustainability]
+        bonus: 4
+
+trajectory:
+  label: "Research trajectory / bridge"
+  dimensions:
+    renewable_fuels:
+      max: 25
+      terms:
+        renewable fuel: 10
+        biofuel: 10
+        bioenergy: 9
+        biomass: 8
+        sustainable aviation fuel: 14
+        SAF: 11
+        HEFA: 12
+        biorefinery: 9
+        agricultural residue: 9
+        oilseed: 8
+    supply_chain:
+      max: 25
+      terms:
+        supply chain: 10
+        supply-chain: 10
+        network design: 10
+        logistics: 7
+        facility location: 8
+        infrastructure planning: 8
+        value chain: 6
+    quantitative_methods:
+      max: 25
+      terms:
+        MILP: 12
+        mixed-integer: 10
+        optimization: 7
+        optimisation: 7
+        operations research: 8
+        stochastic: 9
+        robust optimization: 10
+        robust optimisation: 10
+        uncertainty: 6
+        Lagrangian: 8
+        decomposition: 7
+    sustainability:
+      max: 15
+      terms:
+        sustainability: 5
+        sustainable: 4
+        emissions: 5
+        lifecycle: 6
+        life cycle: 6
+        carbon: 4
+        energy consumption: 5
+        circular bioeconomy: 5
+    strategic_decisions:
+      max: 10
+      terms:
+        investment: 5
+        capacity: 4
+        location: 4
+        planning: 3
+        multi-period: 5
+        scenario: 4
+
+negative_terms:
+  battery materials: 12
+  lithium-ion: 12
+  lithium ion: 12
+  sodium-ion: 12
+  electrochemistry: 10
+  electrochemical: 8
+  semiconductor: 10
+  quantum: 12
+  structural engineering: 7
+  geotechnical: 8
+  computer vision: 6
+  medical imaging: 8
+  drug discovery: 10
+  robotics: 5
+
+opportunity_signals:
+  - PhD
+  - doctoral
+  - doctorate
+  - studentship
+  - scholarship
+  - funded position
+  - research project
+  - higher degree by research
+  - HDR
+  - apply
+  - applications
+  - vacancy
+
+supervisor_opening_signals:
+  - prospective PhD
+  - prospective doctoral
+  - accepting PhD
+  - accepting students
+  - PhD opportunities
+  - doctoral opportunities
+  - join our group
+  - graduate students
+  - scholarships available
+  - funded PhD
+  - research students
+
+funding:
+  confirmed_terms:
+    - fully funded
+    - funded PhD
+    - salaried PhD
+    - salary
+    - stipend
+    - studentship
+    - funding package
+    - tuition fee scholarship
+    - tuition fee waiver
+    - tuition fees
+    - fee offset
+  competitive_terms:
+    - competitive scholarship
+    - scholarship scheme
+    - research scholarship
+    - RTP
+    - research training program
+    - fellowship
