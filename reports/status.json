@@ -1,1 +1,195 @@
-{"checked_at":null,"sources_total":0,"sources_ok":0,"pages_fetched":0,"opportunities":0,"active_opportunities":0,"new_opportunities":0,"changed_opportunities":0,"high_matches":0,"funding_routes":0,"supervisors_monitored":0,"sources":[]}
+{
+  "checked_at": "2026-08-22T20:57:51+00:00",
+  "sources_total": 20,
+  "sources_ok": 17,
+  "pages_fetched": 17,
+  "opportunities": 5,
+  "active_opportunities": 5,
+  "new_opportunities": 5,
+  "changed_opportunities": 0,
+  "high_matches": 0,
+  "funding_routes": 8,
+  "supervisors_monitored": 21,
+  "sources": [
+    {
+      "source": "UNSW research opportunities",
+      "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
+      "country": "Australia",
+      "ok": false,
+      "pages_fetched": 0,
+      "matches": 0,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "UTS ISF HDR scholarships",
+      "url": "https://www.uts.edu.au/research/centres/isf/learning/hdr-program/isf-scholarships",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 0,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "RMIT sustainable renewable-energy supply-chain project",
+      "url": "https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/sustainable-engineering-systems-research-group/projects/life-cycle-assessment",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 3,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "UBC Industrial Engineering Research Group",
+      "url": "https://ierg.forestry.ubc.ca/",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 3,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "AcademicTransfer PhD vacancies",
+      "url": "https://www.academictransfer.com/en/job-type/phd/",
+      "country": "Netherlands",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 3,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "Waterloo Management Science and Engineering PhD",
+      "url": "https://uwaterloo.ca/management-science-engineering/future-graduate-students/phd-program",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 0,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "UBC Forestry PhD admissions",
+      "url": "https://forestry.ubc.ca/future-students/graduate/thesis-based-degrees/doctor-of-philosophy/how-to-apply/",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 3,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "UTS FEIT research scholarships and HDR projects",
+      "url": "https://www.uts.edu.au/about/faculties/engineering-and-information-technology/research/research-scholarships",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 3,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "University of Toronto Sustainable Systems group",
+      "url": "https://sustainablesystems.civmin.utoronto.ca/our-group/",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 4,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "HEC Montreal Logistics and Operations PhD",
+      "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 2,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "Monash graduate research scholarships",
+      "url": "https://www.monash.edu/graduate-research/study/scholarships",
+      "country": "Australia",
+      "ok": false,
+      "pages_fetched": 0,
+      "matches": 0,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "UTS research degree scholarship deadlines",
+      "url": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/masters-by-research-phd/application-closing-dates",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "University of Melbourne graduate research scholarships",
+      "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
+      "country": "Australia",
+      "ok": false,
+      "pages_fetched": 0,
+      "matches": 0,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "UNSW HDR scholarships",
+      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "University of Sydney RTP International",
+      "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "Waterloo graduate funding",
+      "url": "https://uwaterloo.ca/management-science-engineering/graduate-studies/funding-awards-and-scholarships",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "HEC Montreal PhD funding",
+      "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "McGill Desautels PhD financial support",
+      "url": "https://www.mcgill.ca/desautels/programs/phd/admissions/tuition-financial-aid",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "RMIT research scholarships",
+      "url": "https://www.rmit.edu.au/students/careers-opportunities/scholarships/research",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    },
+    {
+      "source": "UBC Forestry PhD application and funding route",
+      "url": "https://forestry.ubc.ca/future-students/graduate/thesis-based-degrees/doctor-of-philosophy/how-to-apply/",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "checked_at": "2026-08-22T20:57:51+00:00"
+    }
+  ]
+}

@@ -1,1 +1,192 @@
-[]
+[
+  {
+    "fingerprint": "6dedb7098c0c779efa657184",
+    "title": "UBC Forestry PhD application and funding route",
+    "university": "University of British Columbia",
+    "country": "Canada",
+    "city": "Vancouver",
+    "priority": 97,
+    "url": "https://forestry.ubc.ca/future-students/graduate/thesis-based-degrees/doctor-of-philosophy/how-to-apply/",
+    "funding": "Confirmed",
+    "funding_evidence": [
+      "funding package"
+    ],
+    "funding_amounts": [],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": ", it is important to discuss funding. UBC Forestry & Environmental Stewardship requires that supervisors have a minimum funding package planned for the student prior to an Offer of Admission being issued. Your online application should only be submitted after a prospective supervisor has confirmed to you that they are interested in reviewing your application. 2. Complete the Faculty of Graduate and Postdoctoral Studies online applicatio",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 98
+  },
+  {
+    "fingerprint": "b24a7330bd0ee3dcaaa1df97",
+    "title": "University of Sydney RTP International",
+    "university": "University of Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "priority": 96,
+    "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+    "funding": "Confirmed",
+    "funding_evidence": [
+      "stipend",
+      "tuition fee scholarship",
+      "tuition fees",
+      "fee offset"
+    ],
+    "funding_amounts": [
+      "$44,293 p.a.",
+      "$42,754 p.a."
+    ],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": "ostgraduate research students. Scholarships Scholarship Eligibility and award process Benefits Terms and Conditions RTP Stipend Scholarship Domestic and international students Commencing or enrolled in a higher degree by research Competitively awarded $44,293 p.a. stipend (2027 rate) $42,754 p.a. stipend (2026 rate) Relocation and thesis allowance RTP Stipend (international) (pdf, 180kb) RTP Fee Offset International students Commencing",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 97
+  },
+  {
+    "fingerprint": "85dae1382b5c0d1c49f50013",
+    "title": "McGill Desautels PhD financial support",
+    "university": "McGill University",
+    "country": "Canada",
+    "city": "Montreal",
+    "priority": 88,
+    "url": "https://www.mcgill.ca/desautels/programs/phd/admissions/tuition-financial-aid",
+    "funding": "Confirmed",
+    "funding_evidence": [
+      "funding package",
+      "tuition fees"
+    ],
+    "funding_amounts": [
+      "$3,026.7 per year",
+      "$18,604.8 per year",
+      "$30,000 per year",
+      "$20,000",
+      "$7,500"
+    ],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": "dies. It is the student's responsibility to ensure that adequate financing is in place for the duration of the program. Tuition Fees The PhD Program will cover your McGill tuition for four years. For Canadian students, this amounts to $3,026.7 per year (based on 2025/2026 tuition fees and subject to change). For international students, the PhD Program will additionally cover your international tuition supplement, and the total tuition c",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 92
+  },
+  {
+    "fingerprint": "2de6c135e4c5cd3cfe970fc4",
+    "title": "RMIT research scholarships",
+    "university": "Monash University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "priority": 88,
+    "url": "https://www.rmit.edu.au/scholarships/research",
+    "funding": "Confirmed",
+    "funding_evidence": [
+      "fully funded",
+      "funded PhD",
+      "salary",
+      "stipend",
+      "studentship",
+      "tuition fee scholarship",
+      "tuition fee waiver",
+      "tuition fees"
+    ],
+    "funding_amounts": [
+      "$35,886",
+      "$36,245",
+      "$10,000 per annum",
+      "$34,841 per annum",
+      "$48,000 per annum"
+    ],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": "Funding Program School of Education Academic Merit Scholarship for China Research scholarships and grants International Tuition Fee Scholarships PhD Scholarship in Computational Biophysics PhD Scholarship in Damage Tolerant Hybrid Composite Materials for Applications in Critical Aerospace Structures Data61 PhD Scholarship PhD Scholarship in Integrated Photonics for Telecommunication, Biosensing and Precision Measurements Professor Rober",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 92
+  },
+  {
+    "fingerprint": "006b4a332e627de84192f730",
+    "title": "HEC Montreal PhD funding",
+    "university": "HEC Montréal",
+    "country": "Canada",
+    "city": "Montreal",
+    "priority": 86,
+    "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
+    "funding": "Confirmed",
+    "funding_evidence": [
+      "tuition fees"
+    ],
+    "funding_amounts": [
+      "$30,000 per year",
+      "$5,000",
+      "$1,900",
+      "$1,900 per year",
+      "$2,600 per year"
+    ],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": "rses) rarely available elsewhere in the world. Full-time program allowing you to complete your studies in 4 or 5 years. Tuition fees waived and competitive funding for the first four years of your studies. Many links with businesses and research centres. Program characteristics Doctoral 90 credits Show/hide tooltip content A credit is a unit used to assign a numerical value to the workload required for students to meet the objectives of",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 91
+  },
+  {
+    "fingerprint": "6b09b903dddb6566bdaf17ec",
+    "title": "UTS research degree scholarship deadlines",
+    "university": "University of Technology Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "priority": 100,
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/masters-by-research-phd/application-closing-dates",
+    "funding": "Competitive",
+    "funding_evidence": [
+      "competitive scholarship"
+    ],
+    "funding_amounts": [],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": "ship deadlines Use the buttons to expand or collapse the section. The below closing dates apply if you’re seeking a UTS competitive scholarship, and you: are applying for a PhD or Masters by Research degree are already enrolled in a UTS research program, or have received your offer of admission to a UTS research program. All applications for UTS scholarships are assessed competitively against the University’s scholarship assesesment cri",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 90
+  },
+  {
+    "fingerprint": "dc2d1fb6bc1d355aa93d04fe",
+    "title": "UNSW HDR scholarships",
+    "university": "UNSW Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "priority": 94,
+    "url": "https://www.unsw.edu.au/research/hdr/scholarships",
+    "funding": "Competitive",
+    "funding_evidence": [
+      "research scholarship"
+    ],
+    "funding_amounts": [],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": "ucation Research Rankings & reputation Human resources News Events myUNSW Giving Contact Us UNSW Research Higher degree research Scholarships Follow Follow LinkedIn Facebook Instagram TikTok YouTube HDR Scholarships Personalise Show filters Hide filters At UNSW, our scholarships are key to helping you reach your research goals. We offer scholarships funded by the Australian Government, UNSW and our faculties and schools, and a range of",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 86
+  },
+  {
+    "fingerprint": "97fdef113c0b706801f90834",
+    "title": "Waterloo graduate funding",
+    "university": "University of Waterloo",
+    "country": "Canada",
+    "city": "Waterloo",
+    "priority": 88,
+    "url": "https://uwaterloo.ca/management-science-engineering/graduate-studies/funding-awards-and-scholarships",
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "funding_amounts": [],
+    "deadline": "",
+    "deadline_evidence": "",
+    "status": "open_or_unknown",
+    "excerpt": "Funding, Awards and Scholarships | Management Science and Engineering | University of Waterloo Skip to main content Jump to Jump to Admissions About Waterloo Faculties & Academics Offices & Services Support Waterloo Management Science and Engineering Menu Management Science and Engineering Home About About Chair's welcome History of Management Science and Engineering Management Engineering Advisory Board Our people Research Resources |",
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "score": 64
+  }
+]

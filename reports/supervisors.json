@@ -1,1 +1,1334 @@
-[]
+[
+  {
+    "name": "Md Mashum Billal",
+    "university": "Ontario Tech University",
+    "country": "Canada",
+    "city": "Oshawa",
+    "url": "https://engineering.ontariotechu.ca/people/mme/dr-md-mashum-billal.php",
+    "focus": "operations research; renewable-energy modelling and optimization; biomass and bioenergy; supply-chain analytics; LCA and techno-economics",
+    "research_fit": 81,
+    "paper1_score": 99,
+    "paper2_score": 55,
+    "trajectory_score": 90,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 24,
+      "optimization": 16,
+      "uncertainty": 14,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 16,
+      "investment_methods": 18,
+      "sustainability": 13,
+      "multiobjective": 8
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 25,
+      "supply_chain": 25,
+      "quantitative_methods": 21,
+      "sustainability": 10,
+      "strategic_decisions": 9
+    },
+    "keyword_hits": [
+      "biomass",
+      "biofuel",
+      "biofuels",
+      "bioenergy",
+      "supply chain network design",
+      "network design",
+      "multi-period",
+      "multi-product",
+      "operations research",
+      "optimization model",
+      "uncertainty",
+      "demand uncertainty",
+      "life cycle assessment",
+      "LCA",
+      "multi-objective optimization",
+      "supply chain",
+      "supply-chain",
+      "optimization",
+      "sustainable",
+      "life cycle",
+      "location"
+    ],
+    "penalty_hits": [
+      "robotics"
+    ],
+    "why_match": [
+      "Paper 1: domain 34, network 24, optimization 16",
+      "Paper 2: investment_methods 18, network 16, sustainability 13"
+    ],
+    "institution_priority": 74,
+    "opening_signals": [],
+    "funding": "Competitive",
+    "funding_evidence": [
+      "fellowship"
+    ],
+    "excerpt": "1.3370 (fax) mashum.billal@ontariotechu.ca https://scholar.google.com/citations?user=mQYdqwMAAAAJ&hl=en Research topics Operations Research Renewable Energy Modeling and Optimization Machine Learning Supply Chain Analytics Biomass and Bioenergy Decision Analytics Life Cycle Assessment (LCA) Techno-Economic Analysis (TEA) Education Ph.D., Engineering Management, Mechanical Engineering, University of Alberta, 2025 M.Sc., Industrial & Prod",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 79
+  },
+  {
+    "name": "Daniel Posen",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "city": "Toronto",
+    "url": "https://sustainablesystems.civmin.utoronto.ca/our-group/",
+    "focus": "SAF supply-chain modelling; canola-to-SAF; biofuels; e-fuel logistics and infrastructure; LCA; decarbonization",
+    "research_fit": 65,
+    "paper1_score": 54,
+    "paper2_score": 61,
+    "trajectory_score": 88,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 0,
+      "optimization": 8,
+      "uncertainty": 12,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 37,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 13,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 25,
+      "supply_chain": 25,
+      "quantitative_methods": 13,
+      "sustainability": 15,
+      "strategic_decisions": 10
+    },
+    "keyword_hits": [
+      "biomass",
+      "biofuel",
+      "biofuels",
+      "bioenergy",
+      "biobased",
+      "optimization model",
+      "uncertainty",
+      "risk",
+      "sustainable aviation fuel",
+      "SAF",
+      "aviation fuel",
+      "Canola",
+      "logistics",
+      "life cycle assessment",
+      "LCA",
+      "greenhouse gas",
+      "GHG",
+      "emissions",
+      "decarbonization",
+      "decarbonisation",
+      "supply chain",
+      "supply-chain",
+      "optimization",
+      "sustainability"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 34, uncertainty 12, optimization 8",
+      "Paper 2: domain 37, sustainability 13, network 7"
+    ],
+    "institution_priority": 95,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "ctive transportation infrastructure in Canadian cities Name: Dr. Houda Haidar Supervisor(s): Dr. Heather MacLean Topic: Life cycle assessment methods for scaling up emerging technologies and addressing data gaps. Name: Dr. Amirashkan Askari Supervisor(s): Dr. Daniel Posen Topic: Environmental (non)equivalence between Carbon Dioxide Removal (CDR) technologies and the competing mitigation strategies to combat global warming Name: Dr. Thia",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 64
+  },
+  {
+    "name": "Seyed Mojib Zahraee",
+    "university": "RMIT University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "url": "https://www.rmit.edu.au/profiles/z/seyedmojib-zahraee",
+    "focus": "biomass supply chains; hydrogen supply chains; transportation and logistics; sustainability; optimization; life cycle assessment",
+    "research_fit": 55,
+    "paper1_score": 57,
+    "paper2_score": 32,
+    "trajectory_score": 79,
+    "paper1_dimensions": {
+      "domain": 9,
+      "network": 24,
+      "optimization": 8,
+      "uncertainty": 5,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 19,
+      "investment_methods": 0,
+      "sustainability": 13,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 8,
+      "supply_chain": 25,
+      "quantitative_methods": 22,
+      "sustainability": 15,
+      "strategic_decisions": 9
+    },
+    "keyword_hits": [
+      "biomass",
+      "supply chain design",
+      "network design",
+      "operations research",
+      "risk",
+      "logistics",
+      "life cycle assessment",
+      "emissions",
+      "supply chain",
+      "optimization",
+      "optimisation",
+      "sustainability",
+      "sustainable",
+      "life cycle",
+      "investment",
+      "location"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: network 24, domain 9, optimization 8",
+      "Paper 2: network 19, sustainability 13"
+    ],
+    "institution_priority": 90,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "reers Contact us Our strategy Governance & management Schools & colleges Respect for Australian Indigenous cultures Our locations and facilities Our heritage Regenerative Futures Research Our research Impact Research degrees Facilities Partnerships Find researchers Centres and collaborations Contact Partner Recruit students and graduates Workforce development Collaborate with RMIT Research partnerships Facilities, equipment and services",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 55
+  },
+  {
+    "name": "Taraneh Sowlati",
+    "university": "University of British Columbia",
+    "country": "Canada",
+    "city": "Vancouver",
+    "url": "https://forestry.ubc.ca/faculty-profile/taraneh-sowlati/",
+    "focus": "biomass supply-chain management; mathematical optimization; uncertainty; biofuel and bioenergy; life-cycle assessment",
+    "research_fit": 53,
+    "paper1_score": 58,
+    "paper2_score": 17,
+    "trajectory_score": 86,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 0,
+      "optimization": 10,
+      "uncertainty": 14,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 10,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 25,
+      "supply_chain": 25,
+      "quantitative_methods": 13,
+      "sustainability": 15,
+      "strategic_decisions": 8
+    },
+    "keyword_hits": [
+      "biomass",
+      "biofuel",
+      "biofuels",
+      "bioenergy",
+      "mathematical optimization",
+      "uncertainty",
+      "uncertainties",
+      "logistics",
+      "life cycle assessment",
+      "supply chain",
+      "supply-chain",
+      "value chain",
+      "optimization",
+      "sustainability",
+      "sustainable",
+      "life cycle",
+      "investment",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 34, uncertainty 14, optimization 10",
+      "Paper 2: sustainability 10, network 7"
+    ],
+    "institution_priority": 97,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "the Bioeconomy Technology and Innovation Research Selected Publications Research Open Close Areas of research include: Biomass supply chain management Mathematical modeling and optimization Multi-criteria decision making Simulation Life cycle assessment Projects Optimization of forest-based biomass supply chains: considering sustainability, uncertainties, and government policies Current April, 2025 – March 2023 NSERC-DG Optimization of",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 54
+  },
+  {
+    "name": "Xuezhen Guo",
+    "university": "Wageningen University & Research",
+    "country": "Netherlands",
+    "city": "Wageningen",
+    "url": "https://research.wur.nl/en/persons/xuezhen-guo/",
+    "focus": "bio-based supply chains; biomass logistics; MILP; integrated biomass logistical centers",
+    "research_fit": 52,
+    "paper1_score": 60,
+    "paper2_score": 31,
+    "trajectory_score": 54,
+    "paper1_dimensions": {
+      "domain": 25,
+      "network": 14,
+      "optimization": 14,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 19,
+      "investment_methods": 12,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 8,
+      "supply_chain": 23,
+      "quantitative_methods": 19,
+      "sustainability": 0,
+      "strategic_decisions": 4
+    },
+    "keyword_hits": [
+      "biomass",
+      "biobased",
+      "bio-based",
+      "supply chain design",
+      "MILP",
+      "logistics",
+      "supply chain",
+      "value chain",
+      "optimization",
+      "location"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 25, network 14, optimization 14",
+      "Paper 2: network 19, investment_methods 12"
+    ],
+    "institution_priority": 97,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "output Datasets Projects Press/Media Activities Prizes Xuezhen Guo dr. WASS Researcher , Data Science & Informatics and Supply Chain Design Researcher , Post Harvest Technology https://orcid.org/0000-0001-7377-0151 Overview Fingerprint Network Research output (59) Datasets (2) Activities (16) Projects (5) Similar Profiles (8) Fingerprint Dive into the research topics where Xuezhen Guo is active. These topic labels come from the works of",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 53
+  },
+  {
+    "name": "Ellen Slegers",
+    "university": "Wageningen University & Research",
+    "country": "Netherlands",
+    "city": "Wageningen",
+    "url": "https://www.wur.nl/en/persons/drir-pm-ellen-slegers",
+    "focus": "agricultural residues; biorefinery; sustainable processing networks; green biomass refinery supply chains; LCA",
+    "research_fit": 50,
+    "paper1_score": 42,
+    "paper2_score": 36,
+    "trajectory_score": 88,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 0,
+      "optimization": 8,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 12,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 13,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 25,
+      "supply_chain": 25,
+      "quantitative_methods": 15,
+      "sustainability": 15,
+      "strategic_decisions": 8
+    },
+    "keyword_hits": [
+      "agri-food supply chain",
+      "biomass",
+      "agricultural residue",
+      "agricultural residues",
+      "biobased",
+      "operations research",
+      "biorefinery",
+      "logistics",
+      "life cycle assessment",
+      "LCA",
+      "land use",
+      "supply chain",
+      "supply-chain",
+      "value chain",
+      "optimization",
+      "sustainability",
+      "sustainable",
+      "life cycle",
+      "location",
+      "scenario"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 34, optimization 8",
+      "Paper 2: sustainability 13, domain 12, network 7"
+    ],
+    "institution_priority": 97,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "r.ir. PM (Ellen) Slegers | WUR Skip to content News & Insights Career at WUR Current students Library Contact en Themes Sustainable food systems Biodiversity and resilient ecosystems Health for all life Climate-proof futures Biobased and circular society Sustainable water and land use All themes of WUR Study at WUR Bachelor's Master's Engineering Doctorate PhD Education for professionals Discover our education Get to know WUR Bachelor's",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 52
+  },
+  {
+    "name": "Yossiri Adulyasak",
+    "university": "HEC Montréal",
+    "country": "Canada",
+    "city": "Montreal",
+    "url": "https://www.hec.ca/en/profs/yossiri.adulyasak.html",
+    "focus": "supply-chain analytics; optimization under uncertainty; large-scale optimization",
+    "research_fit": 47,
+    "paper1_score": 55,
+    "paper2_score": 38,
+    "trajectory_score": 64,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 24,
+      "optimization": 8,
+      "uncertainty": 14,
+      "solution_methods": 5
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 18,
+      "investment_methods": 20,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 25,
+      "quantitative_methods": 25,
+      "sustainability": 4,
+      "strategic_decisions": 10
+    },
+    "keyword_hits": [
+      "network design",
+      "logistics network",
+      "facility location",
+      "multi-period",
+      "operations research",
+      "robust optimization",
+      "uncertainty",
+      "demand uncertainty",
+      "stochastic",
+      "risk",
+      "decomposition",
+      "logistics",
+      "two-stage stochastic",
+      "stochastic optimization",
+      "supply chain",
+      "supply-chain",
+      "mixed-integer",
+      "optimization",
+      "sustainable",
+      "investment",
+      "capacity",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [
+      "computer vision"
+    ],
+    "why_match": [
+      "Paper 1: network 24, uncertainty 14, optimization 8",
+      "Paper 2: investment_methods 20, network 18"
+    ],
+    "institution_priority": 86,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "cebook Youtube X/Twitter Instagram Breadcrumb Home Faculty Yossiri Adulyasak Yossiri Adulyasak Professor, Department of Logistics and Operations Management Presentation Teaching Publications Awards & Honors Supervision News Presentation Presentation Teaching Publications Awards & Honors Supervision News Image Contact information Email : [email protected] Phone : 514 340-7029 Secretary : 514 340-6716 Fax : 514 340-6834 Office : 5.817 Lis",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 48
+  },
+  {
+    "name": "Bert Annevelink",
+    "university": "Wageningen University & Research",
+    "country": "Netherlands",
+    "city": "Wageningen",
+    "url": "https://www.wur.nl/en/persons/drir-e-bert-annevelink",
+    "focus": "bioenergy; biofuels; biomass logistics; biorefinery; supply-chain modelling",
+    "research_fit": 44,
+    "paper1_score": 42,
+    "paper2_score": 29,
+    "trajectory_score": 68,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 0,
+      "optimization": 8,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 12,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 6,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 25,
+      "supply_chain": 25,
+      "quantitative_methods": 7,
+      "sustainability": 4,
+      "strategic_decisions": 7
+    },
+    "keyword_hits": [
+      "biomass",
+      "biofuel",
+      "biofuels",
+      "bioenergy",
+      "biobased",
+      "optimization model",
+      "biorefinery",
+      "logistics",
+      "land use",
+      "supply chain",
+      "supply-chain",
+      "value chain",
+      "optimization",
+      "sustainable",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 34, optimization 8",
+      "Paper 2: domain 12, network 7, sustainability 6"
+    ],
+    "institution_priority": 97,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": ".ir. E (Bert) Annevelink | WUR Skip to content News & Insights Career at WUR Current students Library Contact en Themes Sustainable food systems Biodiversity and resilient ecosystems Health for all life Climate-proof futures Biobased and circular society Sustainable water and land use All themes of WUR Study at WUR Bachelor's Master's Engineering Doctorate PhD Education for professionals Discover our education Get to know WUR Bachelor's",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 47
+  },
+  {
+    "name": "Andreas Ernst",
+    "university": "Monash University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "url": "https://research.monash.edu/en/persons/andreas-ernst",
+    "focus": "large-scale network optimization; mixed-integer programming; Lagrangian relaxation; Benders decomposition; matheuristics",
+    "research_fit": 39,
+    "paper1_score": 45,
+    "paper2_score": 7,
+    "trajectory_score": 61,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 10,
+      "optimization": 8,
+      "uncertainty": 14,
+      "solution_methods": 9
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 25,
+      "quantitative_methods": 25,
+      "sustainability": 4,
+      "strategic_decisions": 7
+    },
+    "keyword_hits": [
+      "network design",
+      "operations research",
+      "robust optimization",
+      "Lagrangian relaxation",
+      "decomposition",
+      "matheuristic",
+      "logistics",
+      "supply chain",
+      "mixed-integer",
+      "optimization",
+      "optimisation",
+      "Lagrangian",
+      "sustainable",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: uncertainty 14, network 10, solution_methods 9",
+      "Paper 2: network 7"
+    ],
+    "institution_priority": 88,
+    "opening_signals": [
+      "accepting PhD"
+    ],
+    "funding": "Competitive",
+    "funding_evidence": [
+      "research scholarship"
+    ],
+    "excerpt": "s (139) Activities (2) Personal profile Biography Prof Andreas Ernst has over 20 years experience in the development of optimisation and simulation models to assist businesses with strategic and operational decision making. He was the director of MAXIMA , the Monash Academy for Cross and Interdisciplinary Mathematical Applications. In addition to his teaching & research role as a professor in the School of Mathematics, he is currently a",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 47
+  },
+  {
+    "name": "Argyris Kanellopoulos",
+    "university": "Wageningen University & Research",
+    "country": "Netherlands",
+    "city": "Wageningen",
+    "url": "https://www.wur.nl/en/persons/dr-argyris-kanellopoulos",
+    "focus": "biomass-based supply chains; multi-actor optimization; agriculture; sustainability; operations research",
+    "research_fit": 41,
+    "paper1_score": 50,
+    "paper2_score": 13,
+    "trajectory_score": 53,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 0,
+      "optimization": 16,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 6,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 8,
+      "supply_chain": 17,
+      "quantitative_methods": 15,
+      "sustainability": 9,
+      "strategic_decisions": 4
+    },
+    "keyword_hits": [
+      "agri-food supply chain",
+      "biomass",
+      "biobased",
+      "bio-based",
+      "operations research",
+      "optimization model",
+      "logistics",
+      "land use",
+      "supply chain",
+      "optimization",
+      "sustainability",
+      "sustainable",
+      "location"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 34, optimization 16",
+      "Paper 2: network 7, sustainability 6"
+    ],
+    "institution_priority": 97,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "(Argyris) Kanellopoulos | WUR Skip to content News & Insights Career at WUR Current students Library Contact en Themes Sustainable food systems Biodiversity and resilient ecosystems Health for all life Climate-proof futures Biobased and circular society Sustainable water and land use All themes of WUR Study at WUR Bachelor's Master's Engineering Doctorate PhD Education for professionals Discover our education Get to know WUR Bachelor's",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 45
+  },
+  {
+    "name": "Sander de Leeuw",
+    "university": "Wageningen University & Research",
+    "country": "Netherlands",
+    "city": "Wageningen",
+    "url": "https://research.wur.nl/en/persons/sander-de-leeuw/",
+    "focus": "operations research and logistics; agrifood and biobased supply chains; robust performance; sustainability; uncertainty",
+    "research_fit": 37,
+    "paper1_score": 37,
+    "paper2_score": 17,
+    "trajectory_score": 64,
+    "paper1_dimensions": {
+      "domain": 17,
+      "network": 0,
+      "optimization": 8,
+      "uncertainty": 12,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 10,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 8,
+      "supply_chain": 17,
+      "quantitative_methods": 14,
+      "sustainability": 15,
+      "strategic_decisions": 10
+    },
+    "keyword_hits": [
+      "biomass",
+      "biobased",
+      "operations research",
+      "uncertainty",
+      "risk",
+      "logistics",
+      "life cycle assessment",
+      "supply chain",
+      "sustainability",
+      "sustainable",
+      "life cycle",
+      "investment",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 17, uncertainty 12, optimization 8",
+      "Paper 2: sustainability 10, network 7"
+    ],
+    "institution_priority": 97,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "output Datasets Projects Press/Media Activities Prizes View Scopus Profile Sander de Leeuw prof.dr.ir. Full Professor , Operations Research and Logistics https://orcid.org/0000-0003-3056-8775 Overview Fingerprint Network Research output (83) Datasets (1) Activities (10) Press/Media (2) Prizes (3) Projects (21) Similar Profiles (1) Supervised Work (4) Fingerprint Dive into the research topics where Sander de Leeuw is active. These topic",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 41
+  },
+  {
+    "name": "Samir Elhedhli",
+    "university": "University of Waterloo",
+    "country": "Canada",
+    "city": "Waterloo",
+    "url": "https://uwaterloo.ca/management-science-engineering/profile/elhedhli",
+    "focus": "logistics; supply-chain design; facility location; large-scale optimization",
+    "research_fit": 32,
+    "paper1_score": 32,
+    "paper2_score": 22,
+    "trajectory_score": 47,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 24,
+      "optimization": 8,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 22,
+      "investment_methods": 0,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 25,
+      "quantitative_methods": 15,
+      "sustainability": 0,
+      "strategic_decisions": 7
+    },
+    "keyword_hits": [
+      "supply chain design",
+      "supply-chain design",
+      "network design",
+      "facility location",
+      "operations research",
+      "logistics",
+      "supply chain",
+      "supply-chain",
+      "optimization",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: network 24, optimization 8",
+      "Paper 2: network 22"
+    ],
+    "institution_priority": 88,
+    "opening_signals": [
+      "graduate students"
+    ],
+    "funding": "Competitive",
+    "funding_evidence": [
+      "fellowship"
+    ],
+    "excerpt": "uture students Undergraduate students Undergraduate students Academic advising Capstone design Co-op and careers Degree planning and enhancement Student life Scholarships and awards Student award recipients Meet our students Graduate students Graduate students Future Students Programs FAQ New Students Training Requirements Current Students Degree Requirements Courses Teaching Assistantship Student Services Student Life Research Areas Ap",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 41
+  },
+  {
+    "name": "Ben Fahimnia",
+    "university": "University of Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "url": "https://www.sydney.edu.au/business/our-research/institute-of-transport-and-logistics-studies/our-people.html",
+    "focus": "sustainable supply-chain network design; robust supply chains; decision sciences",
+    "research_fit": 36,
+    "paper1_score": 33,
+    "paper2_score": 29,
+    "trajectory_score": 52,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 24,
+      "optimization": 0,
+      "uncertainty": 5,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 22,
+      "investment_methods": 0,
+      "sustainability": 0,
+      "multiobjective": 7
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 25,
+      "quantitative_methods": 7,
+      "sustainability": 13,
+      "strategic_decisions": 7
+    },
+    "keyword_hits": [
+      "supply-chain network design",
+      "network design",
+      "risk",
+      "airport",
+      "logistics",
+      "bi-objective",
+      "supply chain",
+      "supply-chain",
+      "optimisation",
+      "sustainability",
+      "sustainable",
+      "carbon",
+      "planning",
+      "scenario"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: network 24, uncertainty 5",
+      "Paper 2: network 22, multiobjective 7"
+    ],
+    "institution_priority": 96,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "ols Our research Industry and community News and events About false Our research false false Institute of Transport and Logistics Studies false false Our people true true /content/dam/corporate/images/business-school/research/itls/abercrombie-business-school.jpg 50% Our people Meet our key academic and research staff m-hero--style-3 800.534.2x.jpeg 1600w, 1280.1280.jpeg 1280w, 440.293.2x.jpeg 880w, 220.147.2x.jpeg 440w false The Institu",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 40
+  },
+  {
+    "name": "Fatma Gzara",
+    "university": "University of Waterloo",
+    "country": "Canada",
+    "city": "Waterloo",
+    "url": "https://uwaterloo.ca/management-science-engineering/profile/fgzara",
+    "focus": "large-scale optimization; supply-chain analytics; network design; uncertainty",
+    "research_fit": 32,
+    "paper1_score": 36,
+    "paper2_score": 7,
+    "trajectory_score": 53,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 10,
+      "optimization": 8,
+      "uncertainty": 14,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 25,
+      "quantitative_methods": 21,
+      "sustainability": 0,
+      "strategic_decisions": 7
+    },
+    "keyword_hits": [
+      "network design",
+      "operations research",
+      "uncertainty",
+      "uncertainties",
+      "risk",
+      "logistics",
+      "supply chain",
+      "supply-chain",
+      "optimization",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: uncertainty 14, network 10, optimization 8",
+      "Paper 2: network 7"
+    ],
+    "institution_priority": 88,
+    "opening_signals": [
+      "graduate students"
+    ],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "uture students Undergraduate students Undergraduate students Academic advising Capstone design Co-op and careers Degree planning and enhancement Student life Scholarships and awards Student award recipients Meet our students Graduate students Graduate students Future Students Programs FAQ New Students Training Requirements Current Students Degree Requirements Courses Teaching Assistantship Student Services Student Life Research Areas Ap",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 36
+  },
+  {
+    "name": "Nirajan Shiwakoti",
+    "university": "RMIT University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "url": "https://www.rmit.edu.au/profiles/s/nirajan-shiwakoti",
+    "focus": "sustainable renewable-energy supply chains; biomass; logistics; life-cycle assessment; systems optimisation",
+    "research_fit": 30,
+    "paper1_score": 19,
+    "paper2_score": 20,
+    "trajectory_score": 69,
+    "paper1_dimensions": {
+      "domain": 9,
+      "network": 10,
+      "optimization": 0,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 13,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 8,
+      "supply_chain": 25,
+      "quantitative_methods": 14,
+      "sustainability": 15,
+      "strategic_decisions": 7
+    },
+    "keyword_hits": [
+      "biomass",
+      "network design",
+      "logistics",
+      "life cycle assessment",
+      "greenhouse gas",
+      "emissions",
+      "decarbonization",
+      "decarbonisation",
+      "supply chain",
+      "optimization",
+      "optimisation",
+      "sustainability",
+      "sustainable",
+      "life cycle",
+      "carbon",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: network 10, domain 9",
+      "Paper 2: sustainability 13, network 7"
+    ],
+    "institution_priority": 90,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "reers Contact us Our strategy Governance & management Schools & colleges Respect for Australian Indigenous cultures Our locations and facilities Our heritage Regenerative Futures Research Our research Impact Research degrees Facilities Partnerships Find researchers Centres and collaborations Contact Partner Recruit students and graduates Workforce development Collaborate with RMIT Research partnerships Facilities, equipment and services",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 35
+  },
+  {
+    "name": "Daniel Tan",
+    "university": "University of Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "url": "https://www.sydney.edu.au/news-opinion/news/2020/04/02/tequila-powered-biofuels-more-efficient-than-corn-or-sugar.html",
+    "focus": "agricultural biofuels; feedstocks; bioethanol; sustainability and economic assessment",
+    "research_fit": 27,
+    "paper1_score": 34,
+    "paper2_score": 13,
+    "trajectory_score": 25,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 0,
+      "optimization": 0,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 0,
+      "investment_methods": 0,
+      "sustainability": 13,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 10,
+      "supply_chain": 0,
+      "quantitative_methods": 0,
+      "sustainability": 15,
+      "strategic_decisions": 0
+    },
+    "keyword_hits": [
+      "biofuel",
+      "biofuels",
+      "bioethanol",
+      "lifecycle assessment",
+      "greenhouse gas",
+      "emissions",
+      "sustainability",
+      "lifecycle"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 34",
+      "Paper 2: sustainability 13"
+    ],
+    "institution_priority": 96,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "Tequila-powered biofuels more efficient than corn or sugar - The University of Sydney Library Current students Staff intranet Find an event Give Contact us Study Research Engage with us About us News & opinion Home / News & opinion / News / April / Tequila-powered biofuels more efficient than corn or sugar Home News & opinion News 2026 Arts & culture Business & economics Campus & community Government & politics Health & medicine Law & s",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 33
+  },
+  {
+    "name": "Tomas Lagos",
+    "university": "UNSW Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "url": "https://www.unsw.edu.au/staff/tomas-lagos",
+    "focus": "robust optimization; combinatorial optimization; operations research; uncertainty",
+    "research_fit": 26,
+    "paper1_score": 22,
+    "paper2_score": 7,
+    "trajectory_score": 61,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 0,
+      "optimization": 8,
+      "uncertainty": 14,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 17,
+      "quantitative_methods": 25,
+      "sustainability": 9,
+      "strategic_decisions": 10
+    },
+    "keyword_hits": [
+      "operations research",
+      "robust optimization",
+      "uncertainty",
+      "stochastic",
+      "risk",
+      "logistics",
+      "supply chain",
+      "mixed-integer",
+      "optimization",
+      "sustainability",
+      "sustainable",
+      "investment",
+      "location",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: uncertainty 14, optimization 8",
+      "Paper 2: network 7"
+    ],
+    "institution_priority": 94,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "ood Healthier lifespans Equity, security & prosperity Partner with us Research & development Grant funding Case studies Investment portfolio Unisearch expert opinion TORCH Facilities & infrastructure Find a facility Find an instrument Mark Wainwright Analytical Centre Research Imaging NSW Research Technology Services Higher degree research Find a supervisor or project Scholarships Application process Fees & costs Industry engagement Int",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 32
+  },
+  {
+    "name": "Xin Ma",
+    "university": "Monash University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "url": "https://research.monash.edu/en/persons/xin-ma",
+    "focus": "sustainable supply chains; disruption risk; prescriptive analytics; operations management",
+    "research_fit": 26,
+    "paper1_score": 22,
+    "paper2_score": 12,
+    "trajectory_score": 56,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 0,
+      "optimization": 8,
+      "uncertainty": 14,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 5,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 17,
+      "quantitative_methods": 25,
+      "sustainability": 14,
+      "strategic_decisions": 0
+    },
+    "keyword_hits": [
+      "operations research",
+      "robust optimization",
+      "risk",
+      "logistics",
+      "emissions",
+      "supply chain",
+      "optimization",
+      "sustainability",
+      "sustainable"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: uncertainty 14, optimization 8",
+      "Paper 2: network 7, sustainability 5"
+    ],
+    "institution_priority": 88,
+    "opening_signals": [
+      "accepting PhD"
+    ],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "es (3) Activities (11) Press/Media (2) Personal profile Biography Dr Xin Ma is an Associate Professor of Operations and Supply Chain Management in the Department of Management at Monash University, Australia. Before joining Monash University in July 2018, he was Lecturer of Engineering Management (Education & Research) in College of Engineering, Mathematics and Physical Sciences at University of Exeter, United Kingdom, from Feb. 2017 to",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 32
+  },
+  {
+    "name": "Fereshteh Mafakheri",
+    "university": "Concordia University",
+    "country": "Canada",
+    "city": "Montreal",
+    "url": "https://www.concordia.ca/faculty/fereshteh-mafakheri.html",
+    "focus": "bioenergy transition; biomass supply chains; agricultural and forestry waste; decision analytics; logistics",
+    "research_fit": 20,
+    "paper1_score": 20,
+    "paper2_score": 7,
+    "trajectory_score": 34,
+    "paper1_dimensions": {
+      "domain": 20,
+      "network": 0,
+      "optimization": 0,
+      "uncertainty": 0,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 17,
+      "supply_chain": 17,
+      "quantitative_methods": 0,
+      "sustainability": 0,
+      "strategic_decisions": 0
+    },
+    "keyword_hits": [
+      "biomass",
+      "bioenergy",
+      "logistics",
+      "supply chain"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 20",
+      "Paper 2: network 7"
+    ],
+    "institution_priority": 80,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Procurement; Technology Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab Google Scholar LinkedIn CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Universite de Montreal) MSc, Industrial Systems",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 26
+  },
+  {
+    "name": "Kaveh Khalilpour",
+    "university": "University of Technology Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "url": "https://profiles.uts.edu.au/Kaveh.Khalilpour",
+    "focus": "renewable energy networks; green hydrogen supply chains; mixed-integer optimization; network planning under uncertainty",
+    "research_fit": 11,
+    "paper1_score": 7,
+    "paper2_score": 0,
+    "trajectory_score": 36,
+    "paper1_dimensions": {
+      "domain": 0,
+      "network": 0,
+      "optimization": 0,
+      "uncertainty": 7,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 0,
+      "investment_methods": 0,
+      "sustainability": 0,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 0,
+      "supply_chain": 10,
+      "quantitative_methods": 23,
+      "sustainability": 0,
+      "strategic_decisions": 3
+    },
+    "keyword_hits": [
+      "uncertainty",
+      "supply chain",
+      "mixed-integer",
+      "optimization",
+      "planning"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: uncertainty 7"
+    ],
+    "institution_priority": 100,
+    "opening_signals": [],
+    "funding": "Unknown",
+    "funding_evidence": [],
+    "excerpt": "Discovery Browser Not Supported Your browser (Internet Explorer or other legacy browser) is not supported by this application.",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 21
+  },
+  {
+    "name": "Bhushan Gopaluni",
+    "university": "University of British Columbia",
+    "country": "Canada",
+    "city": "Vancouver",
+    "url": "https://www.grad.ubc.ca/researcher/13880-gopaluni",
+    "focus": "bioenergy supply-chain optimization; decision-making under uncertainty; process systems",
+    "research_fit": 5,
+    "paper1_score": 34,
+    "paper2_score": 17,
+    "trajectory_score": 84,
+    "paper1_dimensions": {
+      "domain": 20,
+      "network": 0,
+      "optimization": 0,
+      "uncertainty": 14,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 0,
+      "network": 0,
+      "investment_methods": 12,
+      "sustainability": 5,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 17,
+      "supply_chain": 20,
+      "quantitative_methods": 22,
+      "sustainability": 15,
+      "strategic_decisions": 10
+    },
+    "keyword_hits": [
+      "biomass",
+      "bioenergy",
+      "uncertainty",
+      "uncertainties",
+      "stochastic",
+      "stochastic optimization",
+      "emissions",
+      "supply chain",
+      "supply-chain",
+      "optimization",
+      "sustainability",
+      "sustainable",
+      "carbon",
+      "energy consumption",
+      "capacity",
+      "planning",
+      "scenario"
+    ],
+    "penalty_hits": [
+      "lithium-ion",
+      "quantum",
+      "computer vision",
+      "robotics"
+    ],
+    "why_match": [
+      "Paper 1: domain 20, uncertainty 14",
+      "Paper 2: investment_methods 12, sustainability 5"
+    ],
+    "institution_priority": 97,
+    "opening_signals": [],
+    "funding": "Competitive",
+    "funding_evidence": [
+      "fellowship"
+    ],
+    "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
+    "page_ok": true,
+    "checked_at": "2026-08-22T20:57:51+00:00",
+    "strategic_score": 21
+  }
+]
