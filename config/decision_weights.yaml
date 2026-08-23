@@ -1,0 +1,29 @@
+priority_weights:
+  research_fit: 42
+  frontier: 7
+  funding: 20
+  supervisor: 8
+  institution: 6
+  country: 8
+  deadline: 4
+  confidence: 3
+  newness: 2
+country_weights:
+  welfare: 15
+  english: 15
+  job_market: 25
+  income: 15
+  permanent_residence: 20
+  immigrant_friendliness: 10
+alerts:
+  enabled: true
+  minimum_priority: 84
+  minimum_research_fit: 74
+  require_confirmed_funding: true
+  max_issues_per_scan: 5
+weekly_digest:
+  enabled: true
+  weekday_utc: 6
+  top_n: 10
+  minimum_priority: 72
+  full_funding_eligible_only: true

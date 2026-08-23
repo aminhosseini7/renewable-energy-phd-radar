@@ -1,0 +1,25 @@
+{
+  "name": "Renewable Energy PhD Radar — Command Center",
+  "version": "2026.08-command-center",
+  "architecture": "Static GitHub Pages + GitHub Actions + Python crawler",
+  "target_countries": ["Netherlands", "Australia", "Canada", "Germany", "Sweden"],
+  "funding_policy": "full-funding-first",
+  "features": [
+    "two-paper Research-DNA scoring",
+    "next-paper frontier scoring",
+    "multi-dimensional decision priority",
+    "data-confidence scoring",
+    "next-action recommendations",
+    "golden-match detection",
+    "JSON-LD JobPosting extraction",
+    "source-health memory",
+    "supervisor change intelligence",
+    "opportunity comparison",
+    "local application-pack generator",
+    "private tracker backup/import",
+    "deadline ICS export",
+    "dark mode",
+    "GitHub high-match alerts",
+    "weekly GitHub digest"
+  ]
+}

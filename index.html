@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1628">
+<title>Renewable Energy PhD Radar — Command Center</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-top">
+      <div>
+        <div class="kicker">PHD RADAR · RESEARCH DNA COMMAND CENTER</div>
+        <h1>Renewable Energy PhD Radar</h1>
+        <p>Full-funding-first intelligence for agricultural bioenergy supply-chain optimisation and HEFA-SAF strategic planning.</p>
+        <div class="target-line">Netherlands · Australia · Canada · Germany · Sweden</div>
+      </div>
+      <div class="hero-actions">
+        <button id="themeToggle" class="hero-btn" aria-label="Toggle theme">◐ Theme</button>
+        <button id="jumpApply" class="hero-btn strong">⚡ Apply-now queue</button>
+      </div>
+    </div>
+    <div class="hero-status-row">
+      <div id="lastScan" class="last-scan">Waiting for scan data…</div>
+      <div id="healthBadge" class="health-badge">SYSTEM · waiting</div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="stats" class="stats"></section>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="overview">Command center</button>
+    <button class="tab" data-tab="opps">Opportunities</button>
+    <button class="tab" data-tab="shortlist">Shortlist</button>
+    <button class="tab" data-tab="tracker">Application tracker</button>
+    <button class="tab" data-tab="supervisors">Supervisors</button>
+    <button class="tab" data-tab="funding">Funding routes</button>
+    <button class="tab" data-tab="countries">Country matrix</button>
+    <button class="tab" data-tab="dna">Research DNA</button>
+    <button class="tab" data-tab="status">Scan status</button>
+  </nav>
+
+  <section id="overview" class="panel active">
+    <div class="command-grid">
+      <article class="command-card spotlight">
+        <div class="card-eyebrow">TODAY'S DECISION QUEUE</div>
+        <div id="actionQueue" class="action-queue"></div>
+      </article>
+      <article class="command-card">
+        <div class="card-eyebrow">SYSTEM PULSE</div>
+        <div id="systemPulse" class="pulse-list"></div>
+      </article>
+    </div>
+
+    <div class="section-head"><div><h2>🔥 Golden matches</h2><p>Confirmed funding + high Research-DNA fit + strong data confidence. These deserve attention first.</p></div></div>
+    <div id="goldenList" class="cards"></div>
+
+    <div class="overview-split">
+      <div>
+        <div class="section-head compact"><div><h2>Research frontier</h2><p>Projects that could become the natural “next paper” after your current two-paper trajectory.</p></div></div>
+        <div id="frontierPulse" class="frontier-pulse"></div>
+      </div>
+      <div>
+        <div class="section-head compact"><div><h2>Recent intelligence</h2><p>New opportunities, changed pages and supervisor-opening signals.</p></div></div>
+        <div id="recentIntel" class="intel-list"></div>
+      </div>
+    </div>
+
+    <div class="section-head compact"><div><h2>Five-country coverage</h2><p>Live source health, full-funding matches and curated supervisor coverage.</p></div></div>
+    <div id="coverage" class="coverage"></div>
+  </section>
+
+  <section id="opps" class="panel">
+    <details class="decision-settings" open>
+      <summary>Decision engine — customise “My Priority”</summary>
+      <div class="preset-row">
+        <span>Presets:</span>
+        <button class="preset active" data-preset="balanced">Balanced</button>
+        <button class="preset" data-preset="research">Research-first</button>
+        <button class="preset" data-preset="funding">Full-funding first</button>
+        <button class="preset" data-preset="migration">Migration/career first</button>
+      </div>
+      <div class="weight-grid" id="priorityWeights"></div>
+      <div class="settings-row"><span>Weights are normalised automatically and stored only in this browser.</span><button id="resetPriority" class="ghost-btn">Reset defaults</button></div>
+    </details>
+
+    <div class="toolbar">
+      <input id="search" placeholder="Search SAF, HEFA, biomass, stochastic, university, supervisor…">
+      <select id="country"><option value="">All countries</option></select>
+      <select id="fundingFilter"><option value="eligible" selected>Full-funding eligible only</option><option value="Confirmed">Confirmed / salaried only</option><option value="Competitive">Competitive full-funding route</option><option value="all">Include unverified</option></select>
+      <select id="themeFilter"><option value="">Both papers / all themes</option><option value="paper1">Paper 1 dominant</option><option value="paper2">Paper 2 dominant</option><option value="bridge">Strong across both</option><option value="frontier">High next-paper potential</option></select>
+      <select id="actionFilter"><option value="">All next actions</option><option>Apply now</option><option>Contact supervisor</option><option>Verify funding</option><option>Deep review</option><option>Monitor / contact</option><option>Review</option></select>
+      <select id="statusFilter"><option value="active">Active / unknown deadline</option><option value="soon">Closing ≤30 days</option><option value="open">Open deadline only</option><option value="">Include expired</option></select>
+      <label class="range">Min fit <input id="minFit" type="range" min="0" max="100" value="30"><b id="minFitV">30</b></label>
+    </div>
+    <div class="funding-rule"><strong>Funding rule:</strong> salaried/guaranteed positions rank highest. Competitive scholarship routes stay visible; unverified funding is hidden by default.</div>
+    <div id="oppSummary" class="small-note"></div>
+    <div id="oppList" class="cards"></div>
+  </section>
+
+  <section id="shortlist" class="panel">
+    <div class="section-head"><div><h2>Decision shortlist</h2><p>Fast views for the opportunities most likely to deserve an application, supervisor email or deeper review.</p></div></div>
+    <div class="quick-filters"><button class="quick active" data-short="top">Top 20</button><button class="quick" data-short="apply">Apply now</button><button class="quick" data-short="golden">Golden matches</button><button class="quick" data-short="confirmed">Confirmed funding</button><button class="quick" data-short="new">New this scan</button><button class="quick" data-short="soon">Closing soon</button><button class="quick" data-short="bridge">Both papers ≥60</button><button class="quick" data-short="frontier">Next-paper potential</button></div>
+    <div id="shortlistSummary" class="small-note"></div>
+    <div id="shortlistList" class="cards"></div>
+  </section>
+
+  <section id="tracker" class="panel">
+    <div class="section-head action-head"><div><h2>Application tracker</h2><p>Statuses and private notes live only in your browser. Export a backup before clearing browser data.</p></div><div class="head-actions"><button id="exportTracker" class="secondary">Export private backup</button><label class="secondary file-label">Import backup<input id="importTracker" type="file" accept="application/json"></label></div></div>
+    <div id="trackerStats" class="tracker-stats"></div>
+    <div id="trackerList" class="cards"></div>
+  </section>
+
+  <section id="supervisors" class="panel">
+    <div class="section-head"><div><h2>Supervisor intelligence</h2><p>Live profiles are rescored against both papers and the next-paper frontier. Changed opening signals are surfaced first.</p></div></div>
+    <div id="supervisorList" class="cards"></div>
+  </section>
+
+  <section id="funding" class="panel">
+    <div class="section-head"><div><h2>Funding verification routes</h2><p>Funding evidence is kept separate from research fit. Always verify tuition coverage, living support and international eligibility on the official source.</p></div></div>
+    <div id="fundingList" class="cards"></div>
+  </section>
+
+  <section id="countries" class="panel">
+    <div class="section-head"><div><h2>Country / migration decision matrix</h2><p>Editable planning heuristics for welfare, English, post-PhD jobs, income, PR and immigrant friendliness.</p></div></div>
+    <div class="country-weight-box"><div id="countryWeights" class="weight-grid"></div><div class="settings-row"><span>Country score updates My Priority instantly.</span><button id="resetCountry" class="ghost-btn">Reset defaults</button></div></div>
+    <div id="countryMatrix"></div>
+  </section>
+
+  <section id="dna" class="panel">
+    <div class="dna-grid">
+      <article class="dna-card p1"><div class="pill">PAPER 1</div><h2>Agricultural bioenergy SCND</h2><p>Multi-period / multi-product agricultural supply-chain network design; biomass and biofuel from agricultural residues; cost–energy trade-off; uncertainty.</p><h3>Core methods</h3><div class="chips"><span>MILP</span><span>Scenario-based robust optimisation</span><span>Augmented ε-constraint</span><span>Lagrangian relaxation</span><span>Pareto solutions</span></div></article>
+      <article class="dna-card p2"><div class="pill">PAPER 2</div><h2>HEFA-SAF strategic planning</h2><p>Spatial, multi-period oilseed HEFA-SAF supply chains; feedstock allocation, biorefinery investment, airport delivery, lifecycle emissions and demand uncertainty.</p><h3>Core methods</h3><div class="chips"><span>MILP</span><span>Two-stage stochastic programming</span><span>ε-constraint frontier</span><span>Lifecycle emissions</span><span>Investment timing</span></div></article>
+    </div>
+    <article class="trajectory"><h2>Academic trajectory</h2><p><strong>Design and optimisation of agricultural / renewable-fuel supply-chain networks under uncertainty</strong>, with operations research as the methodological core and decarbonisation as the application layer.</p><div class="trajectory-flow"><span>Agriculture / biomass / oilseeds</span><b>→</b><span>Bioenergy / renewable fuels / SAF</span><b>→</b><span>Spatial supply-chain networks</span><b>→</b><span>MILP + robust/stochastic methods</span><b>→</b><span>Cost / energy / emissions / investment</span></div></article>
+    <article class="trajectory frontier-card"><div class="pill frontier-pill">NEXT-PAPER FRONTIER</div><h2>What the radar now rewards as a natural extension</h2><div class="frontier-grid"><span>Multistage / adaptive stochastic planning</span><span>Joint demand–yield–price uncertainty</span><span>Multimodal rail / shipping logistics</span><span>HEFA + FT + ATJ + PtL portfolios</span><span>Hydrogen / energy-system integration</span><span>Harmonised LCA + carbon policy</span><span>Circular agri-bioeconomy</span><span>Benders / decomposition for scale</span></div></article>
+  </section>
+
+  <section id="status" class="panel"><div id="statusBody"></div></section>
+</main>
+
+<div id="compareDock" class="compare-dock hidden"><span id="compareCount">0 selected</span><button id="openCompare" class="action">Compare</button><button id="clearCompare" class="ghost-btn">Clear</button></div>
+<div id="modalBackdrop" class="modal-backdrop hidden" role="dialog" aria-modal="true"><div class="modal"><div class="modal-head"><h2 id="modalTitle">Details</h2><button id="modalClose" class="modal-close">×</button></div><div id="modalBody" class="modal-body"></div></div></div>
+
+<footer>Static GitHub Pages · Daily official-source scan · JSON-LD JobPosting extraction · Research frontier scoring · Weekly GitHub digest · No paid API</footer>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+{
+  "checked_at": null,
+  "sources_total": 0,
+  "sources_ok": 0,
+  "pages_fetched": 0,
+  "opportunities": 0,
+  "active_opportunities": 0,
+  "new_opportunities": 0,
+  "changed_opportunities": 0,
+  "high_matches": 0,
+  "full_funding_eligible": 0,
+  "confirmed_funding": 0,
+  "funding_routes": 0,
+  "supervisors_monitored": 0,
+  "target_countries": [
+    "Netherlands",
+    "Australia",
+    "Canada",
+    "Germany",
+    "Sweden"
+  ],
+  "country_coverage": {
+    "Netherlands": {
+      "sources": 0,
+      "sources_ok": 0,
+      "opportunities": 0,
+      "funding_eligible": 0,
+      "supervisors": 0
+    },
+    "Australia": {
+      "sources": 0,
+      "sources_ok": 0,
+      "opportunities": 0,
+      "funding_eligible": 0,
+      "supervisors": 0
+    },
+    "Canada": {
+      "sources": 0,
+      "sources_ok": 0,
+      "opportunities": 0,
+      "funding_eligible": 0,
+      "supervisors": 0
+    },
+    "Germany": {
+      "sources": 0,
+      "sources_ok": 0,
+      "opportunities": 0,
+      "funding_eligible": 0,
+      "supervisors": 0
+    },
+    "Sweden": {
+      "sources": 0,
+      "sources_ok": 0,
+      "opportunities": 0,
+      "funding_eligible": 0,
+      "supervisors": 0
+    }
+  },
+  "sources": [],
+  "country_profiles": [
+    {
+      "name": "Netherlands",
+      "priority": 100,
+      "full_funding_strategy": "Salaried PhD employee vacancies; prioritize AcademicTransfer, WUR and TU Delft.",
+      "decision_metrics": {
+        "welfare": 90,
+        "english": 96,
+        "job_market": 92,
+        "income": 92,
+        "permanent_residence": 76,
+        "immigrant_friendliness": 88
+      },
+      "decision_note": "Excellent English and research/industry balance; housing pressure and permit type matter for long-term residence.",
+      "country_score": 89
+    },
+    {
+      "name": "Australia",
+      "priority": 98,
+      "full_funding_strategy": "Only tuition-offset + living-stipend routes or explicitly funded project scholarships.",
+      "decision_metrics": {
+        "welfare": 90,
+        "english": 100,
+        "job_market": 90,
+        "income": 88,
+        "permanent_residence": 76,
+        "immigrant_friendliness": 91
+      },
+      "decision_note": "Excellent English-language career environment and direct thematic fit for Australian SAF research; PR remains points/policy dependent.",
+      "country_score": 88
+    },
+    {
+      "name": "Canada",
+      "priority": 96,
+      "full_funding_strategy": "Only guaranteed/minimum funding packages or full scholarship/RA funding routes.",
+      "decision_metrics": {
+        "welfare": 86,
+        "english": 100,
+        "job_market": 86,
+        "income": 85,
+        "permanent_residence": 86,
+        "immigrant_friendliness": 94
+      },
+      "decision_note": "Strong immigration structure and English-language market; funding and housing conditions vary significantly by university and city.",
+      "country_score": 89
+    },
+    {
+      "name": "Germany",
+      "priority": 94,
+      "full_funding_strategy": "Prioritize salaried doctoral researcher jobs (TV-L/TVöD) and funded doctoral vacancies.",
+      "decision_metrics": {
+        "welfare": 90,
+        "english": 76,
+        "job_market": 96,
+        "income": 84,
+        "permanent_residence": 92,
+        "immigrant_friendliness": 82
+      },
+      "decision_note": "Largest post-PhD industrial market in the target set; German language materially improves long-term career options.",
+      "country_score": 88
+    },
+    {
+      "name": "Sweden",
+      "priority": 92,
+      "full_funding_strategy": "Prioritize employed doctoral-student vacancies with salary.",
+      "decision_metrics": {
+        "welfare": 96,
+        "english": 95,
+        "job_market": 79,
+        "income": 78,
+        "permanent_residence": 94,
+        "immigrant_friendliness": 90
+      },
+      "decision_note": "Strong quality of life and employed-PhD model; smaller specialist labour market than Germany, Australia or Canada.",
+      "country_score": 88
+    }
+  ],
+  "default_priority_weights": {
+    "research_fit": 48,
+    "funding": 20,
+    "supervisor": 8,
+    "institution": 7,
+    "country": 10,
+    "deadline": 4,
+    "newness": 3
+  },
+  "country_metric_weights": {
+    "welfare": 15,
+    "english": 15,
+    "job_market": 25,
+    "income": 15,
+    "permanent_residence": 20,
+    "immigrant_friendliness": 10
+  },
+  "alert_config": {
+    "enabled": true,
+    "minimum_priority": 85,
+    "minimum_research_fit": 75,
+    "require_confirmed_funding": true,
+    "max_issues_per_scan": 5
+  }
+}

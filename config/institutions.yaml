@@ -1,0 +1,217 @@
+institutions:
+- name: University of Technology Sydney
+  aliases:
+  - UTS
+  - University of Technology Sydney
+  country: Australia
+  city: Sydney
+  priority: 100
+- name: University of Sydney
+  aliases:
+  - University of Sydney
+  - Sydney University
+  country: Australia
+  city: Sydney
+  priority: 96
+- name: UNSW Sydney
+  aliases:
+  - UNSW
+  - University of New South Wales
+  country: Australia
+  city: Sydney
+  priority: 94
+- name: RMIT University
+  aliases:
+  - RMIT
+  - RMIT University
+  country: Australia
+  city: Melbourne
+  priority: 90
+- name: Monash University
+  aliases:
+  - Monash
+  - Monash University
+  country: Australia
+  city: Melbourne
+  priority: 88
+- name: University of Melbourne
+  aliases:
+  - University of Melbourne
+  - Melbourne University
+  country: Australia
+  city: Melbourne
+  priority: 87
+- name: Wageningen University & Research
+  aliases:
+  - Wageningen University
+  - Wageningen University & Research
+  - WUR
+  country: Netherlands
+  city: Wageningen
+  priority: 97
+- name: Delft University of Technology
+  aliases:
+  - TU Delft
+  - Delft University of Technology
+  country: Netherlands
+  city: Delft
+  priority: 90
+- name: Eindhoven University of Technology
+  aliases:
+  - TU/e
+  - Eindhoven University of Technology
+  country: Netherlands
+  city: Eindhoven
+  priority: 84
+- name: University of Twente
+  aliases:
+  - University of Twente
+  country: Netherlands
+  city: Enschede
+  priority: 82
+- name: University of British Columbia
+  aliases:
+  - UBC
+  - University of British Columbia
+  country: Canada
+  city: Vancouver
+  priority: 97
+- name: University of Toronto
+  aliases:
+  - University of Toronto
+  - U of T
+  country: Canada
+  city: Toronto
+  priority: 95
+- name: University of Waterloo
+  aliases:
+  - University of Waterloo
+  - Waterloo
+  country: Canada
+  city: Waterloo
+  priority: 88
+- name: HEC Montréal
+  aliases:
+  - HEC Montréal
+  - HEC Montreal
+  country: Canada
+  city: Montreal
+  priority: 86
+- name: McGill University
+  aliases:
+  - McGill
+  - McGill University
+  country: Canada
+  city: Montreal
+  priority: 88
+- name: Concordia University
+  aliases:
+  - Concordia
+  - Concordia University
+  country: Canada
+  city: Montreal
+  priority: 80
+- name: Ontario Tech University
+  aliases:
+  - Ontario Tech
+  - Ontario Tech University
+  country: Canada
+  city: Oshawa
+  priority: 74
+- name: Karlsruhe Institute of Technology
+  aliases:
+  - KIT
+  - Karlsruhe Institute of Technology
+  country: Germany
+  city: Karlsruhe
+  priority: 94
+- name: German Aerospace Center
+  aliases:
+  - DLR
+  - German Aerospace Center
+  - Deutsches Zentrum für Luft- und Raumfahrt
+  country: Germany
+  city: ''
+  priority: 96
+- name: TUD Dresden University of Technology
+  aliases:
+  - TU Dresden
+  - TUD Dresden University of Technology
+  - Dresden University of Technology
+  country: Germany
+  city: Dresden
+  priority: 90
+- name: Technical University of Munich
+  aliases:
+  - TUM
+  - Technical University of Munich
+  country: Germany
+  city: Munich
+  priority: 92
+- name: RWTH Aachen University
+  aliases:
+  - RWTH Aachen
+  - RWTH Aachen University
+  country: Germany
+  city: Aachen
+  priority: 89
+- name: Forschungszentrum Jülich
+  aliases:
+  - Forschungszentrum Jülich
+  - FZJ
+  - Jülich Research Centre
+  country: Germany
+  city: Jülich
+  priority: 87
+- name: University of Hohenheim
+  aliases:
+  - University of Hohenheim
+  - Hohenheim University
+  country: Germany
+  city: Stuttgart
+  priority: 85
+- name: Chalmers University of Technology
+  aliases:
+  - Chalmers
+  - Chalmers University of Technology
+  country: Sweden
+  city: Gothenburg
+  priority: 95
+- name: KTH Royal Institute of Technology
+  aliases:
+  - KTH
+  - KTH Royal Institute of Technology
+  country: Sweden
+  city: Stockholm
+  priority: 94
+- name: Lund University
+  aliases:
+  - Lund University
+  - LTH
+  - Lund University Faculty of Engineering
+  country: Sweden
+  city: Lund
+  priority: 92
+- name: Luleå University of Technology
+  aliases:
+  - Luleå University of Technology
+  - Lulea University of Technology
+  - LTU
+  country: Sweden
+  city: Luleå
+  priority: 93
+- name: Swedish University of Agricultural Sciences
+  aliases:
+  - SLU
+  - Swedish University of Agricultural Sciences
+  country: Sweden
+  city: Uppsala
+  priority: 91
+- name: Linköping University
+  aliases:
+  - Linköping University
+  - Linkoping University
+  - LiU
+  country: Sweden
+  city: Linköping
+  priority: 88

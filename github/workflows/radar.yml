@@ -1,0 +1,91 @@
+name: Daily PhD Radar Command Center
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "reports/**"
+      - "data/**"
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: read
+  issues: write
+
+concurrency:
+  group: phd-radar
+  cancel-in-progress: false
+
+jobs:
+  scan-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Test Research DNA + decision engine
+        run: python tests/test_scoring.py
+
+      - name: Validate dashboard JavaScript
+        run: node --check app.js
+
+      - name: Scan official sources
+        run: python worker.py
+
+      - name: Create high-match and weekly GitHub issue alerts
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python radar/alerts.py
+
+      - name: Commit radar intelligence
+        run: |
+          git config user.name "PhD Radar Bot"
+          git config user.email "actions@github.com"
+          git add reports data
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatic PhD radar intelligence update"
+            git push origin HEAD:main
+          else
+            echo "No report changes to commit"
+          fi
+
+      - name: Build static site
+        run: |
+          rm -rf site
+          mkdir -p site/reports
+          cp index.html style.css app.js BUILD_INFO.json site/
+          cp reports/*.json reports/*.csv site/reports/
+          touch site/.nojekyll
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
