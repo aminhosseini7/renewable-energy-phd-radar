@@ -112,7 +112,7 @@
       "country": 88,
       "deadline": 25,
       "confidence": 87,
-      "newness": 100
+      "newness": 10
     },
     "fit_reasons": [
       "Strong continuation of agricultural/biomass supply-chain network design and optimisation under uncertainty.",
@@ -124,161 +124,20 @@
       "No reliable deadline was detected; check the official page manually."
     ],
     "continuation_label": "Strong continuation of Paper 1",
-    "next_action": "Review",
-    "action_rank": 48,
-    "action_reason": "New adjacent match; inspect before it is deprioritised.",
+    "next_action": "Low priority",
+    "action_rank": 20,
+    "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT On",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
     "is_changed": false,
     "stale": false,
     "content_hash": "8f624bb4edc6cdc72932",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 74,
-    "golden_match": false
-  },
-  {
-    "fingerprint": "8cfe5c44ec57ff3600d1860a",
-    "title": "Our Group",
-    "source": "University of Toronto Sustainable Systems group",
-    "university": "University of Toronto",
-    "country": "Canada",
-    "city": "Toronto",
-    "institution_priority": 95,
-    "country_priority": 96,
-    "country_score": 89,
-    "kind": "source_page",
-    "url": "https://sustainablesystems.civmin.utoronto.ca/our-group/",
-    "research_fit": 63,
-    "paper1_score": 54,
-    "paper2_score": 61,
-    "trajectory_score": 80,
-    "paper1_dimensions": {
-      "domain": 34,
-      "network": 0,
-      "optimization": 8,
-      "uncertainty": 12,
-      "solution_methods": 0
-    },
-    "paper2_dimensions": {
-      "domain": 37,
-      "network": 7,
-      "investment_methods": 0,
-      "sustainability": 13,
-      "multiobjective": 0
-    },
-    "trajectory_dimensions": {
-      "renewable_fuels": 25,
-      "supply_chain": 17,
-      "quantitative_methods": 13,
-      "sustainability": 15,
-      "strategic_decisions": 10
-    },
-    "keyword_hits": [
-      "biomass",
-      "biofuel",
-      "biofuels",
-      "bioenergy",
-      "biobased",
-      "optimization model",
-      "uncertainty",
-      "risk",
-      "sustainable aviation fuel",
-      "SAF",
-      "aviation fuel",
-      "Canola",
-      "logistics",
-      "life cycle assessment",
-      "LCA",
-      "greenhouse gas",
-      "GHG",
-      "emissions",
-      "decarbonization",
-      "decarbonisation",
-      "supply chain",
-      "optimization",
-      "sustainability",
-      "sustainable"
-    ],
-    "penalty_hits": [],
-    "why_match": [
-      "Paper 1: domain 34, uncertainty 12, optimization 8",
-      "Paper 2: domain 37, sustainability 13, network 7"
-    ],
-    "frontier_score": 31,
-    "frontier_dimensions": {
-      "advanced_uncertainty": 0,
-      "adaptive_investment": 0,
-      "multimodal_logistics": 0,
-      "technology_portfolio": 18,
-      "lifecycle_policy": 7,
-      "circular_agri_bioeconomy": 0,
-      "large_scale_methods": 0
-    },
-    "frontier_hits": [
-      "e-fuel",
-      "e-fuels",
-      "life cycle assessment"
-    ],
-    "frontier_themes": [
-      "technology_portfolio",
-      "lifecycle_policy"
-    ],
-    "funding": "Competitive",
-    "funding_evidence": [
-      "competitive full-funding route"
-    ],
-    "funding_amounts": [],
-    "funding_model": "competitive_full_funding",
-    "funding_eligible": true,
-    "funding_score": 66,
-    "deadline": "",
-    "deadline_evidence": "",
-    "days_to_deadline": null,
-    "deadline_score": 25,
-    "status": "open_or_unknown",
-    "potential_supervisor": "Daniel Posen",
-    "supervisor_score": 96,
-    "supervisor_confirmed_on_page": true,
-    "data_confidence": 79,
-    "priority_components": {
-      "research_fit": 63,
-      "frontier": 31,
-      "funding": 66,
-      "supervisor": 96,
-      "institution": 95,
-      "country": 89,
-      "deadline": 25,
-      "confidence": 79,
-      "newness": 100
-    },
-    "fit_reasons": [
-      "Extends the shared operations-research trajectory across renewable-fuel supply chains.",
-      "Strongest dimensions: Paper 2 domain, Paper 1 domain, Paper 2 sustainability, Paper 1 uncertainty.",
-      "Supervisor alignment: Daniel Posen (named on the page)."
-    ],
-    "watchouts": [
-      "Full funding is competitive rather than guaranteed; verify tuition coverage and living stipend before applying.",
-      "No reliable deadline was detected; check the official page manually."
-    ],
-    "continuation_label": "Strong research-trajectory fit",
-    "next_action": "Review",
-    "action_rank": 48,
-    "action_reason": "New adjacent match; inspect before it is deprioritised.",
-    "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
-    "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
-    "is_changed": false,
-    "stale": false,
-    "content_hash": "4ca0a75df1616878025a",
-    "structured": false,
-    "date_posted": "",
-    "employment_type": "",
-    "strategic_score": 68,
+    "strategic_score": 72,
     "golden_match": false
   },
   {
@@ -398,7 +257,7 @@
       "country": 89,
       "deadline": 25,
       "confidence": 91,
-      "newness": 100
+      "newness": 10
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
@@ -414,15 +273,15 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
     "is_changed": false,
     "stale": false,
     "content_hash": "b98c1f99c6a6b4f10ce2",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 69,
+    "strategic_score": 68,
     "golden_match": false
   },
   {
@@ -534,7 +393,7 @@
       "country": 89,
       "deadline": 25,
       "confidence": 87,
-      "newness": 100
+      "newness": 10
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
@@ -550,15 +409,156 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
     "is_changed": false,
     "stale": false,
     "content_hash": "055ded838fd9771e3a43",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 69,
+    "strategic_score": 67,
+    "golden_match": false
+  },
+  {
+    "fingerprint": "8cfe5c44ec57ff3600d1860a",
+    "title": "Our Group",
+    "source": "University of Toronto Sustainable Systems group",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "city": "Toronto",
+    "institution_priority": 95,
+    "country_priority": 96,
+    "country_score": 89,
+    "kind": "source_page",
+    "url": "https://sustainablesystems.civmin.utoronto.ca/our-group/",
+    "research_fit": 63,
+    "paper1_score": 54,
+    "paper2_score": 61,
+    "trajectory_score": 80,
+    "paper1_dimensions": {
+      "domain": 34,
+      "network": 0,
+      "optimization": 8,
+      "uncertainty": 12,
+      "solution_methods": 0
+    },
+    "paper2_dimensions": {
+      "domain": 37,
+      "network": 7,
+      "investment_methods": 0,
+      "sustainability": 13,
+      "multiobjective": 0
+    },
+    "trajectory_dimensions": {
+      "renewable_fuels": 25,
+      "supply_chain": 17,
+      "quantitative_methods": 13,
+      "sustainability": 15,
+      "strategic_decisions": 10
+    },
+    "keyword_hits": [
+      "biomass",
+      "biofuel",
+      "biofuels",
+      "bioenergy",
+      "biobased",
+      "optimization model",
+      "uncertainty",
+      "risk",
+      "sustainable aviation fuel",
+      "SAF",
+      "aviation fuel",
+      "Canola",
+      "logistics",
+      "life cycle assessment",
+      "LCA",
+      "greenhouse gas",
+      "GHG",
+      "emissions",
+      "decarbonization",
+      "decarbonisation",
+      "supply chain",
+      "optimization",
+      "sustainability",
+      "sustainable"
+    ],
+    "penalty_hits": [],
+    "why_match": [
+      "Paper 1: domain 34, uncertainty 12, optimization 8",
+      "Paper 2: domain 37, sustainability 13, network 7"
+    ],
+    "frontier_score": 31,
+    "frontier_dimensions": {
+      "advanced_uncertainty": 0,
+      "adaptive_investment": 0,
+      "multimodal_logistics": 0,
+      "technology_portfolio": 18,
+      "lifecycle_policy": 7,
+      "circular_agri_bioeconomy": 0,
+      "large_scale_methods": 0
+    },
+    "frontier_hits": [
+      "e-fuel",
+      "e-fuels",
+      "life cycle assessment"
+    ],
+    "frontier_themes": [
+      "technology_portfolio",
+      "lifecycle_policy"
+    ],
+    "funding": "Competitive",
+    "funding_evidence": [
+      "competitive full-funding route"
+    ],
+    "funding_amounts": [],
+    "funding_model": "competitive_full_funding",
+    "funding_eligible": true,
+    "funding_score": 66,
+    "deadline": "",
+    "deadline_evidence": "",
+    "days_to_deadline": null,
+    "deadline_score": 25,
+    "status": "open_or_unknown",
+    "potential_supervisor": "Daniel Posen",
+    "supervisor_score": 96,
+    "supervisor_confirmed_on_page": true,
+    "data_confidence": 79,
+    "priority_components": {
+      "research_fit": 63,
+      "frontier": 31,
+      "funding": 66,
+      "supervisor": 96,
+      "institution": 95,
+      "country": 89,
+      "deadline": 25,
+      "confidence": 79,
+      "newness": 10
+    },
+    "fit_reasons": [
+      "Extends the shared operations-research trajectory across renewable-fuel supply chains.",
+      "Strongest dimensions: Paper 2 domain, Paper 1 domain, Paper 2 sustainability, Paper 1 uncertainty.",
+      "Supervisor alignment: Daniel Posen (named on the page)."
+    ],
+    "watchouts": [
+      "Full funding is competitive rather than guaranteed; verify tuition coverage and living stipend before applying.",
+      "No reliable deadline was detected; check the official page manually."
+    ],
+    "continuation_label": "Strong research-trajectory fit",
+    "next_action": "Low priority",
+    "action_rank": 20,
+    "action_reason": "Keep for reference unless funding or fit evidence improves.",
+    "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
+    "first_seen": "2026-08-23T19:15:07+00:00",
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
+    "is_changed": false,
+    "stale": false,
+    "content_hash": "4ca0a75df1616878025a",
+    "structured": false,
+    "date_posted": "",
+    "employment_type": "",
+    "strategic_score": 66,
     "golden_match": false
   },
   {
@@ -659,7 +659,7 @@
       "country": 89,
       "deadline": 25,
       "confidence": 87,
-      "newness": 100
+      "newness": 10
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization.",
@@ -675,15 +675,15 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "Large-Scale Optimization Models and Applications | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergraduate progr",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
     "is_changed": false,
     "stale": false,
     "content_hash": "32521521409ca27593a8",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 58,
+    "strategic_score": 56,
     "golden_match": false
   },
   {
@@ -787,7 +787,7 @@
       "country": 88,
       "deadline": 25,
       "confidence": 82,
-      "newness": 100
+      "newness": 10
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 1 domain, Paper 2 sustainability.",
@@ -803,15 +803,15 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "Publications Journals Zahraee, S.M. and Shiwakoti, N., 2025. A review of sustainable hydrogen energy by 2050: Supply chain, export markets, circular economy, social dimensions, and future prospects: Australia vs. worldwide. Sustainable Futures, 10, p.101070. doi: 10.1016/j.sftr.2025.101070 Zahraee, S. M., Shiwakoti, N., Stasinopoulos, P. (2024). Metaheuristic Optimization for Agricultural Biomass Supply Chain: Integrating Strategic, Tac",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
     "is_changed": false,
     "stale": false,
     "content_hash": "8ec876102bbf59f24b83",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 54,
+    "strategic_score": 52,
     "golden_match": false
   },
   {
@@ -914,7 +914,7 @@
       "country": 88,
       "deadline": 25,
       "confidence": 87,
-      "newness": 100
+      "newness": 10
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 2 network, Paper 1 network, Paper 2 sustainability.",
@@ -930,15 +930,15 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "Transport Safety for Sustainable and Inclusive Cities - RMIT University Transport Safety for Sustainable and Inclusive Cities SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Courses Courses by study area Undergraduate",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
     "is_changed": false,
     "stale": false,
     "content_hash": "23c5110df8d82c4922bd",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 53,
+    "strategic_score": 51,
     "golden_match": false
   },
   {
@@ -1045,7 +1045,7 @@
       "country": 88,
       "deadline": 25,
       "confidence": 82,
-      "newness": 100
+      "newness": 10
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 2 sustainability, Paper 1 optimization, Paper 1 domain.",
@@ -1061,15 +1061,15 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "Project description Project description The transition to sustainable energy systems is one of the most pressing global challenges, driven largely by the need to mitigate climate change and reduce reliance on fossil fuels. Renewable energy sources, such as biomass and hydrogen, offer promising alternatives; however, their large-scale deployment is constrained by high feedstock costs, supply uncertainty, logistical complexity, and enviro",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T19:15:07+00:00",
-    "is_new": true,
+    "last_seen": "2026-08-23T19:17:00+00:00",
+    "is_new": false,
     "is_changed": false,
     "stale": false,
     "content_hash": "b4f802da63e4d5d75a29",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 51,
+    "strategic_score": 50,
     "golden_match": false
   }
 ]

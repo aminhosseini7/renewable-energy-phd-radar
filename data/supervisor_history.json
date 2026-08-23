@@ -4,7 +4,7 @@
     "url": "https://www.sydney.edu.au/business/our-research/institute-of-transport-and-logistics-studies/our-people.html",
     "content_hash": "016c40ee4464bfd701b1",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "5d1933ba235e7150df614958": {
@@ -12,7 +12,7 @@
     "url": "https://www.sydney.edu.au/news-opinion/news/2020/04/02/tequila-powered-biofuels-more-efficient-than-corn-or-sugar.html",
     "content_hash": "912b09837e123f4ef330",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "702bd978c204c94f7a12f9a9": {
@@ -20,7 +20,7 @@
     "url": "https://www.unsw.edu.au/staff/tomas-lagos",
     "content_hash": "41b5d5134b8aa899de1e",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "ff82913bdc9c5e9c5c804c23": {
@@ -28,7 +28,7 @@
     "url": "https://profiles.uts.edu.au/Kaveh.Khalilpour",
     "content_hash": "244ea6affa00c760f225",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "899e0424124bba1a69273b50": {
@@ -36,7 +36,7 @@
     "url": "https://www.rmit.edu.au/profiles/z/seyedmojib-zahraee",
     "content_hash": "bc0bd2472203ec53ac36",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "a80280c566e9e85a9e881782": {
@@ -44,25 +44,25 @@
     "url": "https://www.rmit.edu.au/profiles/s/nirajan-shiwakoti",
     "content_hash": "8356e4e1f492f619bffc",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "79052eb46211aa0b9bfd04b1": {
     "name": "Andreas Ernst",
     "url": "https://research.monash.edu/en/persons/andreas-ernst",
-    "content_hash": "325dcde9fb1ba6398baf",
+    "content_hash": "d6fc008cd56ad24e3ce2",
     "opening_signals": [
       "accepting PhD"
     ],
-    "last_checked": "2026-08-23T19:15:07+00:00",
-    "last_changed": ""
+    "last_checked": "2026-08-23T19:17:00+00:00",
+    "last_changed": "2026-08-23T19:17:00+00:00"
   },
   "027172336278a1e6f5149c3f": {
     "name": "Daniel Posen",
     "url": "https://sustainablesystems.civmin.utoronto.ca/our-group/",
     "content_hash": "4ca0a75df1616878025a",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "809c32cdf33e629cd315bd90": {
@@ -70,7 +70,7 @@
     "url": "https://research.wur.nl/en/persons/sander-de-leeuw/",
     "content_hash": "bd088e845033caa3e55d",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "e83670cebcfcd98ca2b31108": {
@@ -78,33 +78,33 @@
     "url": "https://www.wur.nl/en/persons/dr-argyris-kanellopoulos",
     "content_hash": "7eed5bdefa73d91d854f",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "5aa1f2cc6532d0694fc95bfe": {
     "name": "Xuezhen Guo",
     "url": "https://research.wur.nl/en/persons/xuezhen-guo/",
-    "content_hash": "9df66808d44ee8e3e164",
+    "content_hash": "911422c0c76e0866fb02",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
-    "last_changed": ""
+    "last_checked": "2026-08-23T19:17:00+00:00",
+    "last_changed": "2026-08-23T19:17:00+00:00"
   },
   "751f78a982823424ed38cd8a": {
     "name": "Xin Ma",
     "url": "https://research.monash.edu/en/persons/xin-ma",
-    "content_hash": "b0923f3adb43252677f1",
+    "content_hash": "1459d888e0764efd00b6",
     "opening_signals": [
       "accepting PhD"
     ],
-    "last_checked": "2026-08-23T19:15:07+00:00",
-    "last_changed": ""
+    "last_checked": "2026-08-23T19:17:00+00:00",
+    "last_changed": "2026-08-23T19:17:00+00:00"
   },
   "edfcd8200f7db94475a23ad8": {
     "name": "Ellen Slegers",
     "url": "https://www.wur.nl/en/persons/drir-pm-ellen-slegers",
     "content_hash": "39a0904dae9e1bce34bf",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "b75dbffd164a5ce5b9603e96": {
@@ -112,23 +112,23 @@
     "url": "https://www.wur.nl/en/persons/drir-e-bert-annevelink",
     "content_hash": "33dc54f9608a91bb4c3e",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "ee938169dc4963e29d85ef08": {
     "name": "Fereshteh Mafakheri",
     "url": "https://www.concordia.ca/faculty/fereshteh-mafakheri.html",
-    "content_hash": "d7745fa66396db668add",
+    "content_hash": "48efb1367b6635ba6043",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
-    "last_changed": ""
+    "last_checked": "2026-08-23T19:17:00+00:00",
+    "last_changed": "2026-08-23T19:17:00+00:00"
   },
   "fd7bae22504241eb444eedd4": {
     "name": "Md Mashum Billal",
     "url": "https://engineering.ontariotechu.ca/people/mme/dr-md-mashum-billal.php",
     "content_hash": "92f311ab4853639cf49d",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "628d38b5d8d9e77f8d2e43f0": {
@@ -136,7 +136,7 @@
     "url": "https://forestry.ubc.ca/faculty-profile/taraneh-sowlati/",
     "content_hash": "5c299a238abe970d716c",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "da778ecfc48643c105caa548": {
@@ -144,7 +144,7 @@
     "url": "https://www.hec.ca/en/profs/yossiri.adulyasak.html",
     "content_hash": "b6b7039c42c477ba4f45",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "b1ba4b68754ecb387f603607": {
@@ -152,7 +152,7 @@
     "url": "https://www.iip.kit.edu/english/9.php",
     "content_hash": "87863c9b4b191cc1bf78",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "86a3efbb371dc5b256718a91": {
@@ -162,7 +162,7 @@
     "opening_signals": [
       "graduate students"
     ],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "9b9f090c8772a82dc83c6567": {
@@ -170,7 +170,7 @@
     "url": "https://www.grad.ubc.ca/researcher/13880-gopaluni",
     "content_hash": "f60902c08f8e248d5d57",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "75dbca3ddc88691032cfa284": {
@@ -178,7 +178,7 @@
     "url": "https://www.iip.kit.edu/english/9.php",
     "content_hash": "87863c9b4b191cc1bf78",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "e7bb0c31f02e8e186ffe7e14": {
@@ -188,23 +188,23 @@
     "opening_signals": [
       "graduate students"
     ],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "aa2037907fe91ce2e9d175c5": {
     "name": "Maria Grahn",
     "url": "https://www.chalmers.se/en/persons/np97magr/",
-    "content_hash": "249528e6b331fe24cb5c",
+    "content_hash": "39304897616f0f558fcb",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
-    "last_changed": ""
+    "last_checked": "2026-08-23T19:17:00+00:00",
+    "last_changed": "2026-08-23T19:17:00+00:00"
   },
   "21d67f01a8a2022386307602": {
     "name": "Pål Börjesson",
     "url": "https://www.lunduniversity.lu.se/lucat/user/a521f2f292e10371eb2bbf139bbbff63",
     "content_hash": "d77c82bb3a366ef5c70e",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "35de8d2f493c6f74fd3b9425": {
@@ -212,7 +212,7 @@
     "url": "https://www.dlr.de/en/ve",
     "content_hash": "86c532ab8fa2e8867702",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "12c765b9a4e351c23a133bb6": {
@@ -220,7 +220,7 @@
     "url": "https://research.chalmers.se/en/person/frtgb",
     "content_hash": "b5e993feecd08a8fa44d",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "ea83f1f0d2d0aaf98bb41e68": {
@@ -228,7 +228,7 @@
     "url": "https://tu-dresden.de/bu/wirtschaft/bwl/ee2/die-professur/inhaber-in",
     "content_hash": "",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   },
   "e280449615b42cafc5ffe0b3": {
@@ -236,7 +236,7 @@
     "url": "https://www.ltu.se/en/staff/e/elisabeth-wetterlund",
     "content_hash": "",
     "opening_signals": [],
-    "last_checked": "2026-08-23T19:15:07+00:00",
+    "last_checked": "2026-08-23T19:17:00+00:00",
     "last_changed": ""
   }
 }
