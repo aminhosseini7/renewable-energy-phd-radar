@@ -1,8 +1,14 @@
 {
   "name": "Renewable Energy PhD Radar — Command Center",
-  "version": "2026.08-command-center",
+  "version": "2026.08-command-center-r2",
   "architecture": "Static GitHub Pages + GitHub Actions + Python crawler",
-  "target_countries": ["Netherlands", "Australia", "Canada", "Germany", "Sweden"],
+  "target_countries": [
+    "Netherlands",
+    "Australia",
+    "Canada",
+    "Germany",
+    "Sweden"
+  ],
   "funding_policy": "full-funding-first",
   "features": [
     "two-paper Research-DNA scoring",
@@ -20,6 +26,13 @@
     "deadline ICS export",
     "dark mode",
     "GitHub high-match alerts",
-    "weekly GitHub digest"
+    "weekly GitHub digest",
+    "hard precision gate for false-positive control",
+    "source-specific link boosting and listing-page suppression",
+    "strict funding certainty and evidence verdicts",
+    "opportunity-type classification and actionability score",
+    "coverage-gap intelligence",
+    "expanded official sources for UQ, University of Twente and RWTH Aachen",
+    "expanded high-fit supervisor watchlist in Germany and Sweden"
   ]
 }

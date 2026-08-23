@@ -181,3 +181,51 @@ supervisors:
   url: https://www.ltu.se/en/staff/e/elisabeth-wetterlund
   focus: energy systems analysis; renewable energy; biofuels for transportation; forest biomass; biorefineries; techno-economic
     value-chain analysis; systems optimization
+- name: Grit Walther
+  university: RWTH Aachen University
+  country: Germany
+  city: Aachen
+  url: https://www.om.rwth-aachen.de/
+  focus: renewable fuel supply chains; biomass utilization; sustainable supply chains; multi-objective optimization; robust
+    and stochastic optimization; life cycle assessment; energy and industrial systems
+- name: Stefan Minner
+  university: Technical University of Munich
+  country: Germany
+  city: Munich
+  url: https://www.mgt.tum.de/professors-1/info/prof-dr-stefan-minner
+  focus: global logistics and supply chain design; resilient and sustainable supply chains; transportation optimization; operations
+    research; analytics
+- name: Alexander Hübner
+  university: Technical University of Munich
+  country: Germany
+  city: Munich
+  url: https://scm.cs.tum.de/de/team/alexander-huebner
+  focus: sustainable supply chains; transportation; capacity management; decision support; optimization; value chain management
+- name: Dilip Khatiwada
+  university: KTH Royal Institute of Technology
+  country: Sweden
+  city: Stockholm
+  url: https://www.kth.se/profile/dilipk
+  focus: renewable energy sustainability; life cycle assessment; energy systems optimization; decision support; climate mitigation;
+    energy policy
+- name: Luca Urciuoli
+  university: KTH Royal Institute of Technology
+  country: Sweden
+  city: Stockholm
+  url: https://www.kth.se/indek/research/operations-and-suppl
+  focus: resilient and sustainable supply chains; value chain optimisation; logistics; climate risks; operations and supply
+    chain management
+- name: Joakim Lundgren
+  university: Luleå University of Technology
+  country: Sweden
+  city: Luleå
+  url: https://www.ltu.se/en/staff/j/joakim-lundgren
+  focus: bioenergy; renewable transportation fuels; biorefinery integration; fossil-free hydrogen; energy systems analysis;
+    thermochemical biomass conversion; techno-economic optimization
+- name: Dan Bergström
+  university: Swedish University of Agricultural Sciences
+  country: Sweden
+  city: Uppsala
+  url: https://www.slu.se/en/profilepages/b/dan-bergstrom/
+  focus: forest biomass value chains; bioenergy; biofuel production; biomass supply systems; logistics; sustainability; supply-chain
+    efficiency

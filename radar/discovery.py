@@ -5,9 +5,12 @@ BAD_EXT = (".pdf", ".jpg", ".jpeg", ".png", ".gif", ".svg", ".zip", ".doc", ".do
 NEGATIVE_LINK_HINTS = ("privacy", "cookie", "login", "sign in", "facebook", "linkedin", "instagram", "news", "event", "alumni")
 
 
-def discover_links(page: Page, domains: list[str], terms: list[str], max_links: int = 25) -> list[dict]:
+def discover_links(page: Page, domains: list[str], terms: list[str], max_links: int = 25,
+                   boost_terms: list[str] | None = None, exclude_terms: list[str] | None = None) -> list[dict]:
     ranked, seen = [], set()
     terms_l = [x.lower() for x in terms]
+    boost_l = [x.lower() for x in (boost_terms or [])]
+    exclude_l = [x.lower() for x in (exclude_terms or [])]
     for a in page.soup.find_all("a", href=True):
         href = a.get("href", "").strip()
         if not href or href.startswith(("mailto:", "tel:", "javascript:")):
@@ -18,6 +21,8 @@ def discover_links(page: Page, domains: list[str], terms: list[str], max_links: 
         anchor = " ".join(a.stripped_strings).strip()
         hay = (anchor + " " + url).lower()
         score = sum(1 for t in terms_l if t in hay)
+        score += 2 * sum(1 for t in boost_l if t in hay)
+        score -= 4 * sum(1 for t in exclude_l if t in hay)
         if any(h in hay for h in NEGATIVE_LINK_HINTS):
             score -= 2
         # Job-detail-ish URLs deserve a small bonus even if anchor text is terse.

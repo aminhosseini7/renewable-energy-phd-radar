@@ -134,3 +134,46 @@ assert "Application deadline: 2026-10-15" in jobs[0]["text"], jobs
 print("Command Center intelligence tests passed")
 iso_deadline, _ = extract_deadline("Application deadline: 2026-10-15")
 assert iso_deadline == "2026-10-15", iso_deadline
+
+# Precision / funding-hardening tests added in Command Center Plus.
+from radar.decision import precision_gate, funding_certainty, actionability_score, classify_opportunity
+
+gate_good = precision_gate(s2, "PhD in HEFA-SAF supply chain optimization", p2, "direct_vacancy")
+assert gate_good["passed"] and gate_good["tier"] in {"A", "B"}, gate_good
+
+generic_battery = "PhD in lithium-ion battery electrochemistry and advanced cathode materials for renewable energy storage"
+generic_score = research_score(generic_battery, dna)
+gate_bad = precision_gate(generic_score, generic_battery, generic_battery, "direct_vacancy")
+assert not gate_bad["passed"], gate_bad
+
+funding_strict = funding_certainty(
+    {"level":"Confirmed","evidence":["salary"],"amounts":[],"model":"salaried"},
+    {"funding_model":"salaried"},
+    "PhD doctoral student, TV-L E13 salary, fixed-term employment contract",
+    "Direct vacancy",
+)
+assert funding_strict["strict_verified"] and funding_strict["score"] == 100, funding_strict
+
+funding_competitive = funding_certainty(
+    {"level":"Competitive","evidence":["scholarship"],"amounts":[],"model":"competitive_full_funding"},
+    {"funding_model":"competitive_full_funding"},
+    "Competitive research scholarship for international PhD applicants",
+    "Funded project",
+)
+assert not funding_competitive["strict_verified"] and 60 <= funding_competitive["score"] < 80, funding_competitive
+
+assert classify_opportunity({"source_type":"direct_vacancy"}, "discovered_page") == "Direct vacancy"
+assert classify_opportunity({"source_type":"funded_project"}, "discovered_page") == "Funded project"
+
+actionability = actionability_score(
+    research_fit=90, funding_certainty_score=100, confidence=90, opportunity_type="Direct vacancy",
+    deadline_score=78, supervisor_score=80,
+)
+assert actionability >= 88, actionability
+
+# New precision-focused sources must be present.
+assert any(s["name"].startswith("University of Queensland scholarship-funded") for s in sources_cfg["sources"])
+assert any(s["name"].startswith("University of Twente current PhD") for s in sources_cfg["sources"])
+assert any(s["name"].startswith("RWTH Aachen PhD") for s in sources_cfg["sources"])
+
+print("Precision and funding-hardening tests passed")

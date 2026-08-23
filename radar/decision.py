@@ -30,6 +30,106 @@ def funding_component(level: str, model: str = "") -> int:
     return 0
 
 
+def classify_opportunity(source: dict, kind: str) -> str:
+    source_type = source.get("source_type", "")
+    if source_type == "direct_vacancy" or kind == "structured_job":
+        return "Direct vacancy"
+    if source_type == "funded_project":
+        return "Funded project"
+    if source_type == "program_lead":
+        return "Program / supervisor lead"
+    if source_type == "research_lead":
+        return "Research lead"
+    return "Opportunity lead"
+
+
+def precision_gate(score: dict, title: str, text: str, source_type: str = "") -> dict:
+    """Strict relevance gate for the two-paper research trajectory.
+
+    The score itself is intentionally broad for recall. This gate adds precision so
+    generic renewable-energy, generic OR, battery/materials and unrelated engineering
+    vacancies do not reach the main dashboard merely because they share a few terms.
+    """
+    p1d = score.get("paper1_dimensions", {})
+    p2d = score.get("paper2_dimensions", {})
+    trd = score.get("trajectory_dimensions", {})
+
+    domain = max(p1d.get("domain", 0), p2d.get("domain", 0), trd.get("renewable_fuels", 0))
+    network = max(p1d.get("network", 0), p2d.get("network", 0), trd.get("supply_chain", 0))
+    methods = max(p1d.get("optimization", 0), p2d.get("investment_methods", 0), trd.get("quantitative_methods", 0))
+    sustainability = max(p2d.get("sustainability", 0), trd.get("sustainability", 0))
+    core = {"domain": domain, "network": network, "methods": methods, "sustainability": sustainability}
+    active_core = sum([domain >= 7, network >= 6, methods >= 7])
+
+    low_title = (title or "").lower()
+    penalty_hits = [str(x).lower() for x in score.get("penalty_hits", [])]
+    hard_title_terms = [
+        "battery", "electrochem", "quantum", "semiconductor", "medical",
+        "geotechnical", "structural concrete", "computer vision", "robotics",
+    ]
+    hard_title = any(t in low_title for t in hard_title_terms)
+
+    strong_paper = max(score.get("paper1_score", 0), score.get("paper2_score", 0)) >= 58
+    bridge = min(score.get("paper1_score", 0), score.get("paper2_score", 0)) >= 42 and score.get("trajectory_score", 0) >= 48
+    core_fit = domain >= 7 and active_core >= 2
+
+    passed = score.get("research_fit", 0) >= 38 and (strong_paper or bridge or core_fit)
+    reason = "Core renewable-fuel + network/OR dimensions align with the two-paper trajectory."
+
+    if source_type in {"program_lead", "research_lead"} and score.get("research_fit", 0) < 50:
+        passed = False
+        reason = "Evergreen/program lead is too generic for the high-precision dashboard."
+    if hard_title and not (strong_paper and domain >= 12 and network >= 8):
+        passed = False
+        reason = "Title is dominated by an off-topic technical domain without enough supply-chain/fuel evidence."
+    if len(penalty_hits) >= 2 and domain < 14:
+        passed = False
+        reason = "Multiple off-topic research signals outweigh the renewable-fuel domain evidence."
+    if network < 5 and methods < 7:
+        passed = False
+        reason = "Insufficient supply-chain/network or quantitative-optimisation evidence."
+
+    if passed and strong_paper and active_core >= 3:
+        tier = "A"
+    elif passed and (strong_paper or bridge):
+        tier = "B"
+    elif passed:
+        tier = "C"
+    else:
+        tier = "Rejected"
+    return {"passed": bool(passed), "tier": tier, "reason": reason, "core_dimensions": core}
+
+
+def funding_certainty(funding: dict, source: dict, text: str, opportunity_type: str) -> dict:
+    model = source.get("funding_model", "")
+    low = (text or "").lower()
+    stipend_or_salary = any(x in low for x in ["stipend", "salary", "salaried", "tv-l", "tvöd", "remuneration", "employment contract", "employed as a doctoral"] )
+    tuition = any(x in low for x in ["tuition fees covered", "tuition fee waiver", "fee offset", "full tuition", "tuition scholarship"] )
+    explicit_full = stipend_or_salary and tuition
+
+    if model == "salaried" and opportunity_type == "Direct vacancy":
+        return {"score": 100, "verdict": "Salaried doctoral employment", "strict_verified": True}
+    if model == "guaranteed_package":
+        return {"score": 96, "verdict": "Guaranteed / minimum funding package", "strict_verified": True}
+    if explicit_full:
+        return {"score": 95, "verdict": "Explicit stipend/salary + tuition coverage", "strict_verified": True}
+    if funding.get("level") == "Confirmed":
+        return {"score": 86, "verdict": "Funding evidence detected — verify exact coverage", "strict_verified": True}
+    if model == "competitive_full_funding" or funding.get("level") == "Competitive":
+        return {"score": 68, "verdict": "Competitive full-funding route", "strict_verified": False}
+    return {"score": 0, "verdict": "Full funding not verified", "strict_verified": False}
+
+
+def actionability_score(*, research_fit: int, funding_certainty_score: int, confidence: int,
+                        opportunity_type: str, deadline_score: int, supervisor_score: int) -> int:
+    type_bonus = {"Direct vacancy": 100, "Funded project": 90, "Program / supervisor lead": 55, "Research lead": 45}.get(opportunity_type, 50)
+    return weighted_score(
+        {"fit": research_fit, "funding": funding_certainty_score, "confidence": confidence,
+         "type": type_bonus, "deadline": deadline_score, "supervisor": supervisor_score},
+        {"fit": 30, "funding": 28, "confidence": 13, "type": 14, "deadline": 7, "supervisor": 8},
+    )
+
+
 def days_until_deadline(deadline_iso: str, today: date | None = None) -> int | None:
     if not deadline_iso:
         return None
@@ -217,15 +317,22 @@ def explain_match(score: dict, funding: dict, supervisor: dict, deadline_iso: st
 
 
 def next_action(*, research_fit: int, funding_level: str, funding_model: str, supervisor_score: int,
-                deadline_iso: str, status: str, confidence: int, is_new: bool, frontier_score: int) -> dict:
+                deadline_iso: str, status: str, confidence: int, is_new: bool, frontier_score: int,
+                opportunity_type: str = "Direct vacancy", funding_certainty_score: int | None = None) -> dict:
     days = days_until_deadline(deadline_iso)
     if status == "expired":
         return {"action": "Archive", "rank": 0, "reason": "Deadline has passed."}
 
     confirmed = funding_model in {"salaried", "guaranteed_package"} or funding_level == "Confirmed"
     competitive = funding_model == "competitive_full_funding" or funding_level == "Competitive"
+    funded_enough = (funding_certainty_score if funding_certainty_score is not None else (100 if confirmed else 68 if competitive else 0))
 
-    if confirmed and research_fit >= 78 and confidence >= 65 and (days is None or days <= 60):
+    if opportunity_type in {"Program / supervisor lead", "Research lead"} and research_fit >= 75:
+        if supervisor_score >= 60:
+            return {"action": "Contact supervisor", "rank": 86, "reason": "Strong evergreen research fit; contact the best-aligned supervisor and ask about the next fully funded opening."}
+        return {"action": "Deep review", "rank": 66, "reason": "Strong research group/program fit, but this is not a direct vacancy; identify the correct supervisor/funding cycle."}
+
+    if confirmed and funded_enough >= 85 and research_fit >= 78 and confidence >= 65 and (days is None or days <= 60):
         urgency = " immediately" if days is not None and days <= 21 else ""
         return {"action": "Apply now", "rank": 100, "reason": f"High research fit + confirmed funding; prepare application{urgency}."}
     if research_fit >= 80 and supervisor_score >= 72 and competitive:

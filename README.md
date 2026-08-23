@@ -160,3 +160,19 @@ Then either push to `main` or run manually:
 ## Privacy
 
 Repository reports are public if the GitHub repository is public. The application tracker, private notes, custom browser weights and generated application drafts are browser-local and are not committed by the workflow.
+
+## Precision expansion (R2)
+
+The Command Center now has a stricter second-stage precision layer on top of Research-DNA scoring. It rejects generic renewable-energy, generic optimisation and off-topic technical vacancies unless they contain enough evidence across the candidate's core dimensions: renewable fuels/bioenergy, supply-chain/network design and quantitative optimisation.
+
+Additional decision fields are exported for every match:
+
+- `opportunity_type` — direct vacancy, funded project, program/supervisor lead, or research lead
+- `precision_tier` — A/B/C after the hard relevance gate
+- `funding_certainty` and `funding_verdict` — separates salaried/guaranteed evidence from competitive routes
+- `strict_funding_verified` — conservative full-funding flag
+- `actionability_score` — how ready the opportunity is for action now
+
+Configured coverage in this build: **28 research sources**, **20 funding routes**, and **36 curated supervisors** across the same five target countries. New official-source coverage includes the University of Queensland scholarship-funded project directory, University of Twente doctoral vacancies, and the RWTH Aachen job portal.
+
+Generic vacancy-listing pages can now be configured as `treat_seed_as_candidate: false`, so the crawler uses them for discovery without accidentally presenting the listing page itself as a PhD opportunity.

@@ -12,6 +12,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: competitive_full_funding
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: WUR PhD jobs
   mode: research
   country: Netherlands
@@ -25,6 +27,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: TU Delft PhD jobs
   mode: research
   country: Netherlands
@@ -39,6 +43,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: UTS FEIT research scholarships and HDR projects
   mode: research
   country: Australia
@@ -51,6 +57,7 @@ sources:
   min_signal: 0
   crawl_links: true
   funding_model: competitive_full_funding
+  source_type: funded_project
 - name: UTS ISF HDR scholarships
   mode: research
   country: Australia
@@ -63,6 +70,7 @@ sources:
   min_signal: 0
   crawl_links: true
   funding_model: competitive_full_funding
+  source_type: research_lead
 - name: UNSW HDR research degrees and projects
   mode: research
   country: Australia
@@ -75,6 +83,7 @@ sources:
   min_signal: 1
   crawl_links: true
   funding_model: competitive_full_funding
+  source_type: program_lead
 - name: RMIT sustainable renewable-energy supply-chain project
   mode: research
   country: Australia
@@ -87,6 +96,7 @@ sources:
   min_signal: 0
   crawl_links: true
   funding_model: competitive_full_funding
+  source_type: funded_project
 - name: Monash Engineering PhD project directory
   mode: research
   country: Australia
@@ -99,6 +109,7 @@ sources:
   min_signal: 0
   crawl_links: true
   funding_model: competitive_full_funding
+  source_type: funded_project
 - name: UBC Forestry PhD admissions and research
   mode: research
   country: Canada
@@ -111,6 +122,7 @@ sources:
   min_signal: 1
   crawl_links: true
   funding_model: guaranteed_package
+  source_type: program_lead
 - name: UBC Industrial Engineering Research Group
   mode: research
   country: Canada
@@ -123,6 +135,7 @@ sources:
   min_signal: 0
   crawl_links: true
   funding_model: guaranteed_package
+  source_type: program_lead
 - name: University of Toronto Sustainable Systems group
   mode: research
   country: Canada
@@ -135,6 +148,7 @@ sources:
   min_signal: 0
   crawl_links: true
   funding_model: competitive_full_funding
+  source_type: program_lead
 - name: Waterloo Management Science and Engineering PhD
   mode: research
   country: Canada
@@ -147,6 +161,7 @@ sources:
   min_signal: 1
   crawl_links: true
   funding_model: competitive_full_funding
+  source_type: research_lead
 - name: HEC Montreal Logistics and Operations PhD
   mode: research
   country: Canada
@@ -159,6 +174,7 @@ sources:
   min_signal: 1
   crawl_links: true
   funding_model: guaranteed_package
+  source_type: research_lead
 - name: DAAD PhDGermany international doctoral vacancies
   mode: research
   country: Germany
@@ -172,6 +188,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: competitive_full_funding
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: DLR doctoral and research jobs
   mode: research
   country: Germany
@@ -186,6 +204,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: KIT IIP Production, Logistics and Energy vacancies
   mode: research
   country: Germany
@@ -200,6 +220,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: KTH vacant doctoral positions
   mode: research
   country: Sweden
@@ -213,6 +235,7 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: research_lead
 - name: KTH all vacancies
   mode: research
   country: Sweden
@@ -226,6 +249,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: Chalmers doctoral vacancies
   mode: research
   country: Sweden
@@ -240,6 +265,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: Lund University vacancies
   mode: research
   country: Sweden
@@ -254,6 +281,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: SLU jobs and doctoral vacancies
   mode: research
   country: Sweden
@@ -267,6 +296,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: TU Dresden research associate / PhD vacancies
   mode: research
   country: Germany
@@ -281,6 +312,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: University of Hohenheim research vacancies
   mode: research
   country: Germany
@@ -295,6 +328,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: Lulea University of Technology vacancies
   mode: research
   country: Sweden
@@ -308,6 +343,8 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
 - name: Linkoping University PhD vacancies
   mode: research
   country: Sweden
@@ -321,6 +358,84 @@ sources:
   crawl_links: true
   requires_doctoral_signal: true
   funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
+- name: University of Queensland scholarship-funded PhD projects
+  mode: research
+  country: Australia
+  university: University of Queensland
+  city: Brisbane
+  url: https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects
+  allowed_domains:
+  - study.uq.edu.au
+  - uq.edu.au
+  max_links: 45
+  min_signal: 1
+  crawl_links: true
+  requires_doctoral_signal: true
+  funding_model: competitive_full_funding
+  source_type: funded_project
+  treat_seed_as_candidate: false
+  boost_terms:
+  - phd
+  - scholarship
+  - supply chain
+  - biofuel
+  - bioenergy
+  - sustainable aviation fuel
+  - optimization
+  - optimisation
+  - biomass
+- name: University of Twente current PhD vacancies
+  mode: research
+  country: Netherlands
+  university: University of Twente
+  city: Enschede
+  url: https://www.utwente.nl/en/education/tgs/
+  allowed_domains:
+  - utwente.nl
+  max_links: 38
+  min_signal: 1
+  crawl_links: true
+  requires_doctoral_signal: true
+  funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
+  boost_terms:
+  - phd
+  - vacancy
+  - doctoral
+  - optimization
+  - optimisation
+  - supply chain
+  - energy
+  - sustainability
+- name: RWTH Aachen PhD and research-associate jobs
+  mode: research
+  country: Germany
+  university: RWTH Aachen University
+  city: Aachen
+  url: https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/lidx/1/?asc=0&mobile=1&search=Phd&showall=1&sortby=STELLENBEZ
+  allowed_domains:
+  - rwth-aachen.de
+  - jobs.rwth-aachen.de
+  max_links: 45
+  min_signal: 1
+  crawl_links: true
+  requires_doctoral_signal: true
+  funding_model: salaried
+  source_type: direct_vacancy
+  treat_seed_as_candidate: false
+  boost_terms:
+  - phd
+  - doctoral
+  - research associate
+  - renewable fuel
+  - biofuel
+  - supply chain
+  - optimization
+  - optimisation
+  - energy
 funding_sources:
 - name: WUR salaried PhD jobs
   country: Netherlands
@@ -424,6 +539,24 @@ funding_sources:
   city: Uppsala
   url: https://www.slu.se/en/study/programmes-courses/doctoral-education/what-are-doctoral-programmes/
   funding_model: salaried
+- name: University of Queensland research project scholarships
+  country: Australia
+  university: University of Queensland
+  city: Brisbane
+  url: https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects
+  funding_model: competitive_full_funding
+- name: University of Twente salaried PhD employment
+  country: Netherlands
+  university: University of Twente
+  city: Enschede
+  url: https://www.utwente.nl/en/education/tgs/
+  funding_model: salaried
+- name: RWTH Aachen salaried doctoral research jobs
+  country: Germany
+  university: RWTH Aachen University
+  city: Aachen
+  url: https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/lidx/1/?asc=0&mobile=1&search=Phd&showall=1&sortby=STELLENBEZ
+  funding_model: salaried
 discovery_terms:
 - phd
 - doctoral
@@ -463,3 +596,15 @@ discovery_terms:
 - transport fuel
 - aviation
 - hydrogen
+- renewable fuels
+- renewable aviation fuel
+- sustainable supply chain
+- biomass logistics
+- biobased
+- bio-based
+- facility location
+- mixed-integer
+- MILP
+- Benders
+- Lagrangian
+- carbon intensity

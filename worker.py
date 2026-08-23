@@ -12,7 +12,8 @@ from radar.scoring import research_score, signal_count
 from radar.decision import (
     country_quality_score, funding_component, deadline_component, days_until_deadline,
     freshness_component, priority_score, supervisor_alignment, explain_match, title_is_non_phd,
-    confidence_component, next_action,
+    confidence_component, next_action, classify_opportunity, precision_gate, funding_certainty,
+    actionability_score,
 )
 from radar.extract import extract_deadline, deadline_status, extract_funding, opening_signals, excerpt
 from radar.storage import fingerprint, content_hash, read_json, write_json, now_iso
@@ -58,6 +59,7 @@ source_status: list[dict] = []
 page_cache: dict[str, object] = {}
 opp_lock = Lock()
 cache_lock = Lock()
+filter_stats = Counter()
 
 DOCTORAL_TERMS = [
     "PhD", "doctoral", "doctorate", "doctoral student", "doctoral researcher",
@@ -95,10 +97,22 @@ def process_research_candidate(title: str, text: str, url: str, source: dict, ki
     score = research_score(text, dna)
     signals = signal_count(text, dna.get("opportunity_signals", []))
     if signals < int(source.get("min_signal", 1)):
+        with opp_lock:
+            filter_stats["insufficient_opportunity_signal"] += 1
         return
     if source.get("requires_doctoral_signal") and signal_count(text, DOCTORAL_TERMS) < 1:
+        with opp_lock:
+            filter_stats["missing_doctoral_signal"] += 1
         return
     if score["research_fit"] < 30 or max(score["paper1_score"], score["paper2_score"]) < 28:
+        with opp_lock:
+            filter_stats["low_research_fit"] += 1
+        return
+
+    gate = precision_gate(score, title, text, source.get("source_type", ""))
+    if not gate["passed"]:
+        with opp_lock:
+            filter_stats["precision_gate"] += 1
         return
 
     inst = infer_institution(text, source, institutions)
@@ -106,7 +120,9 @@ def process_research_candidate(title: str, text: str, url: str, source: dict, ki
     if country not in target_countries:
         return
 
+    opportunity_type = classify_opportunity(source, kind)
     funding = funding_for_source(text, source)
+    funding_check = funding_certainty(funding, source, text, opportunity_type)
     deadline, deadline_evidence = extract_deadline(text)
     fp = fingerprint(title or source["name"], url)
     old = prev_by_fp.get(fp, {})
@@ -126,11 +142,12 @@ def process_research_candidate(title: str, text: str, url: str, source: dict, ki
         research_fit=int(score["research_fit"]), funding_level=funding["level"], funding_model=funding["model"],
         supervisor_score=int(supervisor.get("score", 0)), deadline_iso=deadline, status=status_value,
         confidence=confidence, is_new=is_new, frontier_score=int(score.get("frontier_score", 0)),
+        opportunity_type=opportunity_type, funding_certainty_score=int(funding_check["score"]),
     )
     components = {
         "research_fit": int(score["research_fit"]),
         "frontier": int(score.get("frontier_score", 0)),
-        "funding": funding_component(funding["level"], funding["model"]),
+        "funding": int(funding_check["score"]),
         "supervisor": int(supervisor.get("score", 0)),
         "institution": int(inst.get("priority", 60)),
         "country": int(country_scores.get(country, 60)),
@@ -151,6 +168,10 @@ def process_research_candidate(title: str, text: str, url: str, source: dict, ki
         "country_priority": country_priorities.get(country, 70),
         "country_score": int(country_scores.get(country, 60)),
         "kind": kind,
+        "opportunity_type": opportunity_type,
+        "precision_tier": gate["tier"],
+        "precision_reason": gate["reason"],
+        "core_dimensions": gate["core_dimensions"],
         "url": url,
         **score,
         "funding": funding["level"],
@@ -159,6 +180,9 @@ def process_research_candidate(title: str, text: str, url: str, source: dict, ki
         "funding_model": funding["model"],
         "funding_eligible": funding["eligible"],
         "funding_score": components["funding"],
+        "funding_certainty": int(funding_check["score"]),
+        "funding_verdict": funding_check["verdict"],
+        "strict_funding_verified": bool(funding_check["strict_verified"]),
         "deadline": deadline,
         "deadline_evidence": deadline_evidence,
         "days_to_deadline": days_until_deadline(deadline),
@@ -187,9 +211,15 @@ def process_research_candidate(title: str, text: str, url: str, source: dict, ki
         "employment_type": (structured_meta or {}).get("employment_type", ""),
     }
     rec["strategic_score"] = priority_score(components, priority_weights)
+    rec["actionability_score"] = actionability_score(
+        research_fit=int(rec["research_fit"]), funding_certainty_score=int(rec["funding_certainty"]),
+        confidence=int(rec["data_confidence"]), opportunity_type=rec["opportunity_type"],
+        deadline_score=int(rec["deadline_score"]), supervisor_score=int(rec["supervisor_score"]),
+    )
     rec["golden_match"] = bool(
         rec["status"] != "expired"
-        and rec["funding"] == "Confirmed"
+        and rec["strict_funding_verified"]
+        and rec["opportunity_type"] in {"Direct vacancy", "Funded project"}
         and rec["research_fit"] >= 78
         and rec["strategic_score"] >= 82
         and rec["data_confidence"] >= 62
@@ -203,12 +233,13 @@ def process_research_candidate(title: str, text: str, url: str, source: dict, ki
             opportunities[fp] = rec
 
 
-def _process_page(page, source: dict, primary_kind: str):
+def _process_page(page, source: dict, primary_kind: str, allow_page_candidate: bool = True):
     structured_count = 0
     for item in structured_candidates(page):
         process_research_candidate(item["title"], item["text"], item["url"], source, "structured_job", item)
         structured_count += 1
-    process_research_candidate(page.title, page.text, page.url, source, primary_kind)
+    if allow_page_candidate:
+        process_research_candidate(page.title, page.text, page.url, source, primary_kind)
     return structured_count
 
 
@@ -224,7 +255,9 @@ def scan_research_source(source: dict):
     fetched += 1
     with cache_lock:
         page_cache[seed.url] = seed
-    structured_count += _process_page(seed, source, "source_page")
+    structured_count += _process_page(
+        seed, source, "source_page", allow_page_candidate=bool(source.get("treat_seed_as_candidate", True))
+    )
     for block in heading_blocks(seed):
         process_research_candidate(block["title"], block["text"], block["url"], source, "section")
 
@@ -232,6 +265,7 @@ def scan_research_source(source: dict):
         links = discover_links(
             seed, source.get("allowed_domains", []), source_cfg.get("discovery_terms", []),
             int(source.get("max_links", 25)),
+            boost_terms=source.get("boost_terms", []), exclude_terms=source.get("exclude_terms", []),
         )
         with ThreadPoolExecutor(max_workers=4) as ex:
             futs = {ex.submit(fetch, link["url"]): link for link in links}
@@ -462,8 +496,17 @@ for x in opp_list:
 
 active = [x for x in opp_list if x.get("status") != "expired"]
 eligible_active = [x for x in active if x.get("funding_eligible")]
+strict_funded_active = [x for x in active if x.get("strict_funding_verified")]
 golden = [x for x in active if x.get("golden_match")]
 action_counts = Counter(x.get("next_action", "Unknown") for x in active)
+opportunity_type_counts = Counter(x.get("opportunity_type", "Opportunity lead") for x in active)
+configured_research_universities = {s.get("university", "") for s in source_cfg.get("sources", []) if s.get("university")}
+coverage_gaps = [
+    {"university": i.get("name", ""), "country": i.get("country", ""), "priority": int(i.get("priority", 0))}
+    for i in institutions
+    if int(i.get("priority", 0)) >= 88 and i.get("name") not in configured_research_universities
+]
+coverage_gaps.sort(key=lambda x: (-x["priority"], x["country"], x["university"]))
 frontier_counts = Counter()
 for x in active:
     if int(x.get("research_fit", 0)) >= 60:
@@ -484,6 +527,10 @@ command_center = {
     "recent_changed": sorted(changed_items, key=lambda x: -int(x.get("strategic_score", 0)))[:8],
     "source_warnings": source_warnings,
     "supervisor_changes": [x for x in supervisor_report if x.get("opening_signal_changed") or x.get("is_changed")][:8],
+    "top_actionable": sorted(active, key=lambda x: (-int(x.get("actionability_score", 0)), -int(x.get("strategic_score", 0))))[:10],
+    "opportunity_type_counts": dict(opportunity_type_counts),
+    "precision_filter_counts": dict(filter_stats),
+    "coverage_gaps": coverage_gaps[:12],
 }
 
 status = {
@@ -502,6 +549,12 @@ status = {
     "apply_now": action_counts.get("Apply now", 0),
     "full_funding_eligible": len(eligible_active),
     "confirmed_funding": sum(1 for x in active if x.get("funding") == "Confirmed"),
+    "strict_funding_verified": len(strict_funded_active),
+    "average_actionability": round(sum(int(x.get("actionability_score", 0)) for x in active) / len(active), 1) if active else 0,
+    "opportunity_type_counts": dict(opportunity_type_counts),
+    "precision_filter_counts": dict(filter_stats),
+    "precision_rejects": int(filter_stats.get("precision_gate", 0)),
+    "coverage_gaps": coverage_gaps[:12],
     "funding_routes": len(funding_routes),
     "target_countries": target_countries,
     "country_coverage": {c: {
@@ -509,6 +562,7 @@ status = {
         "sources_ok": sum(1 for st in source_status if st.get("country") == c and st.get("ok")),
         "opportunities": sum(1 for x in active if x.get("country") == c),
         "funding_eligible": sum(1 for x in eligible_active if x.get("country") == c),
+        "strict_funded": sum(1 for x in strict_funded_active if x.get("country") == c),
         "golden": sum(1 for x in golden if x.get("country") == c),
         "supervisors": sum(1 for x in supervisor_report if x.get("country") == c),
     } for c in target_countries},
@@ -535,8 +589,9 @@ write_json(str(DATA / "supervisor_history.json"), supervisor_history)
 
 fields = [
     "title", "university", "country", "city", "research_fit", "paper1_score", "paper2_score", "trajectory_score",
-    "frontier_score", "frontier_themes", "strategic_score", "data_confidence", "next_action", "action_rank", "golden_match",
-    "funding_score", "supervisor_score", "potential_supervisor", "institution_priority", "country_score", "funding", "funding_model",
+    "frontier_score", "frontier_themes", "strategic_score", "actionability_score", "data_confidence", "next_action", "action_rank", "golden_match",
+    "opportunity_type", "precision_tier", "funding_score", "funding_certainty", "funding_verdict", "strict_funding_verified",
+    "supervisor_score", "potential_supervisor", "institution_priority", "country_score", "funding", "funding_model",
     "funding_eligible", "deadline", "days_to_deadline", "status", "continuation_label", "keyword_hits", "url", "first_seen", "last_seen",
     "is_new", "is_changed", "stale", "structured",
 ]

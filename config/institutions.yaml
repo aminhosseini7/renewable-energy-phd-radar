@@ -215,3 +215,10 @@ institutions:
   country: Sweden
   city: Linköping
   priority: 88
+- name: University of Queensland
+  aliases:
+  - University of Queensland
+  - UQ
+  country: Australia
+  city: Brisbane
+  priority: 89
