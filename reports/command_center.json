@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T20:03:59+00:00",
+  "checked_at": "2026-08-24T07:09:30+00:00",
   "golden_matches": [],
   "action_counts": {
     "Monitor": 4,
@@ -153,7 +153,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -310,7 +310,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -459,7 +459,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -613,7 +613,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT On",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -719,7 +719,7 @@
       "potential_supervisor": "Seyed Mojib Zahraee",
       "supervisor_score": 78,
       "supervisor_confirmed_on_page": false,
-      "data_confidence": 32,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 31,
         "frontier": 14,
@@ -728,7 +728,7 @@
         "institution": 90,
         "country": 88,
         "deadline": 25,
-        "confidence": 32,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -753,9 +753,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 48,
+      "strategic_score": 47,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     },
     {
       "fingerprint": "741637ccf4740c7d3692d30a",
@@ -848,7 +848,7 @@
       "potential_supervisor": "Seyed Mojib Zahraee",
       "supervisor_score": 81,
       "supervisor_confirmed_on_page": false,
-      "data_confidence": 32,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 37,
         "frontier": 12,
@@ -857,7 +857,7 @@
         "institution": 90,
         "country": 88,
         "deadline": 25,
-        "confidence": 32,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -882,9 +882,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 51,
+      "strategic_score": 50,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     },
     {
       "fingerprint": "86126f9929ccc2dc25230c55",
@@ -974,7 +974,7 @@
       "potential_supervisor": "Yossiri Adulyasak",
       "supervisor_score": 71,
       "supervisor_confirmed_on_page": false,
-      "data_confidence": 37,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 33,
         "frontier": 10,
@@ -983,7 +983,7 @@
         "institution": 86,
         "country": 89,
         "deadline": 25,
-        "confidence": 37,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -1008,9 +1008,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 55,
+      "strategic_score": 54,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     },
     {
       "fingerprint": "172ade2198b64ad2e286a49b",
@@ -1102,7 +1102,7 @@
       "potential_supervisor": "Nirajan Shiwakoti",
       "supervisor_score": 96,
       "supervisor_confirmed_on_page": true,
-      "data_confidence": 37,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 33,
         "frontier": 7,
@@ -1111,7 +1111,7 @@
         "institution": 90,
         "country": 88,
         "deadline": 25,
-        "confidence": 37,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -1136,9 +1136,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 50,
+      "strategic_score": 49,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     }
   ],
   "recent_new": [],
@@ -1150,7 +1150,7 @@
       "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
+      "consecutive_failures": 5
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -1158,15 +1158,7 @@
       "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
-    },
-    {
-      "source": "Lulea University of Technology vacancies",
-      "country": "Sweden",
-      "url": "https://www.ltu.se/en/about-the-university/work-with-us",
-      "health_score": 33,
-      "health_label": "degraded",
-      "consecutive_failures": 1
+      "consecutive_failures": 5
     },
     {
       "source": "Monash graduate research scholarships",
@@ -1174,7 +1166,7 @@
       "url": "https://www.monash.edu/graduate-research/study/scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
+      "consecutive_failures": 5
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -1182,10 +1174,205 @@
       "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
+      "consecutive_failures": 5
     }
   ],
   "supervisor_changes": [
+    {
+      "name": "Bhushan Gopaluni",
+      "university": "University of British Columbia",
+      "country": "Canada",
+      "city": "Vancouver",
+      "url": "https://www.grad.ubc.ca/researcher/13880-gopaluni",
+      "focus": "bioenergy supply-chain optimization; decision-making under uncertainty; process systems",
+      "research_fit": 5,
+      "paper1_score": 34,
+      "paper2_score": 17,
+      "trajectory_score": 84,
+      "paper1_dimensions": {
+        "domain": 20,
+        "network": 0,
+        "optimization": 0,
+        "uncertainty": 14,
+        "solution_methods": 0
+      },
+      "paper2_dimensions": {
+        "domain": 0,
+        "network": 0,
+        "investment_methods": 12,
+        "sustainability": 5,
+        "multiobjective": 0
+      },
+      "trajectory_dimensions": {
+        "renewable_fuels": 17,
+        "supply_chain": 20,
+        "quantitative_methods": 22,
+        "sustainability": 15,
+        "strategic_decisions": 10
+      },
+      "keyword_hits": [
+        "biomass",
+        "bioenergy",
+        "uncertainty",
+        "uncertainties",
+        "stochastic",
+        "stochastic optimization",
+        "emissions",
+        "supply chain",
+        "supply-chain",
+        "optimization",
+        "sustainability",
+        "sustainable",
+        "carbon",
+        "energy consumption",
+        "capacity",
+        "planning",
+        "scenario"
+      ],
+      "penalty_hits": [
+        "lithium-ion",
+        "quantum",
+        "computer vision",
+        "robotics"
+      ],
+      "why_match": [
+        "Paper 1: domain 20, uncertainty 14",
+        "Paper 2: investment_methods 12, sustainability 5"
+      ],
+      "frontier_score": 9,
+      "frontier_dimensions": {
+        "advanced_uncertainty": 9,
+        "adaptive_investment": 0,
+        "multimodal_logistics": 0,
+        "technology_portfolio": 0,
+        "lifecycle_policy": 0,
+        "circular_agri_bioeconomy": 0,
+        "large_scale_methods": 0
+      },
+      "frontier_hits": [
+        "chance constraint"
+      ],
+      "frontier_themes": [
+        "advanced_uncertainty"
+      ],
+      "institution_priority": 97,
+      "country_priority": 96,
+      "country_score": 89,
+      "opening_signals": [],
+      "funding": "Competitive",
+      "funding_evidence": [
+        "fellowship"
+      ],
+      "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
+      "page_ok": true,
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "data_confidence": 88,
+      "is_changed": true,
+      "opening_signal_changed": false,
+      "priority_components": {
+        "research_fit": 5,
+        "frontier": 9,
+        "funding": 66,
+        "supervisor": 100,
+        "institution": 97,
+        "country": 89,
+        "deadline": 25,
+        "confidence": 88,
+        "newness": 40
+      },
+      "strategic_score": 41
+    },
+    {
+      "name": "Xin Ma",
+      "university": "Monash University",
+      "country": "Australia",
+      "city": "Melbourne",
+      "url": "https://research.monash.edu/en/persons/xin-ma",
+      "focus": "sustainable supply chains; disruption risk; prescriptive analytics; operations management",
+      "research_fit": 26,
+      "paper1_score": 22,
+      "paper2_score": 12,
+      "trajectory_score": 56,
+      "paper1_dimensions": {
+        "domain": 0,
+        "network": 0,
+        "optimization": 8,
+        "uncertainty": 14,
+        "solution_methods": 0
+      },
+      "paper2_dimensions": {
+        "domain": 0,
+        "network": 7,
+        "investment_methods": 0,
+        "sustainability": 5,
+        "multiobjective": 0
+      },
+      "trajectory_dimensions": {
+        "renewable_fuels": 0,
+        "supply_chain": 17,
+        "quantitative_methods": 25,
+        "sustainability": 14,
+        "strategic_decisions": 0
+      },
+      "keyword_hits": [
+        "operations research",
+        "robust optimization",
+        "risk",
+        "logistics",
+        "emissions",
+        "supply chain",
+        "optimization",
+        "sustainability",
+        "sustainable"
+      ],
+      "penalty_hits": [],
+      "why_match": [
+        "Paper 1: uncertainty 14, optimization 8",
+        "Paper 2: network 7, sustainability 5"
+      ],
+      "frontier_score": 16,
+      "frontier_dimensions": {
+        "advanced_uncertainty": 16,
+        "adaptive_investment": 0,
+        "multimodal_logistics": 0,
+        "technology_portfolio": 0,
+        "lifecycle_policy": 0,
+        "circular_agri_bioeconomy": 0,
+        "large_scale_methods": 0
+      },
+      "frontier_hits": [
+        "distributionally robust"
+      ],
+      "frontier_themes": [
+        "advanced_uncertainty"
+      ],
+      "institution_priority": 88,
+      "country_priority": 98,
+      "country_score": 88,
+      "opening_signals": [
+        "accepting PhD"
+      ],
+      "funding": "Unknown",
+      "funding_evidence": [],
+      "excerpt": "es (3) Activities (11) Press/Media (2) Personal profile Biography Dr Xin Ma is an Associate Professor of Operations and Supply Chain Management in the Department of Management at Monash University, Australia. Before joining Monash University in July 2018, he was Lecturer of Engineering Management (Education & Research) in College of Engineering, Mathematics and Physical Sciences at University of Exeter, United Kingdom, from Feb. 2017 to",
+      "page_ok": true,
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "data_confidence": 88,
+      "is_changed": true,
+      "opening_signal_changed": false,
+      "priority_components": {
+        "research_fit": 26,
+        "frontier": 16,
+        "funding": 0,
+        "supervisor": 100,
+        "institution": 88,
+        "country": 88,
+        "deadline": 25,
+        "confidence": 88,
+        "newness": 40
+      },
+      "strategic_score": 37
+    },
     {
       "name": "Fereshteh Mafakheri",
       "university": "Concordia University",
@@ -1249,7 +1436,7 @@
       "funding_evidence": [],
       "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Procurement; Technology Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab Google Scholar LinkedIn CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Universite de Montreal) MSc, Industrial Systems",
       "page_ok": true,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1330,9 +1517,9 @@
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-317721000 Mail address Ch",
+      "excerpt": "Maria Grahn | Chalmers Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-31",
       "page_ok": true,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1493,7 +1680,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT On",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1650,7 +1837,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1799,7 +1986,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1953,7 +2140,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-23T20:03:59+00:00",
+      "last_seen": "2026-08-24T07:09:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -2053,7 +2240,7 @@
       "potential_supervisor": "Yossiri Adulyasak",
       "supervisor_score": 71,
       "supervisor_confirmed_on_page": false,
-      "data_confidence": 37,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 33,
         "frontier": 10,
@@ -2062,7 +2249,7 @@
         "institution": 86,
         "country": 89,
         "deadline": 25,
-        "confidence": 37,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -2087,9 +2274,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 55,
+      "strategic_score": 54,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     },
     {
       "fingerprint": "741637ccf4740c7d3692d30a",
@@ -2182,7 +2369,7 @@
       "potential_supervisor": "Seyed Mojib Zahraee",
       "supervisor_score": 81,
       "supervisor_confirmed_on_page": false,
-      "data_confidence": 32,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 37,
         "frontier": 12,
@@ -2191,7 +2378,7 @@
         "institution": 90,
         "country": 88,
         "deadline": 25,
-        "confidence": 32,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -2216,9 +2403,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 51,
+      "strategic_score": 50,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     },
     {
       "fingerprint": "172ade2198b64ad2e286a49b",
@@ -2310,7 +2497,7 @@
       "potential_supervisor": "Nirajan Shiwakoti",
       "supervisor_score": 96,
       "supervisor_confirmed_on_page": true,
-      "data_confidence": 37,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 33,
         "frontier": 7,
@@ -2319,7 +2506,7 @@
         "institution": 90,
         "country": 88,
         "deadline": 25,
-        "confidence": 37,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -2344,9 +2531,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 50,
+      "strategic_score": 49,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     },
     {
       "fingerprint": "425894ef5b78ac3ff30b1a93",
@@ -2442,7 +2629,7 @@
       "potential_supervisor": "Seyed Mojib Zahraee",
       "supervisor_score": 78,
       "supervisor_confirmed_on_page": false,
-      "data_confidence": 32,
+      "data_confidence": 15,
       "priority_components": {
         "research_fit": 31,
         "frontier": 14,
@@ -2451,7 +2638,7 @@
         "institution": 90,
         "country": 88,
         "deadline": 25,
-        "confidence": 32,
+        "confidence": 15,
         "newness": 5
       },
       "fit_reasons": [
@@ -2476,9 +2663,9 @@
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 48,
+      "strategic_score": 47,
       "golden_match": false,
-      "misses": 2
+      "misses": 3
     }
   ],
   "opportunity_type_counts": {
@@ -2488,9 +2675,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 107,
+    "insufficient_opportunity_signal": 116,
     "low_research_fit": 458,
-    "missing_doctoral_signal": 23,
+    "missing_doctoral_signal": 24,
     "precision_gate": 4
   },
   "coverage_gaps": [

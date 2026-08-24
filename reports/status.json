@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-08-23T20:03:59+00:00",
+  "checked_at": "2026-08-24T07:09:30+00:00",
   "sources_total": 48,
-  "sources_ok": 43,
-  "pages_fetched": 397,
+  "sources_ok": 44,
+  "pages_fetched": 394,
   "structured_jobs_found": 11,
   "opportunities": 8,
   "active_opportunities": 8,
@@ -23,9 +23,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 107,
+    "insufficient_opportunity_signal": 116,
     "low_research_fit": 458,
-    "missing_doctoral_signal": 23,
+    "missing_doctoral_signal": 24,
     "precision_gate": 4
   },
   "precision_rejects": 4,
@@ -93,7 +93,7 @@
     },
     "Sweden": {
       "sources": 10,
-      "sources_ok": 9,
+      "sources_ok": 10,
       "opportunities": 0,
       "funding_eligible": 0,
       "strict_funded": 0,
@@ -212,8 +212,8 @@
     "full_funding_eligible_only": true
   },
   "supervisors_monitored": 36,
-  "supervisor_changes": 2,
-  "source_warnings": 5,
+  "supervisor_changes": 4,
+  "source_warnings": 4,
   "sources": [
     {
       "source": "AcademicTransfer PhD vacancies",
@@ -223,7 +223,7 @@
       "pages_fetched": 15,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -236,7 +236,7 @@
       "pages_fetched": 28,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -249,7 +249,7 @@
       "pages_fetched": 32,
       "matches": 0,
       "structured_jobs": 11,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -262,20 +262,7 @@
       "pages_fetched": 9,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "WUR salaried PhD jobs",
-      "url": "https://www.wur.nl/en/jobs/phd-jobs",
-      "country": "Netherlands",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -288,7 +275,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "WUR salaried PhD jobs",
+      "url": "https://www.wur.nl/en/jobs/phd-jobs",
+      "country": "Netherlands",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -301,7 +301,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -314,7 +314,7 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -327,7 +327,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -340,7 +340,7 @@
       "pages_fetched": 8,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -353,33 +353,7 @@
       "pages_fetched": 41,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "University of Sydney RTP International",
-      "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
-      "country": "Australia",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "UNSW HDR scholarships",
-      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
-      "country": "Australia",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -392,7 +366,33 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "UNSW HDR scholarships",
+      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "University of Sydney RTP International",
+      "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -405,7 +405,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -418,7 +418,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -431,10 +431,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
+      "consecutive_failures": 5
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -444,10 +444,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
+      "consecutive_failures": 5
     },
     {
       "source": "Monash graduate research scholarships",
@@ -457,10 +457,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
+      "consecutive_failures": 5
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -470,10 +470,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 4
+      "consecutive_failures": 5
     },
     {
       "source": "UBC Industrial Engineering Research Group",
@@ -483,20 +483,7 @@
       "pages_fetched": 2,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "Waterloo Management Science and Engineering PhD",
-      "url": "https://uwaterloo.ca/management-science-engineering/future-graduate-students/phd-program",
-      "country": "Canada",
-      "ok": true,
-      "pages_fetched": 11,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -509,7 +496,20 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "Waterloo Management Science and Engineering PhD",
+      "url": "https://uwaterloo.ca/management-science-engineering/future-graduate-students/phd-program",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 11,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -522,7 +522,7 @@
       "pages_fetched": 11,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -535,46 +535,7 @@
       "pages_fetched": 19,
       "matches": 2,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "Waterloo graduate funding",
-      "url": "https://uwaterloo.ca/management-science-engineering/graduate-studies/funding-awards-and-scholarships",
-      "country": "Canada",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "HEC Montreal PhD funding",
-      "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
-      "country": "Canada",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "McGill Desautels PhD financial support",
-      "url": "https://www.mcgill.ca/desautels/programs/phd/admissions/tuition-financial-aid",
-      "country": "Canada",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -587,7 +548,46 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "Waterloo graduate funding",
+      "url": "https://uwaterloo.ca/management-science-engineering/graduate-studies/funding-awards-and-scholarships",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "HEC Montreal PhD funding",
+      "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "McGill Desautels PhD financial support",
+      "url": "https://www.mcgill.ca/desautels/programs/phd/admissions/tuition-financial-aid",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -600,20 +600,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "DAAD PhDGermany international doctoral vacancies",
-      "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
-      "country": "Germany",
-      "ok": true,
-      "pages_fetched": 17,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -626,7 +613,20 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "DAAD PhDGermany international doctoral vacancies",
+      "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
+      "country": "Germany",
+      "ok": true,
+      "pages_fetched": 17,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -639,7 +639,7 @@
       "pages_fetched": 13,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -652,7 +652,7 @@
       "pages_fetched": 8,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -665,7 +665,7 @@
       "pages_fetched": 31,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -678,7 +678,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -691,7 +691,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -704,7 +704,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -717,7 +717,7 @@
       "pages_fetched": 14,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -730,7 +730,7 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -743,20 +743,7 @@
       "pages_fetched": 4,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "KTH all vacancies",
-      "url": "https://www.kth.se/lediga-jobb/?l=en",
-      "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 36,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -766,10 +753,23 @@
       "url": "https://web103.reachmee.com/ext/I003/304/main?lang=en&site=5&validator=a72aeedd63ec10de71e46f8d91d0d57c",
       "country": "Sweden",
       "ok": true,
-      "pages_fetched": 31,
+      "pages_fetched": 29,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "KTH all vacancies",
+      "url": "https://www.kth.se/lediga-jobb/?l=en",
+      "country": "Sweden",
+      "ok": true,
+      "pages_fetched": 30,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -782,7 +782,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -795,7 +795,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -808,7 +808,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -821,7 +821,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
+      "checked_at": "2026-08-24T07:09:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -830,14 +830,14 @@
       "source": "Lulea University of Technology vacancies",
       "url": "https://www.ltu.se/en/about-the-university/work-with-us",
       "country": "Sweden",
-      "ok": false,
-      "pages_fetched": 0,
+      "ok": true,
+      "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-23T20:03:59+00:00",
-      "health_score": 33,
-      "health_label": "degraded",
-      "consecutive_failures": 1
+      "checked_at": "2026-08-24T07:09:30+00:00",
+      "health_score": 61,
+      "health_label": "watch",
+      "consecutive_failures": 0
     }
   ]
 }

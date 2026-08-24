@@ -3,7 +3,7 @@
     "title": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation",
     "url": "https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/sustainable-engineering-systems-research-group/projects/life-cycle-assessment",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T20:03:59+00:00",
+    "last_seen": "2026-08-24T07:09:30+00:00",
     "last_score": 67,
     "last_status": "open_or_unknown",
     "content_hash": "8f624bb4edc6cdc72932",
@@ -13,7 +13,7 @@
     "title": "Our Group",
     "url": "https://sustainablesystems.civmin.utoronto.ca/our-group/",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T20:03:59+00:00",
+    "last_seen": "2026-08-24T07:09:30+00:00",
     "last_score": 63,
     "last_status": "open_or_unknown",
     "content_hash": "4ca0a75df1616878025a",
@@ -23,7 +23,7 @@
     "title": "PhD in Administration – Logistics and Operations Management",
     "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T20:03:59+00:00",
+    "last_seen": "2026-08-24T07:09:30+00:00",
     "last_score": 52,
     "last_status": "open_or_unknown",
     "content_hash": "b98c1f99c6a6b4f10ce2",
@@ -33,7 +33,7 @@
     "title": "Doctorat en administration (Ph. D.) – gestion des opérations et de la logistique",
     "url": "https://www.hec.ca/programmes/phd/phd-gestion-operations-et-logistique",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-08-23T20:03:59+00:00",
+    "last_seen": "2026-08-24T07:09:30+00:00",
     "last_score": 51,
     "last_status": "open_or_unknown",
     "content_hash": "055ded838fd9771e3a43",
@@ -47,7 +47,7 @@
     "last_score": 33,
     "last_status": "open_or_unknown",
     "content_hash": "32521521409ca27593a8",
-    "misses": 2
+    "misses": 3
   },
   "741637ccf4740c7d3692d30a": {
     "title": "Publications",
@@ -57,7 +57,7 @@
     "last_score": 37,
     "last_status": "open_or_unknown",
     "content_hash": "8ec876102bbf59f24b83",
-    "misses": 2
+    "misses": 3
   },
   "172ade2198b64ad2e286a49b": {
     "title": "Transport Safety for Sustainable and Inclusive Cities",
@@ -67,7 +67,7 @@
     "last_score": 33,
     "last_status": "open_or_unknown",
     "content_hash": "23c5110df8d82c4922bd",
-    "misses": 2
+    "misses": 3
   },
   "425894ef5b78ac3ff30b1a93": {
     "title": "Project description",
@@ -77,6 +77,6 @@
     "last_score": 31,
     "last_status": "open_or_unknown",
     "content_hash": "b4f802da63e4d5d75a29",
-    "misses": 2
+    "misses": 3
   }
 }
