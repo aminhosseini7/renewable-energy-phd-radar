@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-08-25T06:57:50+00:00",
+  "checked_at": "2026-08-26T06:58:30+00:00",
   "sources_total": 48,
-  "sources_ok": 43,
-  "pages_fetched": 386,
+  "sources_ok": 42,
+  "pages_fetched": 370,
   "structured_jobs_found": 10,
   "opportunities": 8,
   "active_opportunities": 8,
@@ -23,9 +23,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 104,
-    "low_research_fit": 449,
-    "missing_doctoral_signal": 22,
+    "insufficient_opportunity_signal": 101,
+    "missing_doctoral_signal": 20,
+    "low_research_fit": 429,
     "precision_gate": 4
   },
   "precision_rejects": 4,
@@ -84,7 +84,7 @@
     },
     "Germany": {
       "sources": 9,
-      "sources_ok": 9,
+      "sources_ok": 8,
       "opportunities": 0,
       "funding_eligible": 0,
       "strict_funded": 0,
@@ -212,7 +212,7 @@
     "full_funding_eligible_only": true
   },
   "supervisors_monitored": 36,
-  "supervisor_changes": 10,
+  "supervisor_changes": 4,
   "source_warnings": 5,
   "sources": [
     {
@@ -223,7 +223,7 @@
       "pages_fetched": 15,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -236,7 +236,7 @@
       "pages_fetched": 28,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -249,7 +249,7 @@
       "pages_fetched": 31,
       "matches": 0,
       "structured_jobs": 10,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -262,7 +262,7 @@
       "pages_fetched": 9,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -275,7 +275,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -288,7 +288,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -301,7 +301,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -314,7 +314,7 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -327,7 +327,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -340,7 +340,7 @@
       "pages_fetched": 8,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -353,7 +353,7 @@
       "pages_fetched": 41,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -366,7 +366,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -379,7 +379,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -392,7 +392,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -405,7 +405,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -418,7 +418,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -431,10 +431,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -444,10 +444,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "source": "Monash graduate research scholarships",
@@ -457,10 +457,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -470,10 +470,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "source": "UBC Industrial Engineering Research Group",
@@ -483,7 +483,7 @@
       "pages_fetched": 2,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -496,20 +496,7 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "HEC Montreal Logistics and Operations PhD",
-      "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
-      "country": "Canada",
-      "ok": true,
-      "pages_fetched": 19,
-      "matches": 2,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -519,10 +506,10 @@
       "url": "https://uwaterloo.ca/management-science-engineering/future-graduate-students/phd-program",
       "country": "Canada",
       "ok": true,
-      "pages_fetched": 11,
+      "pages_fetched": 12,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -535,7 +522,20 @@
       "pages_fetched": 11,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "HEC Montreal Logistics and Operations PhD",
+      "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
+      "country": "Canada",
+      "ok": true,
+      "pages_fetched": 19,
+      "matches": 2,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -548,7 +548,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -561,7 +561,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -574,7 +574,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -587,7 +587,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -600,7 +600,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -613,20 +613,7 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "DAAD PhDGermany international doctoral vacancies",
-      "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
-      "country": "Germany",
-      "ok": true,
-      "pages_fetched": 17,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -639,7 +626,7 @@
       "pages_fetched": 13,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -652,7 +639,7 @@
       "pages_fetched": 8,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -665,7 +652,7 @@
       "pages_fetched": 31,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -678,7 +665,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -691,7 +678,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -704,10 +691,23 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
+    },
+    {
+      "source": "DAAD PhDGermany international doctoral vacancies",
+      "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
+      "country": "Germany",
+      "ok": false,
+      "pages_fetched": 0,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-26T06:58:30+00:00",
+      "health_score": 73,
+      "health_label": "watch",
+      "consecutive_failures": 1
     },
     {
       "source": "KTH vacant doctoral positions",
@@ -717,33 +717,7 @@
       "pages_fetched": 14,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "Lund University vacancies",
-      "url": "https://www.lunduniversity.lu.se/vacancies",
-      "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 10,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "KTH all vacancies",
-      "url": "https://www.kth.se/lediga-jobb/?l=en",
-      "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 28,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -756,7 +730,20 @@
       "pages_fetched": 4,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "Lund University vacancies",
+      "url": "https://www.lunduniversity.lu.se/vacancies",
+      "country": "Sweden",
+      "ok": true,
+      "pages_fetched": 10,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -766,10 +753,23 @@
       "url": "https://web103.reachmee.com/ext/I003/304/main?lang=en&site=5&validator=a72aeedd63ec10de71e46f8d91d0d57c",
       "country": "Sweden",
       "ok": true,
-      "pages_fetched": 29,
+      "pages_fetched": 30,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "KTH all vacancies",
+      "url": "https://www.kth.se/lediga-jobb/?l=en",
+      "country": "Sweden",
+      "ok": true,
+      "pages_fetched": 27,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -782,7 +782,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -795,7 +795,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -808,7 +808,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -821,7 +821,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -834,10 +834,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "health_score": 39,
+      "checked_at": "2026-08-26T06:58:30+00:00",
+      "health_score": 28,
       "health_label": "degraded",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T06:57:50+00:00",
+  "checked_at": "2026-08-26T06:58:30+00:00",
   "golden_matches": [],
   "action_counts": {
     "Monitor": 4,
@@ -153,7 +153,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -310,7 +310,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -459,7 +459,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -613,7 +613,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT On",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -755,7 +755,7 @@
       "employment_type": "",
       "strategic_score": 47,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     },
     {
       "fingerprint": "741637ccf4740c7d3692d30a",
@@ -884,7 +884,7 @@
       "employment_type": "",
       "strategic_score": 50,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     },
     {
       "fingerprint": "86126f9929ccc2dc25230c55",
@@ -1010,7 +1010,7 @@
       "employment_type": "",
       "strategic_score": 54,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     },
     {
       "fingerprint": "172ade2198b64ad2e286a49b",
@@ -1138,7 +1138,7 @@
       "employment_type": "",
       "strategic_score": 49,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     }
   ],
   "recent_new": [],
@@ -1150,7 +1150,7 @@
       "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -1158,15 +1158,15 @@
       "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "source": "Lulea University of Technology vacancies",
       "country": "Sweden",
       "url": "https://www.ltu.se/en/about-the-university/work-with-us",
-      "health_score": 39,
+      "health_score": 28,
       "health_label": "degraded",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     {
       "source": "Monash graduate research scholarships",
@@ -1174,7 +1174,7 @@
       "url": "https://www.monash.edu/graduate-research/study/scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -1182,486 +1182,107 @@
       "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     }
   ],
   "supervisor_changes": [
     {
-      "name": "Andreas Ernst",
-      "university": "Monash University",
-      "country": "Australia",
-      "city": "Melbourne",
-      "url": "https://research.monash.edu/en/persons/andreas-ernst",
-      "focus": "large-scale network optimization; mixed-integer programming; Lagrangian relaxation; Benders decomposition; matheuristics",
-      "research_fit": 39,
-      "paper1_score": 45,
-      "paper2_score": 7,
-      "trajectory_score": 61,
-      "paper1_dimensions": {
-        "domain": 0,
-        "network": 10,
-        "optimization": 8,
-        "uncertainty": 14,
-        "solution_methods": 9
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 0,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 0,
-        "supply_chain": 25,
-        "quantitative_methods": 25,
-        "sustainability": 4,
-        "strategic_decisions": 7
-      },
-      "keyword_hits": [
-        "network design",
-        "operations research",
-        "robust optimization",
-        "Lagrangian relaxation",
-        "decomposition",
-        "matheuristic",
-        "logistics",
-        "supply chain",
-        "mixed-integer",
-        "optimization",
-        "optimisation",
-        "Lagrangian",
-        "sustainable",
-        "location",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: uncertainty 14, network 10, solution_methods 9",
-        "Paper 2: network 7"
-      ],
-      "frontier_score": 10,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 10
-      },
-      "frontier_hits": [
-        "Benders decomposition",
-        "column generation",
-        "matheuristic"
-      ],
-      "frontier_themes": [
-        "large_scale_methods"
-      ],
-      "institution_priority": 88,
-      "country_priority": 98,
-      "country_score": 88,
-      "opening_signals": [
-        "accepting PhD"
-      ],
-      "funding": "Competitive",
-      "funding_evidence": [
-        "research scholarship"
-      ],
-      "excerpt": "s (139) Activities (2) Personal profile Biography Prof Andreas Ernst has over 20 years experience in the development of optimisation and simulation models to assist businesses with strategic and operational decision making. He was the director of MAXIMA , the Monash Academy for Cross and Interdisciplinary Mathematical Applications. In addition to his teaching & research role as a professor in the School of Mathematics, he is currently a",
-      "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 39,
-        "frontier": 10,
-        "funding": 66,
-        "supervisor": 100,
-        "institution": 88,
-        "country": 88,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 55
-    },
-    {
-      "name": "Taraneh Sowlati",
-      "university": "University of British Columbia",
-      "country": "Canada",
-      "city": "Vancouver",
-      "url": "https://forestry.ubc.ca/faculty-profile/taraneh-sowlati/",
-      "focus": "biomass supply-chain management; mathematical optimization; uncertainty; biofuel and bioenergy; life-cycle assessment",
-      "research_fit": 53,
-      "paper1_score": 58,
-      "paper2_score": 17,
-      "trajectory_score": 86,
+      "name": "Göran Berndes",
+      "university": "Chalmers University of Technology",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "url": "https://research.chalmers.se/en/person/frtgb",
+      "focus": "bioenergy; biomass systems; land use; biorefineries; sustainable value chains; lifecycle and climate impacts",
+      "research_fit": 37,
+      "paper1_score": 34,
+      "paper2_score": 26,
+      "trajectory_score": 60,
       "paper1_dimensions": {
         "domain": 34,
         "network": 0,
-        "optimization": 10,
-        "uncertainty": 14,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 10,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 25,
-        "supply_chain": 25,
-        "quantitative_methods": 13,
-        "sustainability": 15,
-        "strategic_decisions": 8
-      },
-      "keyword_hits": [
-        "biomass",
-        "biofuel",
-        "biofuels",
-        "bioenergy",
-        "mathematical optimization",
-        "uncertainty",
-        "uncertainties",
-        "logistics",
-        "life cycle assessment",
-        "supply chain",
-        "supply-chain",
-        "value chain",
-        "optimization",
-        "sustainability",
-        "sustainable",
-        "life cycle",
-        "investment",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: domain 34, uncertainty 14, optimization 10",
-        "Paper 2: sustainability 10, network 7"
-      ],
-      "frontier_score": 7,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 7,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [
-        "life cycle assessment"
-      ],
-      "frontier_themes": [
-        "lifecycle_policy"
-      ],
-      "institution_priority": 97,
-      "country_priority": 96,
-      "country_score": 89,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "the Bioeconomy Technology and Innovation Research Selected Publications Research Open Close Areas of research include: Biomass supply chain management Mathematical modeling and optimization Multi-criteria decision making Simulation Life cycle assessment Projects Optimization of forest-based biomass supply chains: considering sustainability, uncertainties, and government policies Current April, 2025 – March 2023 NSERC-DG Optimization of",
-      "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 53,
-        "frontier": 7,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 97,
-        "country": 89,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 48
-    },
-    {
-      "name": "Ellen Slegers",
-      "university": "Wageningen University & Research",
-      "country": "Netherlands",
-      "city": "Wageningen",
-      "url": "https://www.wur.nl/en/persons/drir-pm-ellen-slegers",
-      "focus": "agricultural residues; biorefinery; sustainable processing networks; green biomass refinery supply chains; LCA",
-      "research_fit": 50,
-      "paper1_score": 42,
-      "paper2_score": 36,
-      "trajectory_score": 88,
-      "paper1_dimensions": {
-        "domain": 34,
-        "network": 0,
-        "optimization": 8,
+        "optimization": 0,
         "uncertainty": 0,
         "solution_methods": 0
       },
       "paper2_dimensions": {
-        "domain": 12,
-        "network": 7,
+        "domain": 9,
+        "network": 0,
         "investment_methods": 0,
         "sustainability": 13,
         "multiobjective": 0
       },
       "trajectory_dimensions": {
         "renewable_fuels": 25,
-        "supply_chain": 25,
-        "quantitative_methods": 15,
+        "supply_chain": 16,
+        "quantitative_methods": 0,
         "sustainability": 15,
-        "strategic_decisions": 8
+        "strategic_decisions": 4
       },
       "keyword_hits": [
-        "agri-food supply chain",
         "biomass",
-        "agricultural residue",
-        "agricultural residues",
-        "biobased",
-        "operations research",
-        "biorefinery",
-        "logistics",
+        "crop residue",
+        "biofuel",
+        "biofuels",
+        "bioethanol",
+        "bioenergy",
+        "renewable fuel",
         "life cycle assessment",
-        "LCA",
+        "greenhouse gas",
+        "emissions",
         "land use",
         "supply chain",
-        "supply-chain",
         "value chain",
-        "optimization",
         "sustainability",
         "sustainable",
+        "lifecycle",
         "life cycle",
-        "location",
+        "carbon",
         "scenario"
       ],
       "penalty_hits": [],
       "why_match": [
-        "Paper 1: domain 34, optimization 8",
-        "Paper 2: sustainability 13, domain 12, network 7"
+        "Paper 1: domain 34",
+        "Paper 2: sustainability 13, domain 9"
       ],
-      "frontier_score": 15,
+      "frontier_score": 26,
       "frontier_dimensions": {
         "advanced_uncertainty": 0,
         "adaptive_investment": 0,
         "multimodal_logistics": 0,
         "technology_portfolio": 0,
-        "lifecycle_policy": 7,
-        "circular_agri_bioeconomy": 8,
+        "lifecycle_policy": 13,
+        "circular_agri_bioeconomy": 13,
         "large_scale_methods": 0
       },
       "frontier_hits": [
         "life cycle assessment",
-        "agricultural residues"
+        "certification",
+        "agricultural waste",
+        "crop residues"
       ],
       "frontier_themes": [
-        "circular_agri_bioeconomy",
-        "lifecycle_policy"
+        "lifecycle_policy",
+        "circular_agri_bioeconomy"
       ],
-      "institution_priority": 97,
-      "country_priority": 100,
-      "country_score": 89,
+      "institution_priority": 95,
+      "country_priority": 92,
+      "country_score": 88,
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "r.ir. PM (Ellen) Slegers | WUR Skip to content News & Insights Career at WUR Current students Library Contact en Themes Sustainable food systems Biodiversity and resilient ecosystems Health for all life Climate-proof futures Biobased and circular society Sustainable water and land use All themes of WUR Study at WUR Bachelor's Master's Engineering Doctorate PhD Education for professionals Discover our education Get to know WUR Bachelor's",
+      "excerpt": "ce Theory More information and contact details ORCID Publications (198) Projects (24) Showing 198 publications 2026 The carbon balance of green biorefineries is significantly impacted by the processing of fibrous side streams Andreas Rehn , Göran Berndes , Christel Cederberg Bioresource Technology Reports. Vol. 33 Journal article Show project 2026 Cascading wood use into bioenergy with carbon capture and storage ensures continuous and e",
       "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
       "priority_components": {
-        "research_fit": 50,
-        "frontier": 15,
+        "research_fit": 37,
+        "frontier": 26,
         "funding": 0,
         "supervisor": 100,
-        "institution": 97,
-        "country": 89,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 47
-    },
-    {
-      "name": "Bert Annevelink",
-      "university": "Wageningen University & Research",
-      "country": "Netherlands",
-      "city": "Wageningen",
-      "url": "https://www.wur.nl/en/persons/drir-e-bert-annevelink",
-      "focus": "bioenergy; biofuels; biomass logistics; biorefinery; supply-chain modelling",
-      "research_fit": 44,
-      "paper1_score": 42,
-      "paper2_score": 29,
-      "trajectory_score": 68,
-      "paper1_dimensions": {
-        "domain": 34,
-        "network": 0,
-        "optimization": 8,
-        "uncertainty": 0,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 12,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 6,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 25,
-        "supply_chain": 25,
-        "quantitative_methods": 7,
-        "sustainability": 4,
-        "strategic_decisions": 7
-      },
-      "keyword_hits": [
-        "biomass",
-        "biofuel",
-        "biofuels",
-        "bioenergy",
-        "biobased",
-        "optimization model",
-        "biorefinery",
-        "logistics",
-        "land use",
-        "supply chain",
-        "supply-chain",
-        "value chain",
-        "optimization",
-        "sustainable",
-        "location",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: domain 34, optimization 8",
-        "Paper 2: domain 12, network 7, sustainability 6"
-      ],
-      "frontier_score": 0,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [],
-      "frontier_themes": [],
-      "institution_priority": 97,
-      "country_priority": 100,
-      "country_score": 89,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": ".ir. E (Bert) Annevelink | WUR Skip to content News & Insights Career at WUR Current students Library Contact en Themes Sustainable food systems Biodiversity and resilient ecosystems Health for all life Climate-proof futures Biobased and circular society Sustainable water and land use All themes of WUR Study at WUR Bachelor's Master's Engineering Doctorate PhD Education for professionals Discover our education Get to know WUR Bachelor's",
-      "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 44,
-        "frontier": 0,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 97,
-        "country": 89,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 44
-    },
-    {
-      "name": "Argyris Kanellopoulos",
-      "university": "Wageningen University & Research",
-      "country": "Netherlands",
-      "city": "Wageningen",
-      "url": "https://www.wur.nl/en/persons/dr-argyris-kanellopoulos",
-      "focus": "biomass-based supply chains; multi-actor optimization; agriculture; sustainability; operations research",
-      "research_fit": 41,
-      "paper1_score": 50,
-      "paper2_score": 13,
-      "trajectory_score": 53,
-      "paper1_dimensions": {
-        "domain": 34,
-        "network": 0,
-        "optimization": 16,
-        "uncertainty": 0,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 6,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 8,
-        "supply_chain": 17,
-        "quantitative_methods": 15,
-        "sustainability": 9,
-        "strategic_decisions": 4
-      },
-      "keyword_hits": [
-        "agri-food supply chain",
-        "biomass",
-        "biobased",
-        "bio-based",
-        "operations research",
-        "optimization model",
-        "logistics",
-        "land use",
-        "supply chain",
-        "optimization",
-        "sustainability",
-        "sustainable",
-        "location"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: domain 34, optimization 16",
-        "Paper 2: network 7, sustainability 6"
-      ],
-      "frontier_score": 0,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [],
-      "frontier_themes": [],
-      "institution_priority": 97,
-      "country_priority": 100,
-      "country_score": 89,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "(Argyris) Kanellopoulos | WUR Skip to content News & Insights Career at WUR Current students Library Contact en Themes Sustainable food systems Biodiversity and resilient ecosystems Health for all life Climate-proof futures Biobased and circular society Sustainable water and land use All themes of WUR Study at WUR Bachelor's Master's Engineering Doctorate PhD Education for professionals Discover our education Get to know WUR Bachelor's",
-      "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 41,
-        "frontier": 0,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 97,
-        "country": 89,
+        "institution": 95,
+        "country": 88,
         "deadline": 25,
         "confidence": 88,
         "newness": 40
@@ -1669,90 +1290,100 @@
       "strategic_score": 43
     },
     {
-      "name": "Sander de Leeuw",
-      "university": "Wageningen University & Research",
-      "country": "Netherlands",
-      "city": "Wageningen",
-      "url": "https://research.wur.nl/en/persons/sander-de-leeuw/",
-      "focus": "operations research and logistics; agrifood and biobased supply chains; robust performance; sustainability; uncertainty",
-      "research_fit": 37,
-      "paper1_score": 37,
+      "name": "Bhushan Gopaluni",
+      "university": "University of British Columbia",
+      "country": "Canada",
+      "city": "Vancouver",
+      "url": "https://www.grad.ubc.ca/researcher/13880-gopaluni",
+      "focus": "bioenergy supply-chain optimization; decision-making under uncertainty; process systems",
+      "research_fit": 5,
+      "paper1_score": 34,
       "paper2_score": 17,
-      "trajectory_score": 64,
+      "trajectory_score": 84,
       "paper1_dimensions": {
-        "domain": 17,
+        "domain": 20,
         "network": 0,
-        "optimization": 8,
-        "uncertainty": 12,
+        "optimization": 0,
+        "uncertainty": 14,
         "solution_methods": 0
       },
       "paper2_dimensions": {
         "domain": 0,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 10,
+        "network": 0,
+        "investment_methods": 12,
+        "sustainability": 5,
         "multiobjective": 0
       },
       "trajectory_dimensions": {
-        "renewable_fuels": 8,
-        "supply_chain": 17,
-        "quantitative_methods": 14,
+        "renewable_fuels": 17,
+        "supply_chain": 20,
+        "quantitative_methods": 22,
         "sustainability": 15,
         "strategic_decisions": 10
       },
       "keyword_hits": [
         "biomass",
-        "biobased",
-        "operations research",
+        "bioenergy",
         "uncertainty",
-        "risk",
-        "logistics",
-        "life cycle assessment",
+        "uncertainties",
+        "stochastic",
+        "stochastic optimization",
+        "emissions",
         "supply chain",
+        "supply-chain",
+        "optimization",
         "sustainability",
         "sustainable",
-        "life cycle",
-        "investment",
-        "location",
-        "planning"
+        "carbon",
+        "energy consumption",
+        "capacity",
+        "planning",
+        "scenario"
       ],
-      "penalty_hits": [],
+      "penalty_hits": [
+        "lithium-ion",
+        "quantum",
+        "computer vision",
+        "robotics"
+      ],
       "why_match": [
-        "Paper 1: domain 17, uncertainty 12, optimization 8",
-        "Paper 2: sustainability 10, network 7"
+        "Paper 1: domain 20, uncertainty 14",
+        "Paper 2: investment_methods 12, sustainability 5"
       ],
-      "frontier_score": 7,
+      "frontier_score": 9,
       "frontier_dimensions": {
-        "advanced_uncertainty": 0,
+        "advanced_uncertainty": 9,
         "adaptive_investment": 0,
         "multimodal_logistics": 0,
         "technology_portfolio": 0,
-        "lifecycle_policy": 7,
+        "lifecycle_policy": 0,
         "circular_agri_bioeconomy": 0,
         "large_scale_methods": 0
       },
       "frontier_hits": [
-        "life cycle assessment"
+        "chance constraint"
       ],
       "frontier_themes": [
-        "lifecycle_policy"
+        "advanced_uncertainty"
       ],
       "institution_priority": 97,
-      "country_priority": 100,
+      "country_priority": 96,
       "country_score": 89,
       "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "output Datasets Projects Press/Media Activities Prizes View Scopus Profile Sander de Leeuw prof.dr.ir. Full Professor , Operations Research and Logistics https://orcid.org/0000-0003-3056-8775 Overview Fingerprint Network Research output (83) Datasets (1) Activities (10) Press/Media (2) Prizes (4) Projects (21) Similar Profiles (6) Supervised Work (4) Fingerprint Dive into the research topics where Sander de Leeuw is active. These topic",
+      "funding": "Competitive",
+      "funding_evidence": [
+        "fellowship"
+      ],
+      "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
       "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
       "priority_components": {
-        "research_fit": 37,
-        "frontier": 7,
-        "funding": 0,
+        "research_fit": 5,
+        "frontier": 9,
+        "funding": 66,
         "supervisor": 100,
         "institution": 97,
         "country": 89,
@@ -1763,142 +1394,47 @@
       "strategic_score": 41
     },
     {
-      "name": "Wolf Fichtner",
-      "university": "Karlsruhe Institute of Technology",
-      "country": "Germany",
-      "city": "Karlsruhe",
-      "url": "https://www.iip.kit.edu/english/9.php",
-      "focus": "energy economics; energy supply chains; decision support models; renewable energy infrastructure; mathematical optimization; future energy commodities",
-      "research_fit": 32,
-      "paper1_score": 23,
-      "paper2_score": 29,
-      "trajectory_score": 52,
+      "name": "Fereshteh Mafakheri",
+      "university": "Concordia University",
+      "country": "Canada",
+      "city": "Montreal",
+      "url": "https://www.concordia.ca/faculty/fereshteh-mafakheri.html",
+      "focus": "bioenergy transition; biomass supply chains; agricultural and forestry waste; decision analytics; logistics",
+      "research_fit": 20,
+      "paper1_score": 20,
+      "paper2_score": 7,
+      "trajectory_score": 34,
       "paper1_dimensions": {
-        "domain": 8,
-        "network": 0,
-        "optimization": 10,
-        "uncertainty": 5,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 12,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 6,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 9,
-        "supply_chain": 23,
-        "quantitative_methods": 7,
-        "sustainability": 13,
-        "strategic_decisions": 0
-      },
-      "keyword_hits": [
-        "bio-based",
-        "mathematical optimization",
-        "risk",
-        "biorefinery",
-        "logistics",
-        "decarbonization",
-        "supply chain",
-        "value chain",
-        "optimization",
-        "sustainability",
-        "sustainable",
-        "carbon"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: optimization 10, domain 8, uncertainty 5",
-        "Paper 2: domain 12, network 7, sustainability 6"
-      ],
-      "frontier_score": 0,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [],
-      "frontier_themes": [],
-      "institution_priority": 94,
-      "country_priority": 94,
-      "country_score": 88,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "art Research Research groups Future Energy Commodities Future Energy Commodities People Research Education Publications Sustainable Value Chains Start Research Research groups Sustainable Value Chains Sustainable Value Chains Projects People Publications Studies Resource Management in the Built Environment Start Research Research groups Resource Management in the Built Environment Resource Management in the Built Environment Education R",
-      "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 32,
-        "frontier": 0,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 94,
-        "country": 88,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 39
-    },
-    {
-      "name": "Frank Schultmann",
-      "university": "Karlsruhe Institute of Technology",
-      "country": "Germany",
-      "city": "Karlsruhe",
-      "url": "https://www.iip.kit.edu/english/9.php",
-      "focus": "production and operations management; logistics; sustainable value chains; bioeconomy; resilient supply chains; techno-economic analysis; optimization",
-      "research_fit": 30,
-      "paper1_score": 13,
-      "paper2_score": 29,
-      "trajectory_score": 52,
-      "paper1_dimensions": {
-        "domain": 8,
+        "domain": 20,
         "network": 0,
         "optimization": 0,
-        "uncertainty": 5,
+        "uncertainty": 0,
         "solution_methods": 0
       },
       "paper2_dimensions": {
-        "domain": 12,
+        "domain": 0,
         "network": 7,
         "investment_methods": 0,
-        "sustainability": 6,
+        "sustainability": 0,
         "multiobjective": 0
       },
       "trajectory_dimensions": {
-        "renewable_fuels": 9,
-        "supply_chain": 23,
-        "quantitative_methods": 7,
-        "sustainability": 13,
+        "renewable_fuels": 17,
+        "supply_chain": 17,
+        "quantitative_methods": 0,
+        "sustainability": 0,
         "strategic_decisions": 0
       },
       "keyword_hits": [
-        "bio-based",
-        "risk",
-        "biorefinery",
+        "biomass",
+        "bioenergy",
         "logistics",
-        "decarbonization",
-        "supply chain",
-        "value chain",
-        "optimization",
-        "sustainability",
-        "sustainable",
-        "carbon"
+        "supply chain"
       ],
       "penalty_hits": [],
       "why_match": [
-        "Paper 1: domain 8, uncertainty 5",
-        "Paper 2: domain 12, network 7, sustainability 6"
+        "Paper 1: domain 20",
+        "Paper 2: network 7"
       ],
       "frontier_score": 0,
       "frontier_dimensions": {
@@ -1912,30 +1448,113 @@
       },
       "frontier_hits": [],
       "frontier_themes": [],
-      "institution_priority": 94,
-      "country_priority": 94,
-      "country_score": 88,
+      "institution_priority": 80,
+      "country_priority": 96,
+      "country_score": 89,
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "art Research Research groups Future Energy Commodities Future Energy Commodities People Research Education Publications Sustainable Value Chains Start Research Research groups Sustainable Value Chains Sustainable Value Chains Projects People Publications Studies Resource Management in the Built Environment Start Research Research groups Resource Management in the Built Environment Resource Management in the Built Environment Education R",
+      "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Procurement; Technology Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab Google Scholar LinkedIn CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Universite de Montreal) MSc, Industrial Systems",
       "page_ok": true,
-      "checked_at": "2026-08-25T06:57:50+00:00",
+      "checked_at": "2026-08-26T06:58:30+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
       "priority_components": {
-        "research_fit": 30,
+        "research_fit": 20,
         "frontier": 0,
         "funding": 0,
         "supervisor": 100,
-        "institution": 94,
+        "institution": 80,
+        "country": 89,
+        "deadline": 25,
+        "confidence": 88,
+        "newness": 40
+      },
+      "strategic_score": 33
+    },
+    {
+      "name": "Maria Grahn",
+      "university": "Chalmers University of Technology",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "url": "https://www.chalmers.se/en/persons/np97magr/",
+      "focus": "energy systems analysis; future transport fuels; biomass; hydrogen and electrofuels; techno-economic analysis; carbon reduction; transport decarbonization",
+      "research_fit": 9,
+      "paper1_score": 9,
+      "paper2_score": 6,
+      "trajectory_score": 12,
+      "paper1_dimensions": {
+        "domain": 9,
+        "network": 0,
+        "optimization": 0,
+        "uncertainty": 0,
+        "solution_methods": 0
+      },
+      "paper2_dimensions": {
+        "domain": 0,
+        "network": 0,
+        "investment_methods": 0,
+        "sustainability": 6,
+        "multiobjective": 0
+      },
+      "trajectory_dimensions": {
+        "renewable_fuels": 8,
+        "supply_chain": 0,
+        "quantitative_methods": 0,
+        "sustainability": 4,
+        "strategic_decisions": 0
+      },
+      "keyword_hits": [
+        "biomass",
+        "decarbonization",
+        "carbon"
+      ],
+      "penalty_hits": [],
+      "why_match": [
+        "Paper 1: domain 9",
+        "Paper 2: sustainability 6"
+      ],
+      "frontier_score": 10,
+      "frontier_dimensions": {
+        "advanced_uncertainty": 0,
+        "adaptive_investment": 0,
+        "multimodal_logistics": 0,
+        "technology_portfolio": 10,
+        "lifecycle_policy": 0,
+        "circular_agri_bioeconomy": 0,
+        "large_scale_methods": 0
+      },
+      "frontier_hits": [
+        "electrofuel"
+      ],
+      "frontier_themes": [
+        "technology_portfolio"
+      ],
+      "institution_priority": 95,
+      "country_priority": 92,
+      "country_score": 88,
+      "opening_signals": [],
+      "funding": "Unknown",
+      "funding_evidence": [],
+      "excerpt": "Maria Grahn | Chalmers Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-31",
+      "page_ok": true,
+      "checked_at": "2026-08-26T06:58:30+00:00",
+      "data_confidence": 88,
+      "is_changed": true,
+      "opening_signal_changed": false,
+      "priority_components": {
+        "research_fit": 9,
+        "frontier": 10,
+        "funding": 0,
+        "supervisor": 100,
+        "institution": 95,
         "country": 88,
         "deadline": 25,
         "confidence": 88,
         "newness": 40
       },
-      "strategic_score": 38
+      "strategic_score": 30
     }
   ],
   "top_actionable": [
@@ -2081,7 +1700,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT On",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -2238,7 +1857,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -2387,7 +2006,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -2541,7 +2160,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-08-25T06:57:50+00:00",
+      "last_seen": "2026-08-26T06:58:30+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -2677,7 +2296,7 @@
       "employment_type": "",
       "strategic_score": 54,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     },
     {
       "fingerprint": "741637ccf4740c7d3692d30a",
@@ -2806,7 +2425,7 @@
       "employment_type": "",
       "strategic_score": 50,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     },
     {
       "fingerprint": "172ade2198b64ad2e286a49b",
@@ -2934,7 +2553,7 @@
       "employment_type": "",
       "strategic_score": 49,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     },
     {
       "fingerprint": "425894ef5b78ac3ff30b1a93",
@@ -3066,7 +2685,7 @@
       "employment_type": "",
       "strategic_score": 47,
       "golden_match": false,
-      "misses": 4
+      "misses": 5
     }
   ],
   "opportunity_type_counts": {
@@ -3076,9 +2695,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 104,
-    "low_research_fit": 449,
-    "missing_doctoral_signal": 22,
+    "insufficient_opportunity_signal": 101,
+    "missing_doctoral_signal": 20,
+    "low_research_fit": 429,
     "precision_gate": 4
   },
   "coverage_gaps": [
