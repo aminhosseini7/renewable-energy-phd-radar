@@ -1,31 +1,30 @@
 {
-  "checked_at": "2026-08-28T18:27:47+00:00",
+  "checked_at": "2026-08-29T12:33:59+00:00",
   "sources_total": 48,
-  "sources_ok": 44,
-  "pages_fetched": 406,
+  "sources_ok": 43,
+  "pages_fetched": 398,
   "structured_jobs_found": 12,
-  "opportunities": 8,
-  "active_opportunities": 8,
+  "opportunities": 4,
+  "active_opportunities": 4,
   "new_opportunities": 0,
   "changed_opportunities": 0,
   "high_matches": 0,
   "frontier_matches": 0,
   "golden_matches": 0,
   "apply_now": 0,
-  "full_funding_eligible": 8,
-  "confirmed_funding": 4,
+  "full_funding_eligible": 4,
+  "confirmed_funding": 3,
   "strict_funding_verified": 3,
-  "average_actionability": 35.2,
+  "average_actionability": 70.5,
   "opportunity_type_counts": {
-    "Opportunity lead": 4,
     "Funded project": 1,
     "Research lead": 2,
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 114,
-    "low_research_fit": 467,
-    "missing_doctoral_signal": 25,
+    "insufficient_opportunity_signal": 105,
+    "missing_doctoral_signal": 23,
+    "low_research_fit": 462,
     "precision_gate": 4
   },
   "precision_rejects": 4,
@@ -67,8 +66,8 @@
     "Australia": {
       "sources": 13,
       "sources_ok": 9,
-      "opportunities": 4,
-      "funding_eligible": 4,
+      "opportunities": 1,
+      "funding_eligible": 1,
       "strict_funded": 1,
       "golden": 0,
       "supervisors": 8
@@ -76,8 +75,8 @@
     "Canada": {
       "sources": 9,
       "sources_ok": 9,
-      "opportunities": 4,
-      "funding_eligible": 4,
+      "opportunities": 3,
+      "funding_eligible": 3,
       "strict_funded": 2,
       "golden": 0,
       "supervisors": 8
@@ -93,7 +92,7 @@
     },
     "Sweden": {
       "sources": 10,
-      "sources_ok": 10,
+      "sources_ok": 9,
       "opportunities": 0,
       "funding_eligible": 0,
       "strict_funded": 0,
@@ -212,8 +211,8 @@
     "full_funding_eligible_only": true
   },
   "supervisors_monitored": 36,
-  "supervisor_changes": 4,
-  "source_warnings": 4,
+  "supervisor_changes": 2,
+  "source_warnings": 5,
   "sources": [
     {
       "source": "AcademicTransfer PhD vacancies",
@@ -223,7 +222,7 @@
       "pages_fetched": 15,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -236,7 +235,7 @@
       "pages_fetched": 28,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -249,7 +248,7 @@
       "pages_fetched": 33,
       "matches": 0,
       "structured_jobs": 12,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -262,20 +261,7 @@
       "pages_fetched": 9,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "TU Delft salaried PhD vacancies",
-      "url": "https://careers.tudelft.nl/go/All-jobs/9021002/?q=&title=PhD",
-      "country": "Netherlands",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -288,7 +274,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "TU Delft salaried PhD vacancies",
+      "url": "https://careers.tudelft.nl/go/All-jobs/9021002/?q=&title=PhD",
+      "country": "Netherlands",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -301,7 +300,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -314,7 +313,7 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -327,7 +326,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -340,7 +339,7 @@
       "pages_fetched": 8,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -353,7 +352,7 @@
       "pages_fetched": 41,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -366,20 +365,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "UNSW HDR scholarships",
-      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
-      "country": "Australia",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -392,7 +378,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "UNSW HDR scholarships",
+      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -405,7 +404,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -418,23 +417,10 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
-    },
-    {
-      "source": "UNSW HDR research degrees and projects",
-      "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
-      "country": "Australia",
-      "ok": false,
-      "pages_fetched": 0,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 5,
-      "health_label": "degraded",
-      "consecutive_failures": 9
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -444,10 +430,23 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 9
+      "consecutive_failures": 10
+    },
+    {
+      "source": "UNSW HDR research degrees and projects",
+      "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
+      "country": "Australia",
+      "ok": false,
+      "pages_fetched": 0,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 5,
+      "health_label": "degraded",
+      "consecutive_failures": 10
     },
     {
       "source": "Monash graduate research scholarships",
@@ -457,10 +456,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 9
+      "consecutive_failures": 10
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -470,10 +469,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 9
+      "consecutive_failures": 10
     },
     {
       "source": "UBC Industrial Engineering Research Group",
@@ -483,7 +482,7 @@
       "pages_fetched": 2,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -496,7 +495,7 @@
       "pages_fetched": 12,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -509,7 +508,7 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -522,7 +521,7 @@
       "pages_fetched": 11,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -535,7 +534,7 @@
       "pages_fetched": 19,
       "matches": 2,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -548,7 +547,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -561,7 +560,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -574,7 +573,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -587,20 +586,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "KIT IIP Production, Logistics and Energy vacancies",
-      "url": "https://www.iip.kit.edu/english/455.php",
-      "country": "Germany",
-      "ok": true,
-      "pages_fetched": 5,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -613,7 +599,20 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "KIT IIP Production, Logistics and Energy vacancies",
+      "url": "https://www.iip.kit.edu/english/455.php",
+      "country": "Germany",
+      "ok": true,
+      "pages_fetched": 5,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -626,7 +625,7 @@
       "pages_fetched": 16,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -639,7 +638,7 @@
       "pages_fetched": 8,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -652,7 +651,7 @@
       "pages_fetched": 31,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -665,7 +664,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -678,7 +677,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -691,7 +690,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -704,8 +703,8 @@
       "pages_fetched": 17,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 93,
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 94,
       "health_label": "healthy",
       "consecutive_failures": 0
     },
@@ -717,20 +716,7 @@
       "pages_fetched": 15,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "SLU jobs and doctoral vacancies",
-      "url": "https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/",
-      "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 4,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -743,7 +729,7 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -756,7 +742,20 @@
       "pages_fetched": 31,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "SLU jobs and doctoral vacancies",
+      "url": "https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/",
+      "country": "Sweden",
+      "ok": true,
+      "pages_fetched": 4,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -766,10 +765,10 @@
       "url": "https://www.kth.se/lediga-jobb/?l=en",
       "country": "Sweden",
       "ok": true,
-      "pages_fetched": 34,
+      "pages_fetched": 31,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -782,7 +781,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -795,20 +794,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "SLU doctoral employment and funding route",
-      "url": "https://www.slu.se/en/study/programmes-courses/doctoral-education/what-are-doctoral-programmes/",
-      "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -821,7 +807,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "SLU doctoral employment and funding route",
+      "url": "https://www.slu.se/en/study/programmes-courses/doctoral-education/what-are-doctoral-programmes/",
+      "country": "Sweden",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-08-29T12:33:59+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -830,14 +829,14 @@
       "source": "Lulea University of Technology vacancies",
       "url": "https://www.ltu.se/en/about-the-university/work-with-us",
       "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 5,
+      "ok": false,
+      "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-08-28T18:27:47+00:00",
-      "health_score": 57,
-      "health_label": "watch",
-      "consecutive_failures": 0
+      "checked_at": "2026-08-29T12:33:59+00:00",
+      "health_score": 36,
+      "health_label": "degraded",
+      "consecutive_failures": 1
     }
   ]
 }
