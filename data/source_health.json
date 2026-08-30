@@ -2,481 +2,481 @@
   "ae032066c8049750fbf46b04": {
     "source": "AcademicTransfer PhD vacancies",
     "url": "https://www.academictransfer.com/en/job-type/phd/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "e69c4f4d13d8f5b9a5d01cf4": {
     "source": "UTS FEIT research scholarships and HDR projects",
     "url": "https://www.uts.edu.au/about/faculties/engineering-and-information-technology/research/research-scholarships",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "0e13baaace7dfcb9b3375513": {
     "source": "TU Delft PhD jobs",
     "url": "https://careers.tudelft.nl/go/All-jobs/9021002/?q=&title=PhD",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "464f3299b190b32c3e497ae2": {
     "source": "UTS ISF HDR scholarships",
     "url": "https://www.uts.edu.au/research/centres/isf/learning/hdr-program/isf-scholarships",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "64f6879bcd40b9dfe69cfc53": {
     "source": "WUR PhD jobs",
     "url": "https://www.wur.nl/en/jobs/phd-jobs",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "46de6f0794f2ff17f41298ae": {
     "source": "UNSW HDR research degrees and projects",
     "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
-    "scans": 10,
+    "scans": 11,
     "successes": 0,
-    "consecutive_failures": 10,
+    "consecutive_failures": 11,
     "health_score": 5,
     "last_ok": "",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "8e4fc7d1f7dff8e8825e4925": {
     "source": "Monash Engineering PhD project directory",
     "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
-    "scans": 10,
+    "scans": 11,
     "successes": 0,
-    "consecutive_failures": 10,
+    "consecutive_failures": 11,
     "health_score": 5,
     "last_ok": "",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "71f2cbebe23cf7f921668698": {
     "source": "RMIT sustainable renewable-energy supply-chain project",
     "url": "https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/sustainable-engineering-systems-research-group/projects/life-cycle-assessment",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "318d697171acc50a542e4141": {
     "source": "UBC Industrial Engineering Research Group",
     "url": "https://ierg.forestry.ubc.ca/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "6ee01098b24268afbee17810": {
     "source": "UBC Forestry PhD admissions and research",
     "url": "https://forestry.ubc.ca/future-students/graduate/thesis-based-degrees/doctor-of-philosophy/how-to-apply/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "2e6a43433ba451926f6ff1d2": {
     "source": "Waterloo Management Science and Engineering PhD",
     "url": "https://uwaterloo.ca/management-science-engineering/future-graduate-students/phd-program",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "e43b42e114dc454d85158dc7": {
     "source": "University of Toronto Sustainable Systems group",
     "url": "https://sustainablesystems.civmin.utoronto.ca/our-group/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "3195e60a4e302f112f4290d7": {
     "source": "HEC Montreal Logistics and Operations PhD",
     "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "74973d2e1eda9bcfd205c93e": {
     "source": "KIT IIP Production, Logistics and Energy vacancies",
     "url": "https://www.iip.kit.edu/english/455.php",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "626c3d3cc89d6b718b82cc46": {
     "source": "DLR doctoral and research jobs",
     "url": "https://jobs.dlr.de/?locale=en_GB",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "f257c94ebbb0782f9c6f9bcc": {
     "source": "DAAD PhDGermany international doctoral vacancies",
     "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
-    "scans": 10,
-    "successes": 9,
+    "scans": 11,
+    "successes": 10,
     "consecutive_failures": 0,
     "health_score": 94,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "d99b7fce76fcb48d34819d13": {
     "source": "KTH vacant doctoral positions",
     "url": "https://www.kth.se/en/utbildning/become-a-phd-student/vacant-doctoral-positions-1.1411624",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "378d0e9220778d6fde56eeb3": {
     "source": "SLU jobs and doctoral vacancies",
     "url": "https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "0a0924a1a564c1e90ae49789": {
     "source": "Lund University vacancies",
     "url": "https://www.lunduniversity.lu.se/vacancies",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "c4063a3013b2cbce93d29ceb": {
     "source": "KTH all vacancies",
     "url": "https://www.kth.se/lediga-jobb/?l=en",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "1ded2edc75a034f009f9cb82": {
     "source": "Chalmers doctoral vacancies",
     "url": "https://web103.reachmee.com/ext/I003/304/main?lang=en&site=5&validator=a72aeedd63ec10de71e46f8d91d0d57c",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "a373c5e504088c4a3f16c86f": {
     "source": "Linkoping University PhD vacancies",
     "url": "https://liu.se/en/work-at-liu/vacancies?occupationarea=PhD+students",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "94b5c9c1b8d3894208c9f5bb": {
     "source": "TU Dresden research associate / PhD vacancies",
     "url": "https://tu-dresden.de/tu-dresden/arbeiten-an-der-tud/stellenangebote/stellenangebote?kat=2&set_language=en&style=cms2",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "99bdb2bf400d1e7fda585cc3": {
     "source": "University of Hohenheim research vacancies",
     "url": "https://www.uni-hohenheim.de/stellenangebote",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "93ec75cf020b641fcf7010d3": {
     "source": "Lulea University of Technology vacancies",
     "url": "https://www.ltu.se/en/about-the-university/work-with-us",
-    "scans": 10,
+    "scans": 11,
     "successes": 3,
-    "consecutive_failures": 1,
-    "health_score": 36,
+    "consecutive_failures": 2,
+    "health_score": 27,
     "last_ok": "2026-08-28T18:27:47+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "6b09b903dddb6566bdaf17ec": {
     "source": "UTS research degree scholarship deadlines",
     "url": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/masters-by-research-phd/application-closing-dates",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "109ba92338f6311a262260ef": {
     "source": "WUR salaried PhD jobs",
     "url": "https://www.wur.nl/en/jobs/phd-jobs",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "c3ac063d85922add75339e45": {
     "source": "TU Delft salaried PhD vacancies",
     "url": "https://careers.tudelft.nl/go/All-jobs/9021002/?q=&title=PhD",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "b24a7330bd0ee3dcaaa1df97": {
     "source": "University of Sydney RTP International",
     "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "dc2d1fb6bc1d355aa93d04fe": {
     "source": "UNSW HDR scholarships",
     "url": "https://www.unsw.edu.au/research/hdr/scholarships",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "28064986ec2ca2d20912dc60": {
     "source": "UBC Forestry PhD funding route",
     "url": "https://forestry.ubc.ca/future-students/graduate/thesis-based-degrees/doctor-of-philosophy/how-to-apply/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "97fdef113c0b706801f90834": {
     "source": "Waterloo graduate funding",
     "url": "https://uwaterloo.ca/management-science-engineering/graduate-studies/funding-awards-and-scholarships",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "006b4a332e627de84192f730": {
     "source": "HEC Montreal PhD funding",
     "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "be82ce2775e500a2c2350ec4": {
     "source": "Monash graduate research scholarships",
     "url": "https://www.monash.edu/graduate-research/study/scholarships",
-    "scans": 10,
+    "scans": 11,
     "successes": 0,
-    "consecutive_failures": 10,
+    "consecutive_failures": 11,
     "health_score": 5,
     "last_ok": "",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "f8530a485e4c1e0e780e4027": {
     "source": "RMIT research scholarships",
     "url": "https://www.rmit.edu.au/students/careers-opportunities/scholarships/research",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "85dae1382b5c0d1c49f50013": {
     "source": "McGill Desautels PhD financial support",
     "url": "https://www.mcgill.ca/desautels/programs/phd/admissions/tuition-financial-aid",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "dded2eb752c9347968284917": {
     "source": "KIT IIP doctoral research jobs",
     "url": "https://www.iip.kit.edu/english/455.php",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "6439a8c34c1d113a4c168f1a": {
     "source": "University of Melbourne graduate research scholarships",
     "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
-    "scans": 10,
+    "scans": 11,
     "successes": 0,
-    "consecutive_failures": 10,
+    "consecutive_failures": 11,
     "health_score": 5,
     "last_ok": "",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "1e38994e735674421071da2b": {
     "source": "KTH doctoral employment and monthly salary route",
     "url": "https://www.kth.se/en/utbildning/become-a-phd-student/introduction-to-doctoral-studies-at-kth-1.527044",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "a84eb4aea04d1ee61bb76d97": {
     "source": "SLU doctoral employment and funding route",
     "url": "https://www.slu.se/en/study/programmes-courses/doctoral-education/what-are-doctoral-programmes/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "7e8ac8a4e1e16cb5cc965ddc": {
     "source": "Chalmers doctoral employment route",
     "url": "https://www.chalmers.se/en/research/we-train-new-researchers/",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "e65a24784c4e9a2cf94d7012": {
     "source": "DLR doctoral candidate employment",
     "url": "https://www.dlr.de/en/careers/your-entry/your-career-level/students-doctoral-candidates",
-    "scans": 10,
-    "successes": 10,
+    "scans": 11,
+    "successes": 11,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "a7f6d3c605a022959d11ae04": {
     "source": "University of Twente current PhD vacancies",
     "url": "https://www.utwente.nl/en/education/tgs/",
-    "scans": 8,
-    "successes": 8,
+    "scans": 9,
+    "successes": 9,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "ae43836155b1ae24d8deb9ae": {
     "source": "University of Queensland scholarship-funded PhD projects",
     "url": "https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects",
-    "scans": 8,
-    "successes": 8,
+    "scans": 9,
+    "successes": 9,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "fbf52bd801abddefd02e9d6b": {
     "source": "RWTH Aachen PhD and research-associate jobs",
     "url": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/lidx/1/?asc=0&mobile=1&search=Phd&showall=1&sortby=STELLENBEZ",
-    "scans": 8,
-    "successes": 8,
+    "scans": 9,
+    "successes": 9,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "fcaf151174f9d83b3dceeab3": {
     "source": "University of Queensland research project scholarships",
     "url": "https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects",
-    "scans": 8,
-    "successes": 8,
+    "scans": 9,
+    "successes": 9,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "49f049b8b8f68bfd2822f023": {
     "source": "University of Twente salaried PhD employment",
     "url": "https://www.utwente.nl/en/education/tgs/",
-    "scans": 8,
-    "successes": 8,
+    "scans": 9,
+    "successes": 9,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   },
   "10f1ca7158c3a2fc0615c734": {
     "source": "RWTH Aachen salaried doctoral research jobs",
     "url": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/lidx/1/?asc=0&mobile=1&search=Phd&showall=1&sortby=STELLENBEZ",
-    "scans": 8,
-    "successes": 8,
+    "scans": 9,
+    "successes": 9,
     "consecutive_failures": 0,
     "health_score": 100,
-    "last_ok": "2026-08-29T12:33:59+00:00",
-    "last_checked": "2026-08-29T12:33:59+00:00"
+    "last_ok": "2026-08-30T11:42:02+00:00",
+    "last_checked": "2026-08-30T11:42:02+00:00"
   }
 }
