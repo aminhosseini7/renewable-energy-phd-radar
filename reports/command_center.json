@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-04T10:59:53+00:00",
+  "checked_at": "2026-09-05T10:22:29+00:00",
   "golden_matches": [],
   "action_counts": {
     "Low priority": 4
@@ -152,7 +152,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -309,7 +309,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -458,7 +458,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -612,7 +612,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT On",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -634,7 +634,7 @@
       "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -642,15 +642,15 @@
       "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     },
     {
       "source": "Lulea University of Technology vacancies",
       "country": "Sweden",
       "url": "https://www.ltu.se/en/about-the-university/work-with-us",
-      "health_score": 29,
+      "health_score": 20,
       "health_label": "degraded",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     {
       "source": "Monash graduate research scholarships",
@@ -658,7 +658,7 @@
       "url": "https://www.monash.edu/graduate-research/study/scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -666,10 +666,96 @@
       "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     }
   ],
   "supervisor_changes": [
+    {
+      "name": "Xuezhen Guo",
+      "university": "Wageningen University & Research",
+      "country": "Netherlands",
+      "city": "Wageningen",
+      "url": "https://research.wur.nl/en/persons/xuezhen-guo/",
+      "focus": "bio-based supply chains; biomass logistics; MILP; integrated biomass logistical centers",
+      "research_fit": 52,
+      "paper1_score": 60,
+      "paper2_score": 31,
+      "trajectory_score": 54,
+      "paper1_dimensions": {
+        "domain": 25,
+        "network": 14,
+        "optimization": 14,
+        "uncertainty": 0,
+        "solution_methods": 0
+      },
+      "paper2_dimensions": {
+        "domain": 0,
+        "network": 19,
+        "investment_methods": 12,
+        "sustainability": 0,
+        "multiobjective": 0
+      },
+      "trajectory_dimensions": {
+        "renewable_fuels": 8,
+        "supply_chain": 23,
+        "quantitative_methods": 19,
+        "sustainability": 0,
+        "strategic_decisions": 4
+      },
+      "keyword_hits": [
+        "biomass",
+        "biobased",
+        "bio-based",
+        "supply chain design",
+        "MILP",
+        "logistics",
+        "supply chain",
+        "value chain",
+        "optimization",
+        "location"
+      ],
+      "penalty_hits": [],
+      "why_match": [
+        "Paper 1: domain 25, network 14, optimization 14",
+        "Paper 2: network 19, investment_methods 12"
+      ],
+      "frontier_score": 0,
+      "frontier_dimensions": {
+        "advanced_uncertainty": 0,
+        "adaptive_investment": 0,
+        "multimodal_logistics": 0,
+        "technology_portfolio": 0,
+        "lifecycle_policy": 0,
+        "circular_agri_bioeconomy": 0,
+        "large_scale_methods": 0
+      },
+      "frontier_hits": [],
+      "frontier_themes": [],
+      "institution_priority": 97,
+      "country_priority": 100,
+      "country_score": 89,
+      "opening_signals": [],
+      "funding": "Unknown",
+      "funding_evidence": [],
+      "excerpt": "output Datasets Projects Press/Media Activities Prizes Xuezhen Guo dr. WASS Researcher , Data Science & Informatics and Supply Chain Design Researcher , Post Harvest Technology https://orcid.org/0000-0001-7377-0151 Overview Fingerprint Network Research output (59) Datasets (2) Activities (16) Projects (5) Similar Profiles (9) Fingerprint Dive into the research topics where Xuezhen Guo is active. These topic labels come from the works of",
+      "page_ok": true,
+      "checked_at": "2026-09-05T10:22:29+00:00",
+      "data_confidence": 88,
+      "is_changed": true,
+      "opening_signal_changed": false,
+      "priority_components": {
+        "research_fit": 52,
+        "frontier": 0,
+        "funding": 0,
+        "supervisor": 100,
+        "institution": 97,
+        "country": 89,
+        "deadline": 25,
+        "confidence": 88,
+        "newness": 40
+      },
+      "strategic_score": 47
+    },
     {
       "name": "Göran Berndes",
       "university": "Chalmers University of Technology",
@@ -756,7 +842,7 @@
       "funding_evidence": [],
       "excerpt": "Jimmy Ehnberg , Göran Berndes Energy Research and Social Science. Vol. 133 Journal article 2026 Cascading wood use into bioenergy with carbon capture and storage ensures continuous and enduring temperature reduction George Bishop , Colm Duffy , Göran Berndes et al Communications Earth and Environment. Vol. 7 (1) Journal article 2026 On the interpretation of biogenic carbon flows in livestock LCAs: A comment on Blignaut et al. (2026) And",
       "page_ok": true,
-      "checked_at": "2026-09-04T10:59:53+00:00",
+      "checked_at": "2026-09-05T10:22:29+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -772,6 +858,99 @@
         "newness": 40
       },
       "strategic_score": 43
+    },
+    {
+      "name": "Sander de Leeuw",
+      "university": "Wageningen University & Research",
+      "country": "Netherlands",
+      "city": "Wageningen",
+      "url": "https://research.wur.nl/en/persons/sander-de-leeuw/",
+      "focus": "operations research and logistics; agrifood and biobased supply chains; robust performance; sustainability; uncertainty",
+      "research_fit": 35,
+      "paper1_score": 32,
+      "paper2_score": 17,
+      "trajectory_score": 64,
+      "paper1_dimensions": {
+        "domain": 17,
+        "network": 0,
+        "optimization": 8,
+        "uncertainty": 7,
+        "solution_methods": 0
+      },
+      "paper2_dimensions": {
+        "domain": 0,
+        "network": 7,
+        "investment_methods": 0,
+        "sustainability": 10,
+        "multiobjective": 0
+      },
+      "trajectory_dimensions": {
+        "renewable_fuels": 8,
+        "supply_chain": 17,
+        "quantitative_methods": 14,
+        "sustainability": 15,
+        "strategic_decisions": 10
+      },
+      "keyword_hits": [
+        "biomass",
+        "biobased",
+        "operations research",
+        "uncertainty",
+        "logistics",
+        "life cycle assessment",
+        "supply chain",
+        "sustainability",
+        "sustainable",
+        "life cycle",
+        "investment",
+        "location",
+        "planning"
+      ],
+      "penalty_hits": [],
+      "why_match": [
+        "Paper 1: domain 17, optimization 8, uncertainty 7",
+        "Paper 2: sustainability 10, network 7"
+      ],
+      "frontier_score": 7,
+      "frontier_dimensions": {
+        "advanced_uncertainty": 0,
+        "adaptive_investment": 0,
+        "multimodal_logistics": 0,
+        "technology_portfolio": 0,
+        "lifecycle_policy": 7,
+        "circular_agri_bioeconomy": 0,
+        "large_scale_methods": 0
+      },
+      "frontier_hits": [
+        "life cycle assessment"
+      ],
+      "frontier_themes": [
+        "lifecycle_policy"
+      ],
+      "institution_priority": 97,
+      "country_priority": 100,
+      "country_score": 89,
+      "opening_signals": [],
+      "funding": "Unknown",
+      "funding_evidence": [],
+      "excerpt": "output Datasets Projects Press/Media Activities Prizes View Scopus Profile Sander de Leeuw prof.dr.ir. Full Professor , Operations Research and Logistics https://orcid.org/0000-0003-3056-8775 Overview Fingerprint Network Research output (84) Datasets (1) Activities (10) Press/Media (2) Prizes (4) Projects (22) Similar Profiles (6) Supervised Work (4) Fingerprint Dive into the research topics where Sander de Leeuw is active. These topic",
+      "page_ok": true,
+      "checked_at": "2026-09-05T10:22:29+00:00",
+      "data_confidence": 88,
+      "is_changed": true,
+      "opening_signal_changed": false,
+      "priority_components": {
+        "research_fit": 35,
+        "frontier": 7,
+        "funding": 0,
+        "supervisor": 100,
+        "institution": 97,
+        "country": 89,
+        "deadline": 25,
+        "confidence": 88,
+        "newness": 40
+      },
+      "strategic_score": 41
     },
     {
       "name": "Bhushan Gopaluni",
@@ -860,7 +1039,7 @@
       ],
       "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
       "page_ok": true,
-      "checked_at": "2026-09-04T10:59:53+00:00",
+      "checked_at": "2026-09-05T10:22:29+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -957,7 +1136,7 @@
       "funding_evidence": [],
       "excerpt": "reers Contact us Our strategy Governance & management Schools & colleges Respect for Australian Indigenous cultures Our locations and facilities Our heritage Regenerative Futures Research Our research Impact Research degrees Facilities Partnerships Find researchers Centres and collaborations Contact Partner Recruit students and graduates Workforce development Collaborate with RMIT Research partnerships Facilities, equipment and services",
       "page_ok": true,
-      "checked_at": "2026-09-04T10:59:53+00:00",
+      "checked_at": "2026-09-05T10:22:29+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1037,7 +1216,7 @@
       "funding_evidence": [],
       "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Project Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab ENAP LinkedIn ORCID: 0000-0002-7991-4635 Google Scholar: View Google Scholar profile CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Un",
       "page_ok": true,
-      "checked_at": "2026-09-04T10:59:53+00:00",
+      "checked_at": "2026-09-05T10:22:29+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1198,7 +1377,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT Online Students Alumni Staff Library RMIT Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP RMIT On",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1355,7 +1534,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1504,7 +1683,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1658,7 +1837,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-04T10:59:53+00:00",
+      "last_seen": "2026-09-05T10:22:29+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1677,10 +1856,10 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 93,
+    "insufficient_opportunity_signal": 99,
+    "low_research_fit": 461,
     "missing_doctoral_signal": 20,
-    "low_research_fit": 436,
-    "precision_gate": 4
+    "precision_gate": 5
   },
   "coverage_gaps": [
     {
