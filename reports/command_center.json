@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-12T10:27:57+00:00",
+  "checked_at": "2026-09-13T11:30:58+00:00",
   "golden_matches": [],
   "action_counts": {
     "Low priority": 4
@@ -152,7 +152,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -309,7 +309,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -458,7 +458,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -612,7 +612,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -634,7 +634,7 @@
       "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 24
+      "consecutive_failures": 25
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -642,15 +642,15 @@
       "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 24
+      "consecutive_failures": 25
     },
     {
       "source": "DAAD PhDGermany international doctoral vacancies",
       "country": "Germany",
       "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
-      "health_score": 41,
+      "health_score": 39,
       "health_label": "degraded",
-      "consecutive_failures": 5
+      "consecutive_failures": 6
     },
     {
       "source": "Monash graduate research scholarships",
@@ -658,7 +658,7 @@
       "url": "https://www.monash.edu/graduate-research/study/scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 24
+      "consecutive_failures": 25
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -666,7 +666,7 @@
       "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 24
+      "consecutive_failures": 25
     }
   ],
   "supervisor_changes": [
@@ -756,7 +756,7 @@
       "funding_evidence": [],
       "excerpt": "mation and contact details ORCID Publications (198) Projects (24) Showing 198 publications 2026 Cascading wood use into bioenergy with carbon capture and storage ensures continuous and enduring temperature reduction George Bishop , Colm Duffy , Göran Berndes et al Communications Earth and Environment. Vol. 7 (1) Journal article 2026 On the interpretation of biogenic carbon flows in livestock LCAs: A comment on Blignaut et al. (2026) And",
       "page_ok": true,
-      "checked_at": "2026-09-12T10:27:57+00:00",
+      "checked_at": "2026-09-13T11:30:58+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -772,110 +772,6 @@
         "newness": 40
       },
       "strategic_score": 43
-    },
-    {
-      "name": "Bhushan Gopaluni",
-      "university": "University of British Columbia",
-      "country": "Canada",
-      "city": "Vancouver",
-      "url": "https://www.grad.ubc.ca/researcher/13880-gopaluni",
-      "focus": "bioenergy supply-chain optimization; decision-making under uncertainty; process systems",
-      "research_fit": 5,
-      "paper1_score": 34,
-      "paper2_score": 17,
-      "trajectory_score": 84,
-      "paper1_dimensions": {
-        "domain": 20,
-        "network": 0,
-        "optimization": 0,
-        "uncertainty": 14,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 0,
-        "investment_methods": 12,
-        "sustainability": 5,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 17,
-        "supply_chain": 20,
-        "quantitative_methods": 22,
-        "sustainability": 15,
-        "strategic_decisions": 10
-      },
-      "keyword_hits": [
-        "biomass",
-        "bioenergy",
-        "uncertainty",
-        "uncertainties",
-        "stochastic",
-        "stochastic optimization",
-        "emissions",
-        "supply chain",
-        "supply-chain",
-        "optimization",
-        "sustainability",
-        "sustainable",
-        "carbon",
-        "energy consumption",
-        "capacity",
-        "planning",
-        "scenario"
-      ],
-      "penalty_hits": [
-        "lithium-ion",
-        "quantum",
-        "computer vision",
-        "robotics"
-      ],
-      "why_match": [
-        "Paper 1: domain 20, uncertainty 14",
-        "Paper 2: investment_methods 12, sustainability 5"
-      ],
-      "frontier_score": 9,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 9,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [
-        "chance constraint"
-      ],
-      "frontier_themes": [
-        "advanced_uncertainty"
-      ],
-      "institution_priority": 97,
-      "country_priority": 96,
-      "country_score": 89,
-      "opening_signals": [],
-      "funding": "Competitive",
-      "funding_evidence": [
-        "fellowship"
-      ],
-      "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
-      "page_ok": true,
-      "checked_at": "2026-09-12T10:27:57+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 5,
-        "frontier": 9,
-        "funding": 66,
-        "supervisor": 100,
-        "institution": 97,
-        "country": 89,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 41
     },
     {
       "name": "Fereshteh Mafakheri",
@@ -940,7 +836,7 @@
       "funding_evidence": [],
       "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Project Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab ENAP LinkedIn ORCID: 0000-0002-7991-4635 Google Scholar: View Google Scholar profile CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Un",
       "page_ok": true,
-      "checked_at": "2026-09-12T10:27:57+00:00",
+      "checked_at": "2026-09-13T11:30:58+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1021,9 +917,9 @@
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "Maria Grahn | Chalmers Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-31",
+      "excerpt": "Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-317721000 Mail address Ch",
       "page_ok": true,
-      "checked_at": "2026-09-12T10:27:57+00:00",
+      "checked_at": "2026-09-13T11:30:58+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1184,7 +1080,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1341,7 +1237,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1490,7 +1386,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1644,7 +1540,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-12T10:27:57+00:00",
+      "last_seen": "2026-09-13T11:30:58+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1664,8 +1560,8 @@
   },
   "precision_filter_counts": {
     "insufficient_opportunity_signal": 103,
-    "missing_doctoral_signal": 17,
-    "low_research_fit": 469,
+    "missing_doctoral_signal": 16,
+    "low_research_fit": 464,
     "precision_gate": 5
   },
   "coverage_gaps": [
