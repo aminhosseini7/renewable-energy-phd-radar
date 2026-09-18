@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-17T11:24:09+00:00",
+  "checked_at": "2026-09-18T10:58:04+00:00",
   "sources_total": 48,
   "sources_ok": 44,
-  "pages_fetched": 439,
+  "pages_fetched": 438,
   "structured_jobs_found": 9,
   "opportunities": 4,
   "active_opportunities": 4,
@@ -22,9 +22,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 114,
-    "low_research_fit": 489,
+    "insufficient_opportunity_signal": 116,
     "missing_doctoral_signal": 18,
+    "low_research_fit": 489,
     "precision_gate": 5
   },
   "precision_rejects": 5,
@@ -211,7 +211,7 @@
     "full_funding_eligible_only": true
   },
   "supervisors_monitored": 36,
-  "supervisor_changes": 7,
+  "supervisor_changes": 4,
   "source_warnings": 4,
   "sources": [
     {
@@ -222,7 +222,7 @@
       "pages_fetched": 15,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -235,7 +235,7 @@
       "pages_fetched": 28,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -248,7 +248,7 @@
       "pages_fetched": 28,
       "matches": 0,
       "structured_jobs": 9,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -261,7 +261,7 @@
       "pages_fetched": 9,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -274,7 +274,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -287,7 +287,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -300,7 +300,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -313,7 +313,7 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -326,7 +326,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -339,7 +339,7 @@
       "pages_fetched": 8,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -352,7 +352,7 @@
       "pages_fetched": 41,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -365,20 +365,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "UNSW HDR scholarships",
-      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
-      "country": "Australia",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -391,20 +378,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
     },
     {
-      "source": "RMIT research scholarships",
-      "url": "https://www.rmit.edu.au/students/careers-opportunities/scholarships/research",
+      "source": "UNSW HDR scholarships",
+      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
       "country": "Australia",
       "ok": true,
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -417,7 +404,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "RMIT research scholarships",
+      "url": "https://www.rmit.edu.au/students/careers-opportunities/scholarships/research",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -430,10 +430,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 29
+      "consecutive_failures": 30
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -443,10 +443,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 29
+      "consecutive_failures": 30
     },
     {
       "source": "Monash graduate research scholarships",
@@ -456,10 +456,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 29
+      "consecutive_failures": 30
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -469,10 +469,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 29
+      "consecutive_failures": 30
     },
     {
       "source": "Waterloo Management Science and Engineering PhD",
@@ -482,7 +482,7 @@
       "pages_fetched": 12,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -495,7 +495,7 @@
       "pages_fetched": 11,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -508,7 +508,7 @@
       "pages_fetched": 19,
       "matches": 2,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -521,7 +521,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -534,7 +534,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -547,7 +547,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -560,7 +560,7 @@
       "pages_fetched": 2,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 98,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -573,7 +573,7 @@
       "pages_fetched": 2,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 98,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -586,21 +586,8 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 98,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "KIT IIP Production, Logistics and Energy vacancies",
-      "url": "https://www.iip.kit.edu/english/455.php",
-      "country": "Germany",
-      "ok": true,
-      "pages_fetched": 5,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
-      "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
     },
@@ -612,7 +599,20 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "KIT IIP Production, Logistics and Energy vacancies",
+      "url": "https://www.iip.kit.edu/english/455.php",
+      "country": "Germany",
+      "ok": true,
+      "pages_fetched": 5,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -625,7 +625,7 @@
       "pages_fetched": 14,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -638,7 +638,7 @@
       "pages_fetched": 8,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -651,7 +651,7 @@
       "pages_fetched": 37,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -664,7 +664,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -677,7 +677,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -690,7 +690,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -703,8 +703,8 @@
       "pages_fetched": 17,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
-      "health_score": 73,
+      "checked_at": "2026-09-18T10:58:04+00:00",
+      "health_score": 74,
       "health_label": "watch",
       "consecutive_failures": 0
     },
@@ -716,7 +716,7 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -729,7 +729,7 @@
       "pages_fetched": 36,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -742,7 +742,7 @@
       "pages_fetched": 4,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -755,7 +755,7 @@
       "pages_fetched": 46,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -765,10 +765,10 @@
       "url": "https://www.kth.se/en/utbildning/become-a-phd-student/vacant-doctoral-positions-1.1411624",
       "country": "Sweden",
       "ok": true,
-      "pages_fetched": 37,
+      "pages_fetched": 36,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -781,7 +781,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -794,20 +794,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "Chalmers doctoral employment route",
-      "url": "https://www.chalmers.se/en/research/we-train-new-researchers/",
-      "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -820,7 +807,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
+      "checked_at": "2026-09-18T10:58:04+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "Chalmers doctoral employment route",
+      "url": "https://www.chalmers.se/en/research/we-train-new-researchers/",
+      "country": "Sweden",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-09-18T10:58:04+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -833,8 +833,8 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-09-17T11:24:09+00:00",
-      "health_score": 66,
+      "checked_at": "2026-09-18T10:58:04+00:00",
+      "health_score": 68,
       "health_label": "watch",
       "consecutive_failures": 0
     }
