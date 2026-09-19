@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-18T10:58:04+00:00",
+  "checked_at": "2026-09-19T10:41:10+00:00",
   "golden_matches": [],
   "action_counts": {
     "Low priority": 4
@@ -152,7 +152,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -309,7 +309,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -458,7 +458,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -612,7 +612,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -629,20 +629,28 @@
   "recent_changed": [],
   "source_warnings": [
     {
-      "source": "UNSW HDR research degrees and projects",
-      "country": "Australia",
-      "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
-      "health_score": 5,
-      "health_label": "degraded",
-      "consecutive_failures": 30
-    },
-    {
       "source": "Monash Engineering PhD project directory",
       "country": "Australia",
       "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 30
+      "consecutive_failures": 31
+    },
+    {
+      "source": "UNSW HDR research degrees and projects",
+      "country": "Australia",
+      "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
+      "health_score": 5,
+      "health_label": "degraded",
+      "consecutive_failures": 31
+    },
+    {
+      "source": "Lulea University of Technology vacancies",
+      "country": "Sweden",
+      "url": "https://www.ltu.se/en/about-the-university/work-with-us",
+      "health_score": 48,
+      "health_label": "degraded",
+      "consecutive_failures": 1
     },
     {
       "source": "Monash graduate research scholarships",
@@ -650,7 +658,7 @@
       "url": "https://www.monash.edu/graduate-research/study/scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 30
+      "consecutive_failures": 31
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -658,7 +666,7 @@
       "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 30
+      "consecutive_failures": 31
     }
   ],
   "supervisor_changes": [
@@ -749,7 +757,7 @@
       ],
       "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
       "page_ok": true,
-      "checked_at": "2026-09-18T10:58:04+00:00",
+      "checked_at": "2026-09-19T10:41:10+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -765,181 +773,6 @@
         "newness": 40
       },
       "strategic_score": 41
-    },
-    {
-      "name": "Wolf Fichtner",
-      "university": "Karlsruhe Institute of Technology",
-      "country": "Germany",
-      "city": "Karlsruhe",
-      "url": "https://www.iip.kit.edu/english/9.php",
-      "focus": "energy economics; energy supply chains; decision support models; renewable energy infrastructure; mathematical optimization; future energy commodities",
-      "research_fit": 36,
-      "paper1_score": 23,
-      "paper2_score": 35,
-      "trajectory_score": 53,
-      "paper1_dimensions": {
-        "domain": 8,
-        "network": 0,
-        "optimization": 10,
-        "uncertainty": 5,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 12,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 12,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 9,
-        "supply_chain": 23,
-        "quantitative_methods": 7,
-        "sustainability": 14,
-        "strategic_decisions": 0
-      },
-      "keyword_hits": [
-        "bio-based",
-        "mathematical optimization",
-        "risk",
-        "biorefinery",
-        "logistics",
-        "greenhouse gas",
-        "emissions",
-        "supply chain",
-        "value chain",
-        "optimization",
-        "sustainability",
-        "sustainable"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: optimization 10, domain 8, uncertainty 5",
-        "Paper 2: domain 12, sustainability 12, network 7"
-      ],
-      "frontier_score": 0,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [],
-      "frontier_themes": [],
-      "institution_priority": 94,
-      "country_priority": 94,
-      "country_score": 88,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "art Research Research groups Future Energy Commodities Future Energy Commodities People Research Education Publications Sustainable Value Chains Start Research Research groups Sustainable Value Chains Sustainable Value Chains Projects People Publications Studies Resource Management in the Built Environment Start Research Research groups Resource Management in the Built Environment Resource Management in the Built Environment Education R",
-      "page_ok": true,
-      "checked_at": "2026-09-18T10:58:04+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 36,
-        "frontier": 0,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 94,
-        "country": 88,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 40
-    },
-    {
-      "name": "Frank Schultmann",
-      "university": "Karlsruhe Institute of Technology",
-      "country": "Germany",
-      "city": "Karlsruhe",
-      "url": "https://www.iip.kit.edu/english/9.php",
-      "focus": "production and operations management; logistics; sustainable value chains; bioeconomy; resilient supply chains; techno-economic analysis; optimization",
-      "research_fit": 33,
-      "paper1_score": 13,
-      "paper2_score": 35,
-      "trajectory_score": 53,
-      "paper1_dimensions": {
-        "domain": 8,
-        "network": 0,
-        "optimization": 0,
-        "uncertainty": 5,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 12,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 12,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 9,
-        "supply_chain": 23,
-        "quantitative_methods": 7,
-        "sustainability": 14,
-        "strategic_decisions": 0
-      },
-      "keyword_hits": [
-        "bio-based",
-        "risk",
-        "biorefinery",
-        "logistics",
-        "greenhouse gas",
-        "emissions",
-        "supply chain",
-        "value chain",
-        "optimization",
-        "sustainability",
-        "sustainable"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: domain 8, uncertainty 5",
-        "Paper 2: domain 12, sustainability 12, network 7"
-      ],
-      "frontier_score": 0,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [],
-      "frontier_themes": [],
-      "institution_priority": 94,
-      "country_priority": 94,
-      "country_score": 88,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "art Research Research groups Future Energy Commodities Future Energy Commodities People Research Education Publications Sustainable Value Chains Start Research Research groups Sustainable Value Chains Sustainable Value Chains Projects People Publications Studies Resource Management in the Built Environment Start Research Research groups Resource Management in the Built Environment Resource Management in the Built Environment Education R",
-      "page_ok": true,
-      "checked_at": "2026-09-18T10:58:04+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 33,
-        "frontier": 0,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 94,
-        "country": 88,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 39
     },
     {
       "name": "Fereshteh Mafakheri",
@@ -1004,7 +837,7 @@
       "funding_evidence": [],
       "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Project Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab ENAP LinkedIn ORCID: 0000-0002-7991-4635 Google Scholar: View Google Scholar profile CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Un",
       "page_ok": true,
-      "checked_at": "2026-09-18T10:58:04+00:00",
+      "checked_at": "2026-09-19T10:41:10+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1020,6 +853,89 @@
         "newness": 40
       },
       "strategic_score": 33
+    },
+    {
+      "name": "Maria Grahn",
+      "university": "Chalmers University of Technology",
+      "country": "Sweden",
+      "city": "Gothenburg",
+      "url": "https://www.chalmers.se/en/persons/np97magr/",
+      "focus": "energy systems analysis; future transport fuels; biomass; hydrogen and electrofuels; techno-economic analysis; carbon reduction; transport decarbonization",
+      "research_fit": 9,
+      "paper1_score": 9,
+      "paper2_score": 6,
+      "trajectory_score": 12,
+      "paper1_dimensions": {
+        "domain": 9,
+        "network": 0,
+        "optimization": 0,
+        "uncertainty": 0,
+        "solution_methods": 0
+      },
+      "paper2_dimensions": {
+        "domain": 0,
+        "network": 0,
+        "investment_methods": 0,
+        "sustainability": 6,
+        "multiobjective": 0
+      },
+      "trajectory_dimensions": {
+        "renewable_fuels": 8,
+        "supply_chain": 0,
+        "quantitative_methods": 0,
+        "sustainability": 4,
+        "strategic_decisions": 0
+      },
+      "keyword_hits": [
+        "biomass",
+        "decarbonization",
+        "carbon"
+      ],
+      "penalty_hits": [],
+      "why_match": [
+        "Paper 1: domain 9",
+        "Paper 2: sustainability 6"
+      ],
+      "frontier_score": 10,
+      "frontier_dimensions": {
+        "advanced_uncertainty": 0,
+        "adaptive_investment": 0,
+        "multimodal_logistics": 0,
+        "technology_portfolio": 10,
+        "lifecycle_policy": 0,
+        "circular_agri_bioeconomy": 0,
+        "large_scale_methods": 0
+      },
+      "frontier_hits": [
+        "electrofuel"
+      ],
+      "frontier_themes": [
+        "technology_portfolio"
+      ],
+      "institution_priority": 95,
+      "country_priority": 92,
+      "country_score": 88,
+      "opening_signals": [],
+      "funding": "Unknown",
+      "funding_evidence": [],
+      "excerpt": "Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-317721000 Mail address Ch",
+      "page_ok": true,
+      "checked_at": "2026-09-19T10:41:10+00:00",
+      "data_confidence": 88,
+      "is_changed": true,
+      "opening_signal_changed": false,
+      "priority_components": {
+        "research_fit": 9,
+        "frontier": 10,
+        "funding": 0,
+        "supervisor": 100,
+        "institution": 95,
+        "country": 88,
+        "deadline": 25,
+        "confidence": 88,
+        "newness": 40
+      },
+      "strategic_score": 30
     }
   ],
   "top_actionable": [
@@ -1165,7 +1081,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1322,7 +1238,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1471,7 +1387,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1625,7 +1541,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-18T10:58:04+00:00",
+      "last_seen": "2026-09-19T10:41:10+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1644,9 +1560,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 116,
-    "missing_doctoral_signal": 18,
-    "low_research_fit": 489,
+    "insufficient_opportunity_signal": 99,
+    "low_research_fit": 464,
+    "missing_doctoral_signal": 15,
     "precision_gate": 5
   },
   "coverage_gaps": [
