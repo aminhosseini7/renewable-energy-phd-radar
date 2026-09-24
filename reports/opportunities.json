@@ -114,7 +114,7 @@
     "potential_supervisor": "Daniel Posen",
     "supervisor_score": 96,
     "supervisor_confirmed_on_page": true,
-    "data_confidence": 54,
+    "data_confidence": 29,
     "priority_components": {
       "research_fit": 63,
       "frontier": 31,
@@ -123,7 +123,7 @@
       "institution": 95,
       "country": 89,
       "deadline": 25,
-      "confidence": 54,
+      "confidence": 29,
       "newness": 5
     },
     "fit_reasons": [
@@ -152,7 +152,7 @@
     "strategic_score": 65,
     "actionability_score": 65,
     "golden_match": false,
-    "misses": 1
+    "misses": 2
   },
   {
     "fingerprint": "36e07fc2b11c9996294970c2",
@@ -296,7 +296,7 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-09-23T11:14:22+00:00",
+    "last_seen": "2026-09-24T11:29:23+00:00",
     "is_new": false,
     "is_changed": false,
     "stale": false,
@@ -437,7 +437,7 @@
       "country": 89,
       "deadline": 25,
       "confidence": 91,
-      "newness": 10
+      "newness": 70
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
@@ -453,15 +453,15 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-09-23T11:14:22+00:00",
+    "last_seen": "2026-09-24T11:29:23+00:00",
     "is_new": false,
-    "is_changed": false,
+    "is_changed": true,
     "stale": false,
-    "content_hash": "55f682d44671b6b45679",
+    "content_hash": "7b76fd8b918238661a91",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 67,
+    "strategic_score": 68,
     "actionability_score": 70,
     "golden_match": false
   },
@@ -586,7 +586,7 @@
       "country": 89,
       "deadline": 25,
       "confidence": 87,
-      "newness": 10
+      "newness": 70
     },
     "fit_reasons": [
       "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
@@ -602,15 +602,15 @@
     "action_reason": "Keep for reference unless funding or fit evidence improves.",
     "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
     "first_seen": "2026-08-23T19:15:07+00:00",
-    "last_seen": "2026-09-23T11:14:22+00:00",
+    "last_seen": "2026-09-24T11:29:23+00:00",
     "is_new": false,
-    "is_changed": false,
+    "is_changed": true,
     "stale": false,
-    "content_hash": "cfa41d15d43613e056f8",
+    "content_hash": "0081858e76a0dd8b0157",
     "structured": false,
     "date_posted": "",
     "employment_type": "",
-    "strategic_score": 66,
+    "strategic_score": 67,
     "actionability_score": 69,
     "golden_match": false
   }
