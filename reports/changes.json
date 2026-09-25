@@ -2,163 +2,6 @@
   "new": [],
   "changed": [
     {
-      "fingerprint": "7fc6df5376409cba5da68f4e",
-      "title": "PhD in Administration – Logistics and Operations Management",
-      "source": "HEC Montreal Logistics and Operations PhD",
-      "university": "HEC Montréal",
-      "country": "Canada",
-      "city": "Montreal",
-      "institution_priority": 86,
-      "country_priority": 96,
-      "country_score": 89,
-      "kind": "discovered_page",
-      "opportunity_type": "Research lead",
-      "precision_tier": "B",
-      "precision_reason": "Core renewable-fuel + network/OR dimensions align with the two-paper trajectory.",
-      "core_dimensions": {
-        "domain": 0,
-        "network": 25,
-        "methods": 25,
-        "sustainability": 4
-      },
-      "url": "https://www.hec.ca/en/programs/phd/phd-logistics-and-operations-management",
-      "research_fit": 52,
-      "paper1_score": 63,
-      "paper2_score": 18,
-      "trajectory_score": 64,
-      "paper1_dimensions": {
-        "domain": 0,
-        "network": 20,
-        "optimization": 16,
-        "uncertainty": 14,
-        "solution_methods": 9
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 18,
-        "investment_methods": 0,
-        "sustainability": 0,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 0,
-        "supply_chain": 25,
-        "quantitative_methods": 25,
-        "sustainability": 4,
-        "strategic_decisions": 10
-      },
-      "keyword_hits": [
-        "network design",
-        "facility location",
-        "operations research",
-        "optimization model",
-        "robust optimization",
-        "uncertainty",
-        "stochastic",
-        "risk",
-        "Pareto",
-        "decomposition",
-        "logistics",
-        "supply chain",
-        "optimization",
-        "optimisation",
-        "sustainable",
-        "capacity",
-        "location",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: network 20, optimization 16, uncertainty 14",
-        "Paper 2: network 18"
-      ],
-      "frontier_score": 26,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 16,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 10
-      },
-      "frontier_hits": [
-        "distributionally robust",
-        "Benders decomposition",
-        "column generation",
-        "decomposition algorithm",
-        "branch-and-cut",
-        "large-scale optimization"
-      ],
-      "frontier_themes": [
-        "advanced_uncertainty",
-        "large_scale_methods"
-      ],
-      "funding": "Confirmed",
-      "funding_evidence": [
-        "tuition fees",
-        "remuneration"
-      ],
-      "funding_amounts": [
-        "$30,000 per year",
-        "$5,000",
-        "$0",
-        "$1,900",
-        "$1,900 per year"
-      ],
-      "funding_model": "guaranteed_package",
-      "funding_eligible": true,
-      "funding_score": 96,
-      "funding_certainty": 96,
-      "funding_verdict": "Guaranteed / minimum funding package",
-      "strict_funding_verified": true,
-      "deadline": "",
-      "deadline_evidence": "",
-      "days_to_deadline": null,
-      "deadline_score": 25,
-      "status": "open_or_unknown",
-      "potential_supervisor": "Yossiri Adulyasak",
-      "supervisor_score": 96,
-      "supervisor_confirmed_on_page": true,
-      "data_confidence": 91,
-      "priority_components": {
-        "research_fit": 52,
-        "frontier": 26,
-        "funding": 96,
-        "supervisor": 96,
-        "institution": 86,
-        "country": 89,
-        "deadline": 25,
-        "confidence": 91,
-        "newness": 70
-      },
-      "fit_reasons": [
-        "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
-        "Funding evidence is confirmed/salaried on the source or guaranteed by the configured funding model.",
-        "Supervisor alignment: Yossiri Adulyasak (named on the page)."
-      ],
-      "watchouts": [
-        "No reliable deadline was detected; check the official page manually."
-      ],
-      "continuation_label": "Adjacent research fit",
-      "next_action": "Low priority",
-      "action_rank": 20,
-      "action_reason": "Keep for reference unless funding or fit evidence improves.",
-      "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
-      "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-24T11:29:23+00:00",
-      "is_new": false,
-      "is_changed": true,
-      "stale": false,
-      "content_hash": "7b76fd8b918238661a91",
-      "structured": false,
-      "date_posted": "",
-      "employment_type": "",
-      "strategic_score": 68,
-      "actionability_score": 70,
-      "golden_match": false
-    },
-    {
       "fingerprint": "4f446615732a6f41b8b29469",
       "title": "Doctorat en administration (Ph. D.) – gestion des opérations et de la logistique",
       "source": "HEC Montreal Logistics and Operations PhD",
@@ -295,11 +138,11 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-24T11:29:23+00:00",
+      "last_seen": "2026-09-25T11:35:11+00:00",
       "is_new": false,
       "is_changed": true,
       "stale": false,
-      "content_hash": "0081858e76a0dd8b0157",
+      "content_hash": "ec0b713aa301da3eed38",
       "structured": false,
       "date_posted": "",
       "employment_type": "",
@@ -308,5 +151,5 @@
       "golden_match": false
     }
   ],
-  "checked_at": "2026-09-24T11:29:23+00:00"
+  "checked_at": "2026-09-25T11:35:11+00:00"
 }
