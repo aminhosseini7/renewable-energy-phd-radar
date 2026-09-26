@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-25T11:35:11+00:00",
+  "checked_at": "2026-09-26T11:09:36+00:00",
   "golden_matches": [],
   "action_counts": {
     "Low priority": 4
@@ -152,7 +152,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -309,7 +309,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -442,7 +442,7 @@
         "country": 89,
         "deadline": 25,
         "confidence": 87,
-        "newness": 70
+        "newness": 10
       },
       "fit_reasons": [
         "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
@@ -458,15 +458,15 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
-      "is_changed": true,
+      "is_changed": false,
       "stale": false,
       "content_hash": "ec0b713aa301da3eed38",
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 67,
+      "strategic_score": 66,
       "actionability_score": 69,
       "golden_match": false
     },
@@ -612,7 +612,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -626,157 +626,7 @@
     }
   ],
   "recent_new": [],
-  "recent_changed": [
-    {
-      "fingerprint": "4f446615732a6f41b8b29469",
-      "title": "Doctorat en administration (Ph. D.) – gestion des opérations et de la logistique",
-      "source": "HEC Montreal Logistics and Operations PhD",
-      "university": "HEC Montréal",
-      "country": "Canada",
-      "city": "Montreal",
-      "institution_priority": 86,
-      "country_priority": 96,
-      "country_score": 89,
-      "kind": "discovered_page",
-      "opportunity_type": "Research lead",
-      "precision_tier": "B",
-      "precision_reason": "Core renewable-fuel + network/OR dimensions align with the two-paper trajectory.",
-      "core_dimensions": {
-        "domain": 0,
-        "network": 25,
-        "methods": 25,
-        "sustainability": 4
-      },
-      "url": "https://www.hec.ca/programmes/phd/phd-gestion-operations-et-logistique",
-      "research_fit": 51,
-      "paper1_score": 63,
-      "paper2_score": 18,
-      "trajectory_score": 61,
-      "paper1_dimensions": {
-        "domain": 0,
-        "network": 20,
-        "optimization": 16,
-        "uncertainty": 14,
-        "solution_methods": 9
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 18,
-        "investment_methods": 0,
-        "sustainability": 0,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 0,
-        "supply_chain": 25,
-        "quantitative_methods": 25,
-        "sustainability": 4,
-        "strategic_decisions": 7
-      },
-      "keyword_hits": [
-        "network design",
-        "facility location",
-        "operations research",
-        "optimization model",
-        "robust optimization",
-        "uncertainty",
-        "stochastic",
-        "risk",
-        "Pareto",
-        "decomposition",
-        "logistics",
-        "supply chain",
-        "optimization",
-        "optimisation",
-        "sustainable",
-        "location",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: network 20, optimization 16, uncertainty 14",
-        "Paper 2: network 18"
-      ],
-      "frontier_score": 26,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 16,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 10
-      },
-      "frontier_hits": [
-        "distributionally robust",
-        "Benders decomposition",
-        "column generation",
-        "decomposition algorithm",
-        "branch-and-cut",
-        "large-scale optimization"
-      ],
-      "frontier_themes": [
-        "advanced_uncertainty",
-        "large_scale_methods"
-      ],
-      "funding": "Confirmed",
-      "funding_evidence": [
-        "salaried/guaranteed PhD funding model"
-      ],
-      "funding_amounts": [],
-      "funding_model": "guaranteed_package",
-      "funding_eligible": true,
-      "funding_score": 96,
-      "funding_certainty": 96,
-      "funding_verdict": "Guaranteed / minimum funding package",
-      "strict_funding_verified": true,
-      "deadline": "",
-      "deadline_evidence": "",
-      "days_to_deadline": null,
-      "deadline_score": 25,
-      "status": "open_or_unknown",
-      "potential_supervisor": "Yossiri Adulyasak",
-      "supervisor_score": 96,
-      "supervisor_confirmed_on_page": true,
-      "data_confidence": 87,
-      "priority_components": {
-        "research_fit": 51,
-        "frontier": 26,
-        "funding": 96,
-        "supervisor": 96,
-        "institution": 86,
-        "country": 89,
-        "deadline": 25,
-        "confidence": 87,
-        "newness": 70
-      },
-      "fit_reasons": [
-        "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
-        "Funding evidence is confirmed/salaried on the source or guaranteed by the configured funding model.",
-        "Supervisor alignment: Yossiri Adulyasak (named on the page)."
-      ],
-      "watchouts": [
-        "No reliable deadline was detected; check the official page manually."
-      ],
-      "continuation_label": "Adjacent research fit",
-      "next_action": "Low priority",
-      "action_rank": 20,
-      "action_reason": "Keep for reference unless funding or fit evidence improves.",
-      "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
-      "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
-      "is_new": false,
-      "is_changed": true,
-      "stale": false,
-      "content_hash": "ec0b713aa301da3eed38",
-      "structured": false,
-      "date_posted": "",
-      "employment_type": "",
-      "strategic_score": 67,
-      "actionability_score": 69,
-      "golden_match": false
-    }
-  ],
+  "recent_changed": [],
   "source_warnings": [
     {
       "source": "UNSW HDR research degrees and projects",
@@ -784,7 +634,7 @@
       "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 37
+      "consecutive_failures": 38
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -792,15 +642,15 @@
       "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 37
+      "consecutive_failures": 38
     },
     {
       "source": "DAAD PhDGermany international doctoral vacancies",
       "country": "Germany",
       "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
-      "health_score": 52,
+      "health_score": 43,
       "health_label": "degraded",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     {
       "source": "Monash graduate research scholarships",
@@ -808,7 +658,7 @@
       "url": "https://www.monash.edu/graduate-research/study/scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 37
+      "consecutive_failures": 38
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -816,108 +666,10 @@
       "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 37
+      "consecutive_failures": 38
     }
   ],
   "supervisor_changes": [
-    {
-      "name": "Taraneh Sowlati",
-      "university": "University of British Columbia",
-      "country": "Canada",
-      "city": "Vancouver",
-      "url": "https://forestry.ubc.ca/faculty-profile/taraneh-sowlati/",
-      "focus": "biomass supply-chain management; mathematical optimization; uncertainty; biofuel and bioenergy; life-cycle assessment",
-      "research_fit": 53,
-      "paper1_score": 58,
-      "paper2_score": 17,
-      "trajectory_score": 86,
-      "paper1_dimensions": {
-        "domain": 34,
-        "network": 0,
-        "optimization": 10,
-        "uncertainty": 14,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 10,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 25,
-        "supply_chain": 25,
-        "quantitative_methods": 13,
-        "sustainability": 15,
-        "strategic_decisions": 8
-      },
-      "keyword_hits": [
-        "biomass",
-        "biofuel",
-        "biofuels",
-        "bioenergy",
-        "mathematical optimization",
-        "uncertainty",
-        "uncertainties",
-        "logistics",
-        "life cycle assessment",
-        "supply chain",
-        "supply-chain",
-        "value chain",
-        "optimization",
-        "sustainability",
-        "sustainable",
-        "life cycle",
-        "investment",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: domain 34, uncertainty 14, optimization 10",
-        "Paper 2: sustainability 10, network 7"
-      ],
-      "frontier_score": 7,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 7,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [
-        "life cycle assessment"
-      ],
-      "frontier_themes": [
-        "lifecycle_policy"
-      ],
-      "institution_priority": 97,
-      "country_priority": 96,
-      "country_score": 89,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "the Bioeconomy Technology and Innovation Research Selected Publications Research Open Close Areas of research include: Biomass supply chain management Mathematical modeling and optimization Multi-criteria decision making Simulation Life cycle assessment Projects Optimization of forest-based biomass supply chains: considering sustainability, uncertainties, and government policies Current April, 2025 – March 2023 NSERC-DG Optimization of",
-      "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 53,
-        "frontier": 7,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 97,
-        "country": 89,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 48
-    },
     {
       "name": "Yossiri Adulyasak",
       "university": "HEC Montréal",
@@ -1014,7 +766,7 @@
       "funding_evidence": [],
       "excerpt": "cebook Youtube X/Twitter Instagram Breadcrumb Home Faculty Yossiri Adulyasak Yossiri Adulyasak Professor, Department of Logistics and Operations Management Presentation Teaching Publications Awards & Honors Supervision News Presentation Presentation Teaching Publications Awards & Honors Supervision News Image Contact information Email : [email protected] Phone : 514 340-7029 Secretary : 514 340-6716 Fax : 514 340-6834 Office : 5.817 Lis",
       "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
+      "checked_at": "2026-09-26T11:09:36+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1030,109 +782,6 @@
         "newness": 40
       },
       "strategic_score": 48
-    },
-    {
-      "name": "Göran Berndes",
-      "university": "Chalmers University of Technology",
-      "country": "Sweden",
-      "city": "Gothenburg",
-      "url": "https://research.chalmers.se/en/person/frtgb",
-      "focus": "bioenergy; biomass systems; land use; biorefineries; sustainable value chains; lifecycle and climate impacts",
-      "research_fit": 37,
-      "paper1_score": 34,
-      "paper2_score": 26,
-      "trajectory_score": 60,
-      "paper1_dimensions": {
-        "domain": 34,
-        "network": 0,
-        "optimization": 0,
-        "uncertainty": 0,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 9,
-        "network": 0,
-        "investment_methods": 0,
-        "sustainability": 13,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 25,
-        "supply_chain": 16,
-        "quantitative_methods": 0,
-        "sustainability": 15,
-        "strategic_decisions": 4
-      },
-      "keyword_hits": [
-        "biomass",
-        "crop residue",
-        "biofuel",
-        "biofuels",
-        "bioethanol",
-        "bioenergy",
-        "renewable fuel",
-        "life cycle assessment",
-        "greenhouse gas",
-        "emissions",
-        "land use",
-        "supply chain",
-        "value chain",
-        "sustainability",
-        "sustainable",
-        "lifecycle",
-        "life cycle",
-        "carbon",
-        "scenario"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: domain 34",
-        "Paper 2: sustainability 13, domain 9"
-      ],
-      "frontier_score": 26,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 13,
-        "circular_agri_bioeconomy": 13,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [
-        "life cycle assessment",
-        "certification",
-        "agricultural waste",
-        "crop residues"
-      ],
-      "frontier_themes": [
-        "lifecycle_policy",
-        "circular_agri_bioeconomy"
-      ],
-      "institution_priority": 95,
-      "country_priority": 92,
-      "country_score": 88,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "mation and contact details ORCID Publications (198) Projects (24) Showing 198 publications 2026 Cascading wood use into bioenergy with carbon capture and storage ensures continuous and enduring temperature reduction George Bishop , Colm Duffy , Göran Berndes et al Communications Earth and Environment. Vol. 7 (1) Journal article 2026 The carbon balance of green biorefineries is significantly impacted by the processing of fibrous side str",
-      "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 37,
-        "frontier": 26,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 95,
-        "country": 88,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 43
     },
     {
       "name": "Bhushan Gopaluni",
@@ -1221,7 +870,7 @@
       ],
       "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
       "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
+      "checked_at": "2026-09-26T11:09:36+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1237,193 +886,6 @@
         "newness": 40
       },
       "strategic_score": 41
-    },
-    {
-      "name": "Nirajan Shiwakoti",
-      "university": "RMIT University",
-      "country": "Australia",
-      "city": "Melbourne",
-      "url": "https://www.rmit.edu.au/profiles/s/nirajan-shiwakoti",
-      "focus": "sustainable renewable-energy supply chains; biomass; logistics; life-cycle assessment; systems optimisation",
-      "research_fit": 30,
-      "paper1_score": 19,
-      "paper2_score": 20,
-      "trajectory_score": 69,
-      "paper1_dimensions": {
-        "domain": 9,
-        "network": 10,
-        "optimization": 0,
-        "uncertainty": 0,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 13,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 8,
-        "supply_chain": 25,
-        "quantitative_methods": 14,
-        "sustainability": 15,
-        "strategic_decisions": 7
-      },
-      "keyword_hits": [
-        "biomass",
-        "network design",
-        "logistics",
-        "life cycle assessment",
-        "greenhouse gas",
-        "emissions",
-        "decarbonization",
-        "decarbonisation",
-        "supply chain",
-        "optimization",
-        "optimisation",
-        "sustainability",
-        "sustainable",
-        "life cycle",
-        "carbon",
-        "location",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: network 10, domain 9",
-        "Paper 2: sustainability 13, network 7"
-      ],
-      "frontier_score": 7,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 7,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [
-        "life cycle assessment"
-      ],
-      "frontier_themes": [
-        "lifecycle_policy"
-      ],
-      "institution_priority": 90,
-      "country_priority": 98,
-      "country_score": 88,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "reers Contact us Our strategy Governance & management Schools & colleges Respect for Australian Indigenous cultures Our locations and facilities Our heritage Regenerative Futures Research Our research Impact Research degrees Facilities Partnerships Find researchers Centres and collaborations Contact Partner Recruit students and graduates Workforce development Collaborate with RMIT Research partnerships Facilities, equipment and services",
-      "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 30,
-        "frontier": 7,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 90,
-        "country": 88,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 38
-    },
-    {
-      "name": "Tomas Lagos",
-      "university": "UNSW Sydney",
-      "country": "Australia",
-      "city": "Sydney",
-      "url": "https://www.unsw.edu.au/staff/tomas-lagos",
-      "focus": "robust optimization; combinatorial optimization; operations research; uncertainty",
-      "research_fit": 26,
-      "paper1_score": 22,
-      "paper2_score": 7,
-      "trajectory_score": 61,
-      "paper1_dimensions": {
-        "domain": 0,
-        "network": 0,
-        "optimization": 8,
-        "uncertainty": 14,
-        "solution_methods": 0
-      },
-      "paper2_dimensions": {
-        "domain": 0,
-        "network": 7,
-        "investment_methods": 0,
-        "sustainability": 0,
-        "multiobjective": 0
-      },
-      "trajectory_dimensions": {
-        "renewable_fuels": 0,
-        "supply_chain": 17,
-        "quantitative_methods": 25,
-        "sustainability": 9,
-        "strategic_decisions": 10
-      },
-      "keyword_hits": [
-        "operations research",
-        "robust optimization",
-        "uncertainty",
-        "stochastic",
-        "risk",
-        "logistics",
-        "supply chain",
-        "mixed-integer",
-        "optimization",
-        "sustainability",
-        "sustainable",
-        "investment",
-        "location",
-        "planning"
-      ],
-      "penalty_hits": [],
-      "why_match": [
-        "Paper 1: uncertainty 14, optimization 8",
-        "Paper 2: network 7"
-      ],
-      "frontier_score": 0,
-      "frontier_dimensions": {
-        "advanced_uncertainty": 0,
-        "adaptive_investment": 0,
-        "multimodal_logistics": 0,
-        "technology_portfolio": 0,
-        "lifecycle_policy": 0,
-        "circular_agri_bioeconomy": 0,
-        "large_scale_methods": 0
-      },
-      "frontier_hits": [],
-      "frontier_themes": [],
-      "institution_priority": 94,
-      "country_priority": 98,
-      "country_score": 88,
-      "opening_signals": [],
-      "funding": "Unknown",
-      "funding_evidence": [],
-      "excerpt": "ood Healthier lifespans Equity, security & prosperity Partner with us Research & development Grant funding Case studies Investment portfolio Unisearch expert opinion TORCH China partnerships Facilities & infrastructure Find a facility Find an instrument Mark Wainwright Analytical Centre Research Imaging NSW Research Technology Services Higher degree research Find a supervisor or project Scholarships Application process Fees & costs Indu",
-      "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
-      "data_confidence": 88,
-      "is_changed": true,
-      "opening_signal_changed": false,
-      "priority_components": {
-        "research_fit": 26,
-        "frontier": 0,
-        "funding": 0,
-        "supervisor": 100,
-        "institution": 94,
-        "country": 88,
-        "deadline": 25,
-        "confidence": 88,
-        "newness": 40
-      },
-      "strategic_score": 36
     },
     {
       "name": "Fereshteh Mafakheri",
@@ -1488,7 +950,7 @@
       "funding_evidence": [],
       "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Project Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab ENAP LinkedIn ORCID: 0000-0002-7991-4635 Google Scholar: View Google Scholar profile CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Un",
       "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
+      "checked_at": "2026-09-26T11:09:36+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1569,9 +1031,9 @@
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-317721000 Mail address Ch",
+      "excerpt": "Maria Grahn | Chalmers Go to content Login Intranet ( Opens in new tab ) Library ( Opens in new tab ) Svenska sv Search Menu Education Research Collaborate with us About Chalmers Current Departments Home Persons Maria Grahn Maria Grahn Associate Professor , Maritime Environmental Science, Environmental and Energy Sciences Contact me maria.grahn@chalmers.se +46 31 772 31 04 ORCID ( Opens in new tab ) Find me Contact Chalmers Phone +46-31",
       "page_ok": true,
-      "checked_at": "2026-09-25T11:35:11+00:00",
+      "checked_at": "2026-09-26T11:09:36+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1732,7 +1194,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1889,7 +1351,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -2022,7 +1484,7 @@
         "country": 89,
         "deadline": 25,
         "confidence": 87,
-        "newness": 70
+        "newness": 10
       },
       "fit_reasons": [
         "Strongest dimensions: Paper 1 network, Paper 2 network, Paper 1 optimization, Paper 1 uncertainty.",
@@ -2038,15 +1500,15 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
-      "is_changed": true,
+      "is_changed": false,
       "stale": false,
       "content_hash": "ec0b713aa301da3eed38",
       "structured": false,
       "date_posted": "",
       "employment_type": "",
-      "strategic_score": 67,
+      "strategic_score": 66,
       "actionability_score": 69,
       "golden_match": false
     },
@@ -2192,7 +1654,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-09-25T11:35:11+00:00",
+      "last_seen": "2026-09-26T11:09:36+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -2211,9 +1673,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 120,
-    "low_research_fit": 480,
-    "missing_doctoral_signal": 21,
+    "insufficient_opportunity_signal": 116,
+    "missing_doctoral_signal": 14,
+    "low_research_fit": 424,
     "precision_gate": 5
   },
   "coverage_gaps": [
