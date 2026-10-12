@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-11T12:30:16+00:00",
+  "checked_at": "2026-10-12T15:02:24+00:00",
   "sources_total": 48,
-  "sources_ok": 44,
-  "pages_fetched": 418,
-  "structured_jobs_found": 13,
+  "sources_ok": 43,
+  "pages_fetched": 415,
+  "structured_jobs_found": 15,
   "opportunities": 4,
   "active_opportunities": 4,
   "new_opportunities": 0,
@@ -22,12 +22,12 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "insufficient_opportunity_signal": 121,
-    "low_research_fit": 494,
-    "precision_gate": 6,
+    "insufficient_opportunity_signal": 122,
+    "low_research_fit": 493,
+    "precision_gate": 5,
     "missing_doctoral_signal": 21
   },
-  "precision_rejects": 6,
+  "precision_rejects": 5,
   "coverage_gaps": [
     {
       "university": "University of Sydney",
@@ -45,7 +45,7 @@
       "priority": 88
     }
   ],
-  "funding_routes": 18,
+  "funding_routes": 17,
   "target_countries": [
     "Netherlands",
     "Australia",
@@ -92,7 +92,7 @@
     },
     "Sweden": {
       "sources": 10,
-      "sources_ok": 10,
+      "sources_ok": 9,
       "opportunities": 0,
       "funding_eligible": 0,
       "strict_funded": 0,
@@ -211,7 +211,7 @@
     "full_funding_eligible_only": true
   },
   "supervisors_monitored": 36,
-  "supervisor_changes": 3,
+  "supervisor_changes": 5,
   "source_warnings": 4,
   "sources": [
     {
@@ -222,7 +222,7 @@
       "pages_fetched": 15,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -232,10 +232,10 @@
       "url": "https://careers.tudelft.nl/go/All-jobs/9021002/?q=&title=PhD",
       "country": "Netherlands",
       "ok": true,
-      "pages_fetched": 29,
+      "pages_fetched": 28,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -247,8 +247,8 @@
       "ok": true,
       "pages_fetched": 33,
       "matches": 0,
-      "structured_jobs": 13,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "structured_jobs": 15,
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -261,7 +261,7 @@
       "pages_fetched": 9,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -274,7 +274,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -287,7 +287,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -300,20 +300,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "UTS FEIT research scholarships and HDR projects",
-      "url": "https://www.uts.edu.au/about/faculties/engineering-and-information-technology/research/research-scholarships",
-      "country": "Australia",
-      "ok": true,
-      "pages_fetched": 7,
-      "matches": 0,
-      "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -326,7 +313,20 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "UTS FEIT research scholarships and HDR projects",
+      "url": "https://www.uts.edu.au/about/faculties/engineering-and-information-technology/research/research-scholarships",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 7,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -339,7 +339,7 @@
       "pages_fetched": 8,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -352,7 +352,7 @@
       "pages_fetched": 41,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -365,20 +365,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "UNSW HDR scholarships",
-      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
-      "country": "Australia",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -391,7 +378,20 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
+      "health_score": 100,
+      "health_label": "healthy",
+      "consecutive_failures": 0
+    },
+    {
+      "source": "UNSW HDR scholarships",
+      "url": "https://www.unsw.edu.au/research/hdr/scholarships",
+      "country": "Australia",
+      "ok": true,
+      "pages_fetched": 1,
+      "matches": 1,
+      "structured_jobs": 0,
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -404,7 +404,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -417,7 +417,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -430,10 +430,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 53
+      "consecutive_failures": 54
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -443,10 +443,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 53
+      "consecutive_failures": 54
     },
     {
       "source": "Monash graduate research scholarships",
@@ -456,10 +456,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 53
+      "consecutive_failures": 54
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -469,10 +469,10 @@
       "pages_fetched": 0,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 53
+      "consecutive_failures": 54
     },
     {
       "source": "Waterloo Management Science and Engineering PhD",
@@ -482,7 +482,7 @@
       "pages_fetched": 12,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -495,7 +495,7 @@
       "pages_fetched": 19,
       "matches": 2,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -508,7 +508,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -521,7 +521,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -534,7 +534,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -547,7 +547,7 @@
       "pages_fetched": 2,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 99,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -560,7 +560,7 @@
       "pages_fetched": 7,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 99,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -573,7 +573,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 99,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -586,7 +586,7 @@
       "pages_fetched": 11,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 98,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -599,7 +599,7 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -612,7 +612,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -625,7 +625,7 @@
       "pages_fetched": 13,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -638,7 +638,7 @@
       "pages_fetched": 8,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -651,7 +651,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -664,7 +664,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -677,7 +677,7 @@
       "pages_fetched": 36,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 99,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -690,7 +690,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 99,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -703,8 +703,8 @@
       "pages_fetched": 17,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
-      "health_score": 67,
+      "checked_at": "2026-10-12T15:02:24+00:00",
+      "health_score": 68,
       "health_label": "watch",
       "consecutive_failures": 0
     },
@@ -716,7 +716,7 @@
       "pages_fetched": 33,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -729,7 +729,7 @@
       "pages_fetched": 4,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -742,7 +742,7 @@
       "pages_fetched": 10,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -755,20 +755,7 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
-      "health_score": 100,
-      "health_label": "healthy",
-      "consecutive_failures": 0
-    },
-    {
-      "source": "Chalmers doctoral employment route",
-      "url": "https://www.chalmers.se/en/research/we-train-new-researchers/",
-      "country": "Sweden",
-      "ok": true,
-      "pages_fetched": 1,
-      "matches": 1,
-      "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -781,7 +768,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 100,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -794,7 +781,7 @@
       "pages_fetched": 23,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 98,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -804,10 +791,10 @@
       "url": "https://www.kth.se/lediga-jobb/?l=en",
       "country": "Sweden",
       "ok": true,
-      "pages_fetched": 33,
+      "pages_fetched": 32,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 98,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -820,7 +807,7 @@
       "pages_fetched": 1,
       "matches": 1,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
+      "checked_at": "2026-10-12T15:02:24+00:00",
       "health_score": 98,
       "health_label": "healthy",
       "consecutive_failures": 0
@@ -833,10 +820,23 @@
       "pages_fetched": 5,
       "matches": 0,
       "structured_jobs": 0,
-      "checked_at": "2026-10-11T12:30:16+00:00",
-      "health_score": 80,
+      "checked_at": "2026-10-12T15:02:24+00:00",
+      "health_score": 81,
       "health_label": "healthy",
       "consecutive_failures": 0
+    },
+    {
+      "source": "Chalmers doctoral employment route",
+      "url": "https://www.chalmers.se/en/research/we-train-new-researchers/",
+      "country": "Sweden",
+      "ok": false,
+      "pages_fetched": 0,
+      "matches": 0,
+      "structured_jobs": 0,
+      "checked_at": "2026-10-12T15:02:24+00:00",
+      "health_score": 81,
+      "health_label": "healthy",
+      "consecutive_failures": 1
     }
   ]
 }
