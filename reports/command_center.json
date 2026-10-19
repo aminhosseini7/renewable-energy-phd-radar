@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T10:45:41+00:00",
+  "checked_at": "2026-10-19T12:45:40+00:00",
   "golden_matches": [],
   "action_counts": {
     "Low priority": 4
@@ -152,7 +152,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -309,7 +309,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -458,7 +458,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -612,7 +612,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -634,7 +634,7 @@
       "url": "https://www.unsw.edu.au/research/hdr/our-research-degrees/phd",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 60
+      "consecutive_failures": 61
     },
     {
       "source": "Monash Engineering PhD project directory",
@@ -642,7 +642,15 @@
       "url": "https://www.monash.edu/engineering/future-students/graduate-research/phd/projects",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 60
+      "consecutive_failures": 61
+    },
+    {
+      "source": "DAAD PhDGermany international doctoral vacancies",
+      "country": "Germany",
+      "url": "https://www.daad.de/en/studying-in-germany/phd-studies-research/phd-germany/",
+      "health_score": 50,
+      "health_label": "degraded",
+      "consecutive_failures": 1
     },
     {
       "source": "Monash graduate research scholarships",
@@ -650,7 +658,7 @@
       "url": "https://www.monash.edu/graduate-research/study/scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 60
+      "consecutive_failures": 61
     },
     {
       "source": "University of Melbourne graduate research scholarships",
@@ -658,7 +666,7 @@
       "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
       "health_score": 5,
       "health_label": "degraded",
-      "consecutive_failures": 60
+      "consecutive_failures": 61
     }
   ],
   "supervisor_changes": [
@@ -758,7 +766,7 @@
       "funding_evidence": [],
       "excerpt": "cebook Youtube X/Twitter Instagram Breadcrumb Home Faculty Yossiri Adulyasak Yossiri Adulyasak Professor, Department of Logistics and Operations Management Presentation Teaching Publications Awards & Honors Supervision News Presentation Presentation Teaching Publications Awards & Honors Supervision News Image Contact information Email : [email protected] Phone : 514 340-7029 Secretary : 514 340-6716 Fax : 514 340-6834 Office : 5.817 Lis",
       "page_ok": true,
-      "checked_at": "2026-10-18T10:45:41+00:00",
+      "checked_at": "2026-10-19T12:45:40+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -842,9 +850,9 @@
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "output Datasets Projects Press/Media Activities Prizes Xuezhen Guo dr. WASS Researcher , Data Science & Informatics and Supply Chain Design Researcher , Post Harvest Technology https://orcid.org/0000-0001-7377-0151 Overview Fingerprint Network Research output (59) Datasets (2) Activities (16) Projects (5) Similar Profiles (1) Fingerprint Dive into the research topics where Xuezhen Guo is active. These topic labels come from the works of",
+      "excerpt": "output Datasets Projects Press/Media Activities Prizes Xuezhen Guo dr. WASS Researcher , Data Science & Informatics and Supply Chain Design Researcher , Post Harvest Technology https://orcid.org/0000-0001-7377-0151 Overview Fingerprint Network Research output (59) Datasets (2) Activities (16) Projects (5) Similar Profiles (8) Fingerprint Dive into the research topics where Xuezhen Guo is active. These topic labels come from the works of",
       "page_ok": true,
-      "checked_at": "2026-10-18T10:45:41+00:00",
+      "checked_at": "2026-10-19T12:45:40+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -945,9 +953,9 @@
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "mation and contact details ORCID Publications (198) Projects (24) Showing 198 publications 2026 Cascading wood use into bioenergy with carbon capture and storage ensures continuous and enduring temperature reduction George Bishop , Colm Duffy , Göran Berndes et al Communications Earth and Environment. Vol. 7 (1) Journal article 2026 On the interpretation of biogenic carbon flows in livestock LCAs: A comment on Blignaut et al. (2026) And",
+      "excerpt": "mation and contact details ORCID Publications (198) Projects (24) Showing 198 publications 2026 Cascading wood use into bioenergy with carbon capture and storage ensures continuous and enduring temperature reduction George Bishop , Colm Duffy , Göran Berndes et al Communications Earth and Environment. Vol. 7 (1) Journal article 2026 The carbon balance of green biorefineries is significantly impacted by the processing of fibrous side str",
       "page_ok": true,
-      "checked_at": "2026-10-18T10:45:41+00:00",
+      "checked_at": "2026-10-19T12:45:40+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1038,9 +1046,9 @@
       "opening_signals": [],
       "funding": "Unknown",
       "funding_evidence": [],
-      "excerpt": "output Datasets Projects Press/Media Activities Prizes View Scopus Profile Sander de Leeuw prof.dr.ir. Full Professor , Operations Research and Logistics https://orcid.org/0000-0003-3056-8775 Overview Fingerprint Network Research output (84) Datasets (1) Activities (10) Press/Media (2) Prizes (4) Projects (22) Similar Profiles (6) Supervised Work (5) Fingerprint Dive into the research topics where Sander de Leeuw is active. These topic",
+      "excerpt": "output Datasets Projects Press/Media Activities Prizes View Scopus Profile Sander de Leeuw prof.dr.ir. Full Professor , Operations Research and Logistics https://orcid.org/0000-0003-3056-8775 Overview Fingerprint Network Research output (84) Datasets (1) Activities (10) Press/Media (2) Prizes (4) Projects (22) Similar Profiles (1) Supervised Work (5) Fingerprint Dive into the research topics where Sander de Leeuw is active. These topic",
       "page_ok": true,
-      "checked_at": "2026-10-18T10:45:41+00:00",
+      "checked_at": "2026-10-19T12:45:40+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1144,7 +1152,7 @@
       ],
       "excerpt": "26) Conventional single-slope solar stills are essential for decentralized freshwater production, yet their performance optimization is limited by small datasets and the nonlinear dynamics of desalination. This doctoral thesis addresses these constraints by developing and evaluating data-efficient supervised machine learning frameworks to predict freshwater productivity (Pstd, L/m²·day). The study integrates a novel high-performance sol",
       "page_ok": true,
-      "checked_at": "2026-10-18T10:45:41+00:00",
+      "checked_at": "2026-10-19T12:45:40+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1224,7 +1232,7 @@
       "funding_evidence": [],
       "excerpt": "e Contact information Biography Research Are you the profile owner? Sign in to edit Research areas: Decision Analytics; Bioenergy; Energy Transition; Supply Chain Management; Project Management Contact information Email: f.mafakheri@concordia.ca Websites: Research Lab ENAP LinkedIn ORCID: 0000-0002-7991-4635 Google Scholar: View Google Scholar profile CV: View Fereshteh Mafakheri's CV Biography Education PhD, Decision Sciences (HEC - Un",
       "page_ok": true,
-      "checked_at": "2026-10-18T10:45:41+00:00",
+      "checked_at": "2026-10-19T12:45:40+00:00",
       "data_confidence": 88,
       "is_changed": true,
       "opening_signal_changed": false,
@@ -1385,7 +1393,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation - RMIT University Life Cycle Assessment–Integrated Sustainable Renewable Energy Supply Chain Design and Optimisation SKIP TO CONTENT RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students Alumni Staff Library Online Search field Search Search RMIT Australia RMIT Europe RMIT Global RMIT Vietnam RMIT UP Online Students A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1542,7 +1550,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "PhD in Administration – Logistics and Operations Management | HEC Montréal Skip to main content Mon HEC Expand/Collapse user menu Your resources Students Staff Faculty Alumni Businesses Retirees (in French) Popular tools HEC en ligne Webmail and calendar Library IT services Course portal ZoneCours Zone Info online ZoneRecherche Personnel directory fr Toggle search form Menu Close menu Menu Why choose HEC Montréal? Programs Back Undergra",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1691,7 +1699,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "ialisation publient leurs résultats de recherche dans des revues spécialisées de premier plan, telles que : Computers & Operations Research INFORMS Journal on Computing International Journal of Production Economics Operations Research Transportation Science Omega Les prix décernés aux diplômés et diplômées de 3 e cycle témoignent aussi de leur excellence. Le prix de la meilleure thèse de doctorat à HEC Montréal a été remis à : Yossiri A",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1845,7 +1853,7 @@
       "action_reason": "Keep for reference unless funding or fit evidence improves.",
       "excerpt": "Sustainable Systems Our Group close Engineering Home About Office of the Dean Annual Reports Academic Plan Awards & Honours Facts & Figures Governance History Donate Press / Media Information Contact Departments Department of Chemical Engineering & Applied Chemistry (ChemE) Department of Civil & Mineral Engineering (CivMin) Department of Materials Science & Engineering (MSE) Department of Mechanical & Industrial Engineering (MIE) Divisi",
       "first_seen": "2026-08-23T19:15:07+00:00",
-      "last_seen": "2026-10-18T10:45:41+00:00",
+      "last_seen": "2026-10-19T12:45:40+00:00",
       "is_new": false,
       "is_changed": false,
       "stale": false,
@@ -1864,9 +1872,9 @@
     "Program / supervisor lead": 1
   },
   "precision_filter_counts": {
-    "low_research_fit": 501,
-    "insufficient_opportunity_signal": 114,
-    "missing_doctoral_signal": 16,
+    "insufficient_opportunity_signal": 110,
+    "missing_doctoral_signal": 14,
+    "low_research_fit": 475,
     "precision_gate": 5
   },
   "coverage_gaps": [
